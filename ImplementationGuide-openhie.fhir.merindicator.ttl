@@ -5,35 +5,46 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig> a fhir:ImplementationGuide ;
+<http://example.com/fhir/example/ImplementationGuide/openhie.fhir.merindicator> a fhir:ImplementationGuide ;
   fhir:nodeRole fhir:treeRoot ;
-  fhir:id [ fhir:v "xxexample.fhir.uv.myig"] ; # 
+  fhir:id [ fhir:v "openhie.fhir.merindicator"] ; # 
   fhir:text [
      fhir:status [ fhir:v "extensions" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>XXYourComputableMyIGNameHere</h2><p>The official URL for this implementation guide is: </p><pre>http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig</pre><div><p>xxxA brief description of what this IG is about</p>\n</div></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ExampleIG</h2><p>The official URL for this implementation guide is: </p><pre>http://example.com/fhir/example</pre><div><p>Example IG exercises many of the fields in a SUSHI configuration.</p>\n</div></div>"
   ] ; # 
-  fhir:url [ fhir:v "http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "0.1.0-test"] ; # 
-  fhir:name [ fhir:v "XXYourComputableMyIGNameHere"] ; # 
-  fhir:title [ fhir:v "xxYour User Friendly Name for MyIG Here"] ; # 
-  fhir:status [ fhir:v "draft"] ; # 
-  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2023-05-03T19:49:41+00:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "xxxYour Work Group"] ; # 
+  fhir:url [ fhir:v "http://example.com/fhir/example"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "1.0.0"] ; # 
+  fhir:name [ fhir:v "ExampleIG"] ; # 
+  fhir:title [ fhir:v "HL7 FHIR Implementation Guide: Example IG Release 1 - US Realm | STU1"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:date [ fhir:v "2020-02-26"^^xsd:date] ; # 
+  fhir:publisher [ fhir:v "My Organization"] ; # 
   fhir:contact ( [
+     fhir:name [ fhir:v "My Organization" ] ;
      fhir:telecom ( [
        fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://xxhl7.org/Special/committees/[something]" ]
+       fhir:value [ fhir:v "http://example.com/committees" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "my-group@example.com" ]
+     ] )
+  ] [
+     fhir:name [ fhir:v "Bob Smith" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "bobsmith@example.com" ] ;
+       fhir:use [ fhir:v "work" ]
      ] )
   ] ) ; # 
-  fhir:description [ fhir:v "xxxA brief description of what this IG is about "] ; # 
+  fhir:description [ fhir:v "Example IG exercises many of the fields in a SUSHI configuration."] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
        fhir:system [ fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ] ;
-       fhir:code [ fhir:v "001" ]
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
      ] )
   ] ) ; # 
-  fhir:packageId [ fhir:v "xxexample.fhir.uv.myig"] ; # 
+  fhir:packageId [ fhir:v "openhie.fhir.merindicator"] ; # 
   fhir:license [ fhir:v "CC0-1.0"] ; # 
   fhir:fhirVersion ( [ fhir:v "4.0.1"] ) ; # 
   fhir:dependsOn ( [
@@ -56,7 +67,7 @@
          fhir:value [ fhir:v "copyrightyear" ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "2019+" ]
+         fhir:value [ fhir:v "2021+" ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
@@ -65,25 +76,7 @@
          fhir:value [ fhir:v "releaselabel" ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "CI Build" ]
-       ] ) ;
-       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "path-binary" ]
-       ] [
-         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "input\\cql" ]
-       ] ) ;
-       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "path-liquid" ]
-       ] [
-         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "templates\\liquid" ]
+         fhir:value [ fhir:v "STU1" ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
@@ -155,7 +148,7 @@
          fhir:value [ fhir:v "path-history" ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "http://xxsomewhere.org/fhir/myig/history.html" ]
+         fhir:value [ fhir:v "history.html" ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
@@ -293,7 +286,7 @@
          fhir:value [ fhir:v "copyrightyear" ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "2019+" ]
+         fhir:value [ fhir:v "2021+" ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
@@ -302,25 +295,7 @@
          fhir:value [ fhir:v "releaselabel" ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "CI Build" ]
-       ] ) ;
-       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "path-binary" ]
-       ] [
-         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "input\\cql" ]
-       ] ) ;
-       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "path-liquid" ]
-       ] [
-         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "templates\\liquid" ]
+         fhir:value [ fhir:v "STU1" ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
@@ -392,7 +367,7 @@
          fhir:value [ fhir:v "path-history" ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "http://xxsomewhere.org/fhir/myig/history.html" ]
+         fhir:value [ fhir:v "history.html" ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
@@ -536,7 +511,7 @@
            fhir:value [ fhir:v "index.html"^^xsd:anyURI ]
          ] ) ;
          fhir:name [ fhir:v "index.html"^^xsd:anyURI ] ;
-         fhir:title [ fhir:v "MyIG Home Page" ] ;
+         fhir:title [ fhir:v "Home" ] ;
          fhir:generation [ fhir:v "html" ]
        ] [
          fhir:extension ( [
@@ -544,17 +519,11 @@
            fhir:value [ fhir:v "changes.html"^^xsd:anyURI ]
          ] ) ;
          fhir:name [ fhir:v "changes.html"^^xsd:anyURI ] ;
-         fhir:title [ fhir:v "IG Change History" ] ;
+         fhir:title [ fhir:v "Changes" ] ;
          fhir:generation [ fhir:v "html" ]
        ] )
      ] ;
      fhir:parameter ( [
-       fhir:code [ fhir:v "path-resource" ] ;
-       fhir:value [ fhir:v "input\\history" ]
-     ] [
-       fhir:code [ fhir:v "path-resource" ] ;
-       fhir:value [ fhir:v "input\\scenarios" ]
-     ] [
        fhir:code [ fhir:v "path-resource" ] ;
        fhir:value [ fhir:v "input/capabilities" ]
      ] [
@@ -578,6 +547,9 @@
      ] [
        fhir:code [ fhir:v "path-resource" ] ;
        fhir:value [ fhir:v "input/vocabulary" ]
+     ] [
+       fhir:code [ fhir:v "path-resource" ] ;
+       fhir:value [ fhir:v "input/maps" ]
      ] [
        fhir:code [ fhir:v "path-resource" ] ;
        fhir:value [ fhir:v "input/testing" ]
