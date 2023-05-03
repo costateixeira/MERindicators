@@ -1,9 +1,9 @@
 [
   {
-    "id" : "xxexample.fhir.uv.myig",
+    "id" : "openhie.fhir.merindicator",
     "type" : "ImplementationGuide",
-    "url" : "http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig",
-    "version" : "0.1.0-test",
-    "name" : "XXYourComputableMyIGNameHere"
+    "url" : "http://example.com/fhir/example",
+    "version" : "1.0.0",
+    "name" : "ExampleIG"
   }
 ]
