@@ -1,6 +1,6 @@
 {
-  "version" : "1.0.0",
-  "date" : "20230503195817",
+  "version" : "0.0.1",
+  "date" : "20230521011627",
   "notForPublication" : true,
-  "name" : "openhie.fhir.merindicator.r4b"
+  "name" : "path.merindicators.r4b"
 }

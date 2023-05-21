@@ -1,9 +1,9 @@
 [
   {
-    "id" : "openhie.fhir.merindicator",
+    "id" : "path.merindicators",
     "type" : "ImplementationGuide",
-    "url" : "http://example.com/fhir/example",
-    "version" : "1.0.0",
-    "name" : "ExampleIG"
+    "url" : "https://path-global-health.github.io/MERindicators/ImplementationGuide/path.merindicators",
+    "version" : "0.0.1",
+    "name" : "PATHMERIndicators"
   }
 ]

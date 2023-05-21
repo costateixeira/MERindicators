@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ImplementationGuide xmlns="http://hl7.org/fhir">
-  <id value="openhie.fhir.merindicator"/>
+  <id value="path.merindicators"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>ExampleIG</h2><p>The official URL for this implementation guide is: </p><pre>http://example.com/fhir/example</pre><div><p>Example IG exercises many of the fields in a SUSHI configuration.</p>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>PATHMERIndicators</h2><p>The official URL for this implementation guide is: </p><pre>https://path-global-health.github.io/MERindicators/ImplementationGuide/path.merindicators</pre><div><p>PATH MER Indicators</p>
 </div></div>
   </text>
-  <url value="http://example.com/fhir/example"/>
-  <version value="1.0.0"/>
-  <name value="ExampleIG"/>
-  <title value="HL7 FHIR Implementation Guide: Example IG Release 1 - US Realm | STU1"/>
-  <status value="active"/>
-  <date value="2020-02-26"/>
-  <publisher value="My Organization"/>
+  <url value="https://path-global-health.github.io/MERindicators/ImplementationGuide/path.merindicators"/>
+  <version value="0.0.1"/>
+  <name value="PATHMERIndicators"/>
+  <title value="PATH MER Indicators"/>
+  <status value="draft"/>
+  <date value="2023-05-10"/>
+  <publisher value="PATH"/>
   <contact>
-    <name value="My Organization"/>
+    <name value="PATH"/>
     <telecom>
       <system value="url"/>
-      <value value="http://example.com/committees"/>
+      <value value="https://www.path.org"/>
     </telecom>
     <telecom>
       <system value="email"/>
-      <value value="my-group@example.com"/>
+      <value value="info@path.org"/>
     </telecom>
   </contact>
   <contact>
-    <name value="Bob Smith"/>
+    <name value="PATH"/>
     <telecom>
       <system value="email"/>
-      <value value="bobsmith@example.com"/>
+      <value value="info@path.org"/>
       <use value="work"/>
     </telecom>
   </contact>
-  <description value="Example IG exercises many of the fields in a SUSHI configuration."/>
+  <description value="PATH MER Indicators"/>
   <jurisdiction>
     <coding>
       <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -40,7 +40,7 @@
       <display value="World"/>
     </coding>
   </jurisdiction>
-  <packageId value="openhie.fhir.merindicator"/>
+  <packageId value="path.merindicators"/>
   <license value="CC0-1.0"/>
   <fhirVersion value="4.0.1"/>
   <dependsOn id="hl7tx">
@@ -51,13 +51,41 @@
     <packageId value="hl7.terminology.r4"/>
     <version value="5.0.0"/>
   </dependsOn>
+  <dependsOn id="hl7ext">
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">
+      <valueMarkdown value="Automatically added as a dependency - all IGs depend on the HL7 Extension Pack"/>
+    </extension>
+    <uri value="http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"/>
+    <packageId value="hl7.fhir.uv.extensions.r4"/>
+    <version value="1.0.0"/>
+  </dependsOn>
+  <dependsOn id="openmrs_fhir_core">
+    <uri value="http://fhir.openmrs.org/core/ImplementationGuide/openmrs.fhir.core"/>
+    <packageId value="openmrs.fhir.core"/>
+    <version value="current"/>
+  </dependsOn>
+  <dependsOn id="hl7_fhir_uv_cpg">
+    <uri value="http://hl7.org/fhir/uv/cpg/ImplementationGuide/hl7.fhir.uv.cpg"/>
+    <packageId value="hl7.fhir.uv.cpg"/>
+    <version value="1.0.0"/>
+  </dependsOn>
+  <dependsOn id="hl7_fhir_us_cqfmeasures">
+    <uri value="http://hl7.org/fhir/us/cqfmeasures/ImplementationGuide/hl7.fhir.us.cqfmeasures"/>
+    <packageId value="hl7.fhir.us.cqfmeasures"/>
+    <version value="current"/>
+  </dependsOn>
+  <dependsOn id="fhir_cqf_common">
+    <uri value="http://fhir.org/guides/cqf/common/ImplementationGuide/fhir.cqf.common"/>
+    <packageId value="fhir.cqf.common"/>
+    <version value="4.0.1"/>
+  </dependsOn>
   <definition>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
         <valueString value="copyrightyear"/>
       </extension>
       <extension url="value">
-        <valueString value="2021+"/>
+        <valueString value="2023+"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -129,7 +157,7 @@
         <valueString value="path-history"/>
       </extension>
       <extension url="value">
-        <valueString value="history.html"/>
+        <valueString value="https://path-global-health.github.io/MERindicators/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -252,7 +280,7 @@
         <valueCode value="copyrightyear"/>
       </extension>
       <extension url="value">
-        <valueString value="2021+"/>
+        <valueString value="2023+"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -324,7 +352,7 @@
         <valueCode value="path-history"/>
       </extension>
       <extension url="value">
-        <valueString value="history.html"/>
+        <valueString value="https://path-global-health.github.io/MERindicators/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -439,6 +467,83 @@
         <valueString value="true"/>
       </extension>
     </extension>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Encounter"/>
+      </extension>
+      <reference>
+        <reference value="Encounter/5b829d01-34bb-47d1-b1bb-9303c3a9ebcb"/>
+      </reference>
+      <name value="OpenMRS Encounter Resource Example"/>
+      <description value="Example OpenMRS Encounter resource"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="DiagnosticReport"/>
+      </extension>
+      <reference>
+        <reference value="DiagnosticReport/8a849d5e-6011-4279-a124-40ada5a687de"/>
+      </reference>
+      <name value="Openmrs DiagnosticReport"/>
+      <description value="Example OMRS DiagnosticReport Resource"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/Example0"/>
+      </reference>
+      <name value="Example0"/>
+      <description value="Example0"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Location"/>
+      </extension>
+      <reference>
+        <reference value="Location/a3b793f0-eb53-4cda-92ce-fe0a77106252"/>
+      </reference>
+      <name value="Location Example"/>
+      <description value="Example OpenMRS Location resource"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Condition"/>
+      </extension>
+      <reference>
+        <reference value="Condition/a6867095-e2b1-4a68-9aaa-0d161a37ce9c"/>
+      </reference>
+      <name value="OpenMRS Condition Resource Example"/>
+      <description value="Example OMRS Condition resource"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/example-openmrs-Observation"/>
+      </reference>
+      <name value="OpenMRS Observation Example"/>
+      <description value="Example OpenMRS Observation resource"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Patient"/>
+      </extension>
+      <reference>
+        <reference value="Patient/example-openmrs-Patient"/>
+      </reference>
+      <name value="OpenMRS Patient Example"/>
+      <description value="Example OpenMRS Patient resource"/>
+      <exampleBoolean value="true"/>
+    </resource>
     <page>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
         <valueUrl value="toc.html"/>

@@ -1,37 +1,37 @@
 {
   "resourceType" : "ImplementationGuide",
-  "id" : "openhie.fhir.merindicator",
+  "id" : "path.merindicators",
   "text" : {
     "status" : "extensions",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ExampleIG</h2><p>The official URL for this implementation guide is: </p><pre>http://example.com/fhir/example</pre><div><p>Example IG exercises many of the fields in a SUSHI configuration.</p>\n</div></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>PATHMERIndicators</h2><p>The official URL for this implementation guide is: </p><pre>https://path-global-health.github.io/MERindicators/ImplementationGuide/path.merindicators</pre><div><p>PATH MER Indicators</p>\n</div></div>"
   },
-  "url" : "http://example.com/fhir/example",
-  "version" : "1.0.0",
-  "name" : "ExampleIG",
-  "title" : "HL7 FHIR Implementation Guide: Example IG Release 1 - US Realm | STU1",
-  "status" : "active",
-  "date" : "2020-02-26",
-  "publisher" : "My Organization",
+  "url" : "https://path-global-health.github.io/MERindicators/ImplementationGuide/path.merindicators",
+  "version" : "0.0.1",
+  "name" : "PATHMERIndicators",
+  "title" : "PATH MER Indicators",
+  "status" : "draft",
+  "date" : "2023-05-10",
+  "publisher" : "PATH",
   "contact" : [{
-    "name" : "My Organization",
+    "name" : "PATH",
     "telecom" : [{
       "system" : "url",
-      "value" : "http://example.com/committees"
+      "value" : "https://www.path.org"
     },
     {
       "system" : "email",
-      "value" : "my-group@example.com"
+      "value" : "info@path.org"
     }]
   },
   {
-    "name" : "Bob Smith",
+    "name" : "PATH",
     "telecom" : [{
       "system" : "email",
-      "value" : "bobsmith@example.com",
+      "value" : "info@path.org",
       "use" : "work"
     }]
   }],
-  "description" : "Example IG exercises many of the fields in a SUSHI configuration.",
+  "description" : "PATH MER Indicators",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -39,7 +39,7 @@
       "display" : "World"
     }]
   }],
-  "packageId" : "openhie.fhir.merindicator",
+  "packageId" : "path.merindicators",
   "license" : "CC0-1.0",
   "fhirVersion" : ["4.0.1"],
   "dependsOn" : [{
@@ -51,6 +51,40 @@
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r4",
     "version" : "5.0.0"
+  },
+  {
+    "id" : "hl7ext",
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment",
+      "valueMarkdown" : "Automatically added as a dependency - all IGs depend on the HL7 Extension Pack"
+    }],
+    "uri" : "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
+    "packageId" : "hl7.fhir.uv.extensions.r4",
+    "version" : "1.0.0"
+  },
+  {
+    "id" : "openmrs_fhir_core",
+    "uri" : "http://fhir.openmrs.org/core/ImplementationGuide/openmrs.fhir.core",
+    "packageId" : "openmrs.fhir.core",
+    "version" : "current"
+  },
+  {
+    "id" : "hl7_fhir_uv_cpg",
+    "uri" : "http://hl7.org/fhir/uv/cpg/ImplementationGuide/hl7.fhir.uv.cpg",
+    "packageId" : "hl7.fhir.uv.cpg",
+    "version" : "1.0.0"
+  },
+  {
+    "id" : "hl7_fhir_us_cqfmeasures",
+    "uri" : "http://hl7.org/fhir/us/cqfmeasures/ImplementationGuide/hl7.fhir.us.cqfmeasures",
+    "packageId" : "hl7.fhir.us.cqfmeasures",
+    "version" : "current"
+  },
+  {
+    "id" : "fhir_cqf_common",
+    "uri" : "http://fhir.org/guides/cqf/common/ImplementationGuide/fhir.cqf.common",
+    "packageId" : "fhir.cqf.common",
+    "version" : "4.0.1"
   }],
   "definition" : {
     "extension" : [{
@@ -60,7 +94,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "2021+"
+        "valueString" : "2023+"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -159,7 +193,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "history.html"
+        "valueString" : "https://path-global-health.github.io/MERindicators/history.html"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -328,7 +362,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "2021+"
+        "valueString" : "2023+"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -427,7 +461,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "history.html"
+        "valueString" : "https://path-global-health.github.io/MERindicators/history.html"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -584,6 +618,90 @@
         "valueString" : "true"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    }],
+    "resource" : [{
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Encounter"
+      }],
+      "reference" : {
+        "reference" : "Encounter/5b829d01-34bb-47d1-b1bb-9303c3a9ebcb"
+      },
+      "name" : "OpenMRS Encounter Resource Example",
+      "description" : "Example OpenMRS Encounter resource",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "DiagnosticReport"
+      }],
+      "reference" : {
+        "reference" : "DiagnosticReport/8a849d5e-6011-4279-a124-40ada5a687de"
+      },
+      "name" : "Openmrs DiagnosticReport",
+      "description" : "Example OMRS DiagnosticReport Resource",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Bundle"
+      }],
+      "reference" : {
+        "reference" : "Bundle/Example0"
+      },
+      "name" : "Example0",
+      "description" : "Example0",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Location"
+      }],
+      "reference" : {
+        "reference" : "Location/a3b793f0-eb53-4cda-92ce-fe0a77106252"
+      },
+      "name" : "Location Example",
+      "description" : "Example OpenMRS Location resource",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Condition"
+      }],
+      "reference" : {
+        "reference" : "Condition/a6867095-e2b1-4a68-9aaa-0d161a37ce9c"
+      },
+      "name" : "OpenMRS Condition Resource Example",
+      "description" : "Example OMRS Condition resource",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/example-openmrs-Observation"
+      },
+      "name" : "OpenMRS Observation Example",
+      "description" : "Example OpenMRS Observation resource",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Patient"
+      }],
+      "reference" : {
+        "reference" : "Patient/example-openmrs-Patient"
+      },
+      "name" : "OpenMRS Patient Example",
+      "description" : "Example OpenMRS Patient resource",
+      "exampleBoolean" : true
     }],
     "page" : {
       "extension" : [{

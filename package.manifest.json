@@ -1,6 +1,6 @@
 {
-  "version" : "1.0.0",
+  "version" : "0.0.1",
   "fhirVersion" : ["4.0.1"],
-  "date" : "20230503195817",
-  "name" : "openhie.fhir.merindicator"
+  "date" : "20230521011627",
+  "name" : "path.merindicators"
 }
