@@ -469,28 +469,6 @@
     </extension>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Encounter"/>
-      </extension>
-      <reference>
-        <reference value="Encounter/5b829d01-34bb-47d1-b1bb-9303c3a9ebcb"/>
-      </reference>
-      <name value="OpenMRS Encounter Resource Example"/>
-      <description value="Example OpenMRS Encounter resource"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="DiagnosticReport"/>
-      </extension>
-      <reference>
-        <reference value="DiagnosticReport/8a849d5e-6011-4279-a124-40ada5a687de"/>
-      </reference>
-      <name value="Openmrs DiagnosticReport"/>
-      <description value="Example OMRS DiagnosticReport Resource"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Bundle"/>
       </extension>
       <reference>
@@ -520,6 +498,28 @@
       </reference>
       <name value="OpenMRS Condition Resource Example"/>
       <description value="Example OMRS Condition resource"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="DiagnosticReport"/>
+      </extension>
+      <reference>
+        <reference value="DiagnosticReport/8a849d5e-6011-4279-a124-40ada5a687de"/>
+      </reference>
+      <name value="Openmrs DiagnosticReport"/>
+      <description value="Example OMRS DiagnosticReport Resource"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Encounter"/>
+      </extension>
+      <reference>
+        <reference value="Encounter/5b829d01-34bb-47d1-b1bb-9303c3a9ebcb"/>
+      </reference>
+      <name value="OpenMRS Encounter Resource Example"/>
+      <description value="Example OpenMRS Encounter resource"/>
       <exampleBoolean value="true"/>
     </resource>
     <resource>
