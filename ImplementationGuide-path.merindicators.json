@@ -622,6 +622,42 @@
     "resource" : [{
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/AgeRangesCS"
+      },
+      "name" : "AgeRangesCS",
+      "description" : "AgeRangesCS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/AgeRangesTXCURRVS"
+      },
+      "name" : "AgeRangesTXCURRVS",
+      "description" : "AgeRangesTXCURRVS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/CIEL"
+      },
+      "name" : "CIEL",
+      "description" : "Columbia International eHealth Laboratory (CIEL)",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
       }],
       "reference" : {
@@ -634,6 +670,54 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/FocusPopVS"
+      },
+      "name" : "FocusPopVS",
+      "description" : "FocusPopVS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/OnARVVS"
+      },
+      "name" : "History of antiretroviral therapy (situation)",
+      "description" : "History of antiretroviral therapy (situation)",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/KeyPopCS"
+      },
+      "name" : "KeyPopCS",
+      "description" : "KeyPopCS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/KeyPopVS"
+      },
+      "name" : "KeyPopVS",
+      "description" : "KeyPopVS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Location"
       }],
       "reference" : {
@@ -642,6 +726,42 @@
       "name" : "Location Example",
       "description" : "Example OpenMRS Location resource",
       "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/MMDIntervalCS"
+      },
+      "name" : "MMDIntervalCS",
+      "description" : "MMDIntervalCS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/MMDIntervalVS"
+      },
+      "name" : "MMDIntervalVS",
+      "description" : "Multi-month dispensing interval",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/OpenHIECS"
+      },
+      "name" : "OpenHIE CodeSystem",
+      "description" : "OpenHIE CodeSystem",
+      "exampleBoolean" : false
     },
     {
       "extension" : [{
@@ -702,6 +822,42 @@
       "name" : "OpenMRS Patient Example",
       "description" : "Example OpenMRS Patient resource",
       "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/PregnantVS"
+      },
+      "name" : "Pregnant",
+      "description" : "Currently pregnant",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/SyntheaHIVMedicationsVS"
+      },
+      "name" : "Synthea HIV MedicationsVS",
+      "description" : "Synthea HIV MedicationsVS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:logical"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/TXCURRelements"
+      },
+      "name" : "TXCURRelements",
+      "description" : "Base elements required for TXCURR",
+      "exampleBoolean" : false
     }],
     "page" : {
       "extension" : [{

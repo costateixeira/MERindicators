@@ -175,7 +175,16 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
    <p>Contents:</p>
    <ul>
       <li>
-         <a href="#1">Example: Example Instances</a>
+         <a href="#1">Structures: Logical Models</a>
+      </li>
+      <li>
+         <a href="#2">Terminology: Value Sets</a>
+      </li>
+      <li>
+         <a href="#3">Terminology: Code Systems</a>
+      </li>
+      <li>
+         <a href="#4">Example: Example Instances</a>
       </li>
    </ul>
 </div>
@@ -184,6 +193,149 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
      xmlns:f="http://hl7.org/fhir">
    <p>This page provides a list of the FHIR artifacts defined as part of this implementation guide.</p>
    <a name="1"> </a>
+   <h3>Structures: Logical Models </h3>
+   <p>
+    <p>These define data models that represent the domain covered by this implementation guide in more business-friendly terms than the underlying FHIR resources.</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-TXCURRelements.html"
+                     title="StructureDefinition/TXCURRelements">TXCURRelements</a>
+               </td>
+               <td>
+<p>Base elements required for TXCURR</p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="2"> </a>
+   <h3>Terminology: Value Sets </h3>
+   <p>
+    <p>These define sets of codes used by systems conforming to this implementation guide.</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-AgeRangesTXCURRVS.html"
+                     title="ValueSet/AgeRangesTXCURRVS">AgeRangesTXCURRVS</a>
+               </td>
+               <td>
+<p>AgeRangesTXCURRVS</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-FocusPopVS.html" title="ValueSet/FocusPopVS">FocusPopVS</a>
+               </td>
+               <td>
+<p>FocusPopVS</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-OnARVVS.html" title="ValueSet/OnARVVS">History of antiretroviral therapy (situation)</a>
+               </td>
+               <td>
+<p>History of antiretroviral therapy (situation)</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-KeyPopVS.html" title="ValueSet/KeyPopVS">KeyPopVS</a>
+               </td>
+               <td>
+<p>KeyPopVS</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-MMDIntervalVS.html" title="ValueSet/MMDIntervalVS">MMDIntervalVS</a>
+               </td>
+               <td>
+<p>Multi-month dispensing interval</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-PregnantVS.html" title="ValueSet/PregnantVS">Pregnant</a>
+               </td>
+               <td>
+<p>Currently pregnant</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-SyntheaHIVMedicationsVS.html"
+                     title="ValueSet/SyntheaHIVMedicationsVS">Synthea HIV MedicationsVS</a>
+               </td>
+               <td>
+<p>Synthea HIV MedicationsVS</p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="3"> </a>
+   <h3>Terminology: Code Systems </h3>
+   <p>
+    <p>These define new code systems used by systems conforming to this implementation guide.</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-AgeRangesCS.html" title="CodeSystem/AgeRangesCS">AgeRangesCS</a>
+               </td>
+               <td>
+<p>AgeRangesCS</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-CIEL.html" title="CodeSystem/CIEL">CIEL</a>
+               </td>
+               <td>
+<p>Columbia International eHealth Laboratory (CIEL)</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-KeyPopCS.html" title="CodeSystem/KeyPopCS">KeyPopCS</a>
+               </td>
+               <td>
+<p>KeyPopCS</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-MMDIntervalCS.html" title="CodeSystem/MMDIntervalCS">MMDIntervalCS</a>
+               </td>
+               <td>
+<p>MMDIntervalCS</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-OpenHIECS.html" title="CodeSystem/OpenHIECS">OpenHIE CodeSystem</a>
+               </td>
+               <td>
+<p>OpenHIE CodeSystem</p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="4"> </a>
    <h3>Example: Example Instances </h3>
    <p>
     <p>These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like.</p>
@@ -282,7 +434,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
            
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2023+ <a style="color: #81BEF7" href="https://www.path.org">PATH</a>.  Package path.merindicators#0.0.1 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Jun 6, 2023 11:02+0000">2023-06-06</span>
+          IG &#169; 2023+ <a style="color: #81BEF7" href="https://www.path.org">PATH</a>.  Package path.merindicators#0.0.1 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Jun 6, 2023 11:14+0000">2023-06-06</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
