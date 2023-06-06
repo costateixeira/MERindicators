@@ -544,30 +544,6 @@
      fhir:resource ( [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Encounter" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://path-global-health.github.io/MERindicators/Encounter/5b829d01-34bb-47d1-b1bb-9303c3a9ebcb> ;
-         fhir:reference [ fhir:v "Encounter/5b829d01-34bb-47d1-b1bb-9303c3a9ebcb" ]
-       ] ;
-       fhir:name [ fhir:v "OpenMRS Encounter Resource Example" ] ;
-       fhir:description [ fhir:v "Example OpenMRS Encounter resource" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "DiagnosticReport" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://path-global-health.github.io/MERindicators/DiagnosticReport/8a849d5e-6011-4279-a124-40ada5a687de> ;
-         fhir:reference [ fhir:v "DiagnosticReport/8a849d5e-6011-4279-a124-40ada5a687de" ]
-       ] ;
-       fhir:name [ fhir:v "Openmrs DiagnosticReport" ] ;
-       fhir:description [ fhir:v "Example OMRS DiagnosticReport Resource" ] ;
-       fhir:example [ fhir:v "true"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "Bundle" ]
        ] ) ;
        fhir:reference [
@@ -600,6 +576,30 @@
        ] ;
        fhir:name [ fhir:v "OpenMRS Condition Resource Example" ] ;
        fhir:description [ fhir:v "Example OMRS Condition resource" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "DiagnosticReport" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://path-global-health.github.io/MERindicators/DiagnosticReport/8a849d5e-6011-4279-a124-40ada5a687de> ;
+         fhir:reference [ fhir:v "DiagnosticReport/8a849d5e-6011-4279-a124-40ada5a687de" ]
+       ] ;
+       fhir:name [ fhir:v "Openmrs DiagnosticReport" ] ;
+       fhir:description [ fhir:v "Example OMRS DiagnosticReport Resource" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Encounter" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://path-global-health.github.io/MERindicators/Encounter/5b829d01-34bb-47d1-b1bb-9303c3a9ebcb> ;
+         fhir:reference [ fhir:v "Encounter/5b829d01-34bb-47d1-b1bb-9303c3a9ebcb" ]
+       ] ;
+       fhir:name [ fhir:v "OpenMRS Encounter Resource Example" ] ;
+       fhir:description [ fhir:v "Example OpenMRS Encounter resource" ] ;
        fhir:example [ fhir:v "true"^^xsd:boolean ]
      ] [
        fhir:extension ( [

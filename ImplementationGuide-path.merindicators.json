@@ -622,30 +622,6 @@
     "resource" : [{
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Encounter"
-      }],
-      "reference" : {
-        "reference" : "Encounter/5b829d01-34bb-47d1-b1bb-9303c3a9ebcb"
-      },
-      "name" : "OpenMRS Encounter Resource Example",
-      "description" : "Example OpenMRS Encounter resource",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "DiagnosticReport"
-      }],
-      "reference" : {
-        "reference" : "DiagnosticReport/8a849d5e-6011-4279-a124-40ada5a687de"
-      },
-      "name" : "Openmrs DiagnosticReport",
-      "description" : "Example OMRS DiagnosticReport Resource",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
       }],
       "reference" : {
@@ -677,6 +653,30 @@
       },
       "name" : "OpenMRS Condition Resource Example",
       "description" : "Example OMRS Condition resource",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "DiagnosticReport"
+      }],
+      "reference" : {
+        "reference" : "DiagnosticReport/8a849d5e-6011-4279-a124-40ada5a687de"
+      },
+      "name" : "Openmrs DiagnosticReport",
+      "description" : "Example OMRS DiagnosticReport Resource",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Encounter"
+      }],
+      "reference" : {
+        "reference" : "Encounter/5b829d01-34bb-47d1-b1bb-9303c3a9ebcb"
+      },
+      "name" : "OpenMRS Encounter Resource Example",
+      "description" : "Example OpenMRS Encounter resource",
       "exampleBoolean" : true
     },
     {
