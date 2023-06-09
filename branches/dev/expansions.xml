@@ -1,79 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="ac985b39-b75a-444d-b61b-888aca059510"/>
+  <id value="e953fa45-6ca6-4b51-9e2a-0892df3e235d"/>
   <meta>
-    <lastUpdated value="2023-06-07T12:39:14.382+00:00"/>
+    <lastUpdated value="2023-06-09T18:04:50.078+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
-    <fullUrl value="https://path-global-health.github.io/MERindicators/ValueSet/MMDIntervalVS"/>
-    <resource>
-      <ValueSet>
-        <text>
-          <status value="generated"/>
-          <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 0 concepts</p>
-            <table class="codes">
-              <tr>
-                <td style="white-space:nowrap">
-                  <b>Code</b>
-                </td>
-                <td>
-                  <b>System</b>
-                </td>
-                <td>
-                  <b>Display</b>
-                </td>
-              </tr>
-            </table>
-          </div>
-        </text>
-        <url value="https://path-global-health.github.io/MERindicators/ValueSet/MMDIntervalVS"/>
-        <version value="0.0.1"/>
-        <name value="MMDIntervalVS"/>
-        <title value="MMDIntervalVS"/>
-        <status value="draft"/>
-        <experimental value="true"/>
-        <date value="2023-06-07T12:39:14+00:00"/>
-        <jurisdiction>
-          <coding>
-            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
-            <code value="001"/>
-            <display value="World"/>
-          </coding>
-        </jurisdiction>
-        <expansion>
-          <identifier value="urn:uuid:394d3e2d-d26a-4a11-b3bd-95a098e54c32"/>
-          <timestamp value="2023-06-07T12:39:59+00:00"/>
-          <total value="0"/>
-          <parameter>
-            <name value="excludeNested"/>
-            <valueBoolean value="false"/>
-          </parameter>
-        </expansion>
-      </ValueSet>
-    </resource>
-  </entry>
-  <entry>
-    <fullUrl value="https://path-global-health.github.io/MERindicators/ValueSet/OnARVVS"/>
+    <fullUrl value="https://path-global-health.github.io/MERindicators/ValueSet/CIELHIVMedications"/>
     <resource>
       <ValueSet>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 2 concepts</p>
-            <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
-              <p>Expansion based on: </p>
-              <ul>
-                <li>
-                  <a href="CodeSystem-OpenHIECS.html">OpenHIE CodeSystem v0.0.1 (CodeSystem)</a>
-                </li>
-                <li>
-                  <a href="CodeSystem-CIEL.html">CIEL v0.0.1 (CodeSystem)</a>
-                </li>
-              </ul>
-            </div>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-CIEL.html">CIEL v0.0.1 (CodeSystem)</a>
+            </p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -88,30 +31,30 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---path-global-health.github.io-MERindicators-CodeSystem-OpenHIECS-432101000124108"> </a>  
-                  <a href="CodeSystem-OpenHIECS.html#OpenHIECS-432101000124108">432101000124108</a>
+                  <a name="https---path-global-health.github.io-MERindicators-CodeSystem-CIEL-86663"> </a>  
+                  <a href="CodeSystem-CIEL.html#CIEL-86663">86663</a>
                 </td>
-                <td>https://path-global-health.github.io/MERindicators/CodeSystem/OpenHIECS</td>
-                <td>History of antiretroviral therapy (situation)</td>
+                <td>https://path-global-health.github.io/MERindicators/CodeSystem/CIEL</td>
+                <td>Zidovudine</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---path-global-health.github.io-MERindicators-CodeSystem-CIEL-160119"> </a>  
-                  <a href="CodeSystem-CIEL.html#CIEL-160119">160119</a>
+                  <a name="https---path-global-health.github.io-MERindicators-CodeSystem-CIEL-74807"> </a>  
+                  <a href="CodeSystem-CIEL.html#CIEL-74807">74807</a>
                 </td>
                 <td>https://path-global-health.github.io/MERindicators/CodeSystem/CIEL</td>
-                <td>CURRENTLY TAKING ARV</td>
+                <td>Didanosine</td>
               </tr>
             </table>
           </div>
         </text>
-        <url value="https://path-global-health.github.io/MERindicators/ValueSet/OnARVVS"/>
+        <url value="https://path-global-health.github.io/MERindicators/ValueSet/CIELHIVMedications"/>
         <version value="0.0.1"/>
-        <name value="OnARVVS"/>
-        <title value="History of antiretroviral therapy (situation)"/>
+        <name value="CIELHIVMedications"/>
+        <title value="CIELHIVMedications"/>
         <status value="draft"/>
         <experimental value="true"/>
-        <date value="2023-06-07T12:39:14+00:00"/>
+        <date value="2023-06-09T18:04:50+00:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -120,41 +63,33 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:71dfe241-8b7e-4340-bf14-e49378cfad5f"/>
-          <timestamp value="2023-06-07T12:39:59+00:00"/>
+          <identifier value="urn:uuid:95e0993c-9066-4a6f-b7fa-b8ab708e5196"/>
+          <timestamp value="2023-06-09T18:05:38+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
           </parameter>
           <parameter>
-            <name value="limitedExpansion"/>
-            <valueBoolean value="true"/>
-          </parameter>
-          <parameter>
-            <name value="version"/>
-            <valueUri value="https://path-global-health.github.io/MERindicators/CodeSystem/OpenHIECS|0.0.1"/>
-          </parameter>
-          <parameter>
             <name value="version"/>
             <valueUri value="https://path-global-health.github.io/MERindicators/CodeSystem/CIEL|0.0.1"/>
           </parameter>
           <contains>
-            <system value="https://path-global-health.github.io/MERindicators/CodeSystem/OpenHIECS"/>
-            <code value="432101000124108"/>
-            <display value="History of antiretroviral therapy (situation)"/>
+            <system value="https://path-global-health.github.io/MERindicators/CodeSystem/CIEL"/>
+            <code value="86663"/>
+            <display value="Zidovudine"/>
           </contains>
           <contains>
             <system value="https://path-global-health.github.io/MERindicators/CodeSystem/CIEL"/>
-            <code value="160119"/>
-            <display value="CURRENTLY TAKING ARV"/>
+            <code value="74807"/>
+            <display value="Didanosine"/>
           </contains>
         </expansion>
       </ValueSet>
     </resource>
   </entry>
   <entry>
-    <fullUrl value="https://path-global-health.github.io/MERindicators/ValueSet/PregnantVS"/>
+    <fullUrl value="https://path-global-health.github.io/MERindicators/ValueSet/Pregnant"/>
     <resource>
       <ValueSet>
         <text>
@@ -201,13 +136,13 @@
             </table>
           </div>
         </text>
-        <url value="https://path-global-health.github.io/MERindicators/ValueSet/PregnantVS"/>
+        <url value="https://path-global-health.github.io/MERindicators/ValueSet/Pregnant"/>
         <version value="0.0.1"/>
-        <name value="PregnantVS"/>
+        <name value="Pregnant"/>
         <title value="Pregnant"/>
         <status value="draft"/>
         <experimental value="true"/>
-        <date value="2023-06-07T12:39:14+00:00"/>
+        <date value="2023-06-09T18:04:50+00:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -216,8 +151,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:7bfa9958-941b-477e-8c67-dfc6f574b963"/>
-          <timestamp value="2023-06-07T12:40:00+00:00"/>
+          <identifier value="urn:uuid:210429c9-be63-438d-a6b4-45e45a249e53"/>
+          <timestamp value="2023-06-09T18:05:38+00:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -250,15 +185,169 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="https://path-global-health.github.io/MERindicators/ValueSet/KeyPopVS"/>
+    <fullUrl value="https://path-global-health.github.io/MERindicators/ValueSet/FocusPop"/>
     <resource>
       <ValueSet>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 5 concepts</p>
+            <p>This value set contains 0 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-KeyPopCS.html">KeyPopCS v0.0.1 (CodeSystem)</a>
+              <a href="CodeSystem-FocusPopCS.html">FocusPopCS v0.0.1 (CodeSystem)</a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://path-global-health.github.io/MERindicators/ValueSet/FocusPop"/>
+        <version value="0.0.1"/>
+        <name value="FocusPop"/>
+        <title value="FocusPop"/>
+        <status value="draft"/>
+        <experimental value="true"/>
+        <date value="2023-06-09T18:04:50+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+            <display value="World"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:90c5bd07-2faf-41f8-a5fd-39f18a09bb7e"/>
+          <timestamp value="2023-06-09T18:05:38+00:00"/>
+          <total value="0"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="https://path-global-health.github.io/MERindicators/CodeSystem/FocusPopCS|0.0.1"/>
+          </parameter>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://path-global-health.github.io/MERindicators/ValueSet/OnARV"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 2 concepts</p>
+            <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
+              <p>Expansion based on: </p>
+              <ul>
+                <li>
+                  <a href="CodeSystem-CIEL.html">CIEL v0.0.1 (CodeSystem)</a>
+                </li>
+                <li>
+                  <a href="CodeSystem-OpenHIE.html">OpenHIE CodeSystem v0.0.1 (CodeSystem)</a>
+                </li>
+              </ul>
+            </div>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---path-global-health.github.io-MERindicators-CodeSystem-OpenHIE-432101000124108"> </a>  
+                  <a href="CodeSystem-OpenHIE.html#OpenHIE-432101000124108">432101000124108</a>
+                </td>
+                <td>https://path-global-health.github.io/MERindicators/CodeSystem/OpenHIE</td>
+                <td>History of antiretroviral therapy (situation)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---path-global-health.github.io-MERindicators-CodeSystem-CIEL-160119"> </a>  
+                  <a href="CodeSystem-CIEL.html#CIEL-160119">160119</a>
+                </td>
+                <td>https://path-global-health.github.io/MERindicators/CodeSystem/CIEL</td>
+                <td>CURRENTLY TAKING ARV</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://path-global-health.github.io/MERindicators/ValueSet/OnARV"/>
+        <version value="0.0.1"/>
+        <name value="OnARV"/>
+        <title value="History of antiretroviral therapy (situation)"/>
+        <status value="draft"/>
+        <experimental value="true"/>
+        <date value="2023-06-09T18:04:50+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+            <display value="World"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:ec33a040-2dbd-4ab7-be1b-5a8fd0d9e867"/>
+          <timestamp value="2023-06-09T18:05:38+00:00"/>
+          <total value="2"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="https://path-global-health.github.io/MERindicators/CodeSystem/OpenHIE|0.0.1"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="https://path-global-health.github.io/MERindicators/CodeSystem/CIEL|0.0.1"/>
+          </parameter>
+          <contains>
+            <system value="https://path-global-health.github.io/MERindicators/CodeSystem/OpenHIE"/>
+            <code value="432101000124108"/>
+            <display value="History of antiretroviral therapy (situation)"/>
+          </contains>
+          <contains>
+            <system value="https://path-global-health.github.io/MERindicators/CodeSystem/CIEL"/>
+            <code value="160119"/>
+            <display value="CURRENTLY TAKING ARV"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://path-global-health.github.io/MERindicators/ValueSet/MMDInterval"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 2 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-MMDIntervalCS.html">MMDIntervalCS v0.0.1 (CodeSystem)</a>
             </p>
             <table class="codes">
               <tr>
@@ -274,54 +363,30 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---path-global-health.github.io-MERindicators-CodeSystem-KeyPopCS-PWID"> </a>  
-                  <a href="CodeSystem-KeyPopCS.html#KeyPopCS-PWID">PWID</a>
+                  <a name="https---path-global-health.github.io-MERindicators-CodeSystem-MMDIntervalCS-3to5MMD"> </a>  
+                  <a href="CodeSystem-MMDIntervalCS.html#MMDIntervalCS-3to5MMD">3to5MMD</a>
                 </td>
-                <td>https://path-global-health.github.io/MERindicators/CodeSystem/KeyPopCS</td>
-                <td>People who inject drugs (PWID)</td>
+                <td>https://path-global-health.github.io/MERindicators/CodeSystem/MMDIntervalCS</td>
+                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---path-global-health.github.io-MERindicators-CodeSystem-KeyPopCS-MSM"> </a>  
-                  <a href="CodeSystem-KeyPopCS.html#KeyPopCS-MSM">MSM</a>
+                  <a name="https---path-global-health.github.io-MERindicators-CodeSystem-MMDIntervalCS-6MMD"> </a>  
+                  <a href="CodeSystem-MMDIntervalCS.html#MMDIntervalCS-6MMD">6MMD</a>
                 </td>
-                <td>https://path-global-health.github.io/MERindicators/CodeSystem/KeyPopCS</td>
-                <td>Men who have sex with men (MSM)</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---path-global-health.github.io-MERindicators-CodeSystem-KeyPopCS-TG"> </a>  
-                  <a href="CodeSystem-KeyPopCS.html#KeyPopCS-TG">TG</a>
-                </td>
-                <td>https://path-global-health.github.io/MERindicators/CodeSystem/KeyPopCS</td>
-                <td>Transgender people (TG)</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---path-global-health.github.io-MERindicators-CodeSystem-KeyPopCS-FSW"> </a>  
-                  <a href="CodeSystem-KeyPopCS.html#KeyPopCS-FSW">FSW</a>
-                </td>
-                <td>https://path-global-health.github.io/MERindicators/CodeSystem/KeyPopCS</td>
-                <td>Female sex workers (FSW)</td>
-              </tr>
-              <tr>
-                <td style="white-space:nowrap">
-                  <a name="https---path-global-health.github.io-MERindicators-CodeSystem-KeyPopCS-PRISON"> </a>  
-                  <a href="CodeSystem-KeyPopCS.html#KeyPopCS-PRISON">PRISON</a>
-                </td>
-                <td>https://path-global-health.github.io/MERindicators/CodeSystem/KeyPopCS</td>
-                <td>People in prison and other closed settings</td>
+                <td>https://path-global-health.github.io/MERindicators/CodeSystem/MMDIntervalCS</td>
+                <td/>
               </tr>
             </table>
           </div>
         </text>
-        <url value="https://path-global-health.github.io/MERindicators/ValueSet/KeyPopVS"/>
+        <url value="https://path-global-health.github.io/MERindicators/ValueSet/MMDInterval"/>
         <version value="0.0.1"/>
-        <name value="KeyPopVS"/>
-        <title value="KeyPopVS"/>
+        <name value="MMDInterval"/>
+        <title value="MMDInterval"/>
         <status value="draft"/>
         <experimental value="true"/>
-        <date value="2023-06-07T12:39:14+00:00"/>
+        <date value="2023-06-09T18:04:50+00:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -330,48 +395,31 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:8e5081cc-e48a-486f-a347-5207282f7b10"/>
-          <timestamp value="2023-06-07T12:40:00+00:00"/>
-          <total value="5"/>
+          <identifier value="urn:uuid:95e1ba22-7f24-44f2-b1bb-1afee040514d"/>
+          <timestamp value="2023-06-09T18:05:38+00:00"/>
+          <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://path-global-health.github.io/MERindicators/CodeSystem/KeyPopCS|0.0.1"/>
+            <valueUri value="https://path-global-health.github.io/MERindicators/CodeSystem/MMDIntervalCS|0.0.1"/>
           </parameter>
           <contains>
-            <system value="https://path-global-health.github.io/MERindicators/CodeSystem/KeyPopCS"/>
-            <code value="PWID"/>
-            <display value="People who inject drugs (PWID)"/>
+            <system value="https://path-global-health.github.io/MERindicators/CodeSystem/MMDIntervalCS"/>
+            <code value="3to5MMD"/>
           </contains>
           <contains>
-            <system value="https://path-global-health.github.io/MERindicators/CodeSystem/KeyPopCS"/>
-            <code value="MSM"/>
-            <display value="Men who have sex with men (MSM)"/>
-          </contains>
-          <contains>
-            <system value="https://path-global-health.github.io/MERindicators/CodeSystem/KeyPopCS"/>
-            <code value="TG"/>
-            <display value="Transgender people (TG)"/>
-          </contains>
-          <contains>
-            <system value="https://path-global-health.github.io/MERindicators/CodeSystem/KeyPopCS"/>
-            <code value="FSW"/>
-            <display value="Female sex workers (FSW)"/>
-          </contains>
-          <contains>
-            <system value="https://path-global-health.github.io/MERindicators/CodeSystem/KeyPopCS"/>
-            <code value="PRISON"/>
-            <display value="People in prison and other closed settings"/>
+            <system value="https://path-global-health.github.io/MERindicators/CodeSystem/MMDIntervalCS"/>
+            <code value="6MMD"/>
           </contains>
         </expansion>
       </ValueSet>
     </resource>
   </entry>
   <entry>
-    <fullUrl value="https://path-global-health.github.io/MERindicators/ValueSet/AgeRangesTXCURRVS"/>
+    <fullUrl value="https://path-global-health.github.io/MERindicators/ValueSet/AgeRangesTXCURR"/>
     <resource>
       <ValueSet>
         <text>
@@ -379,7 +427,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 14 concepts</p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
-              <a href="CodeSystem-AgeRangesCS.html">AgeRangesCS v0.0.1 (CodeSystem)</a>
+              <a href="CodeSystem-AgeRanges.html">AgeRanges v0.0.1 (CodeSystem)</a>
             </p>
             <table class="codes">
               <tr>
@@ -395,126 +443,126 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---path-global-health.github.io-MERindicators-CodeSystem-AgeRangesCS-P0Y--P1Y"> </a>  
-                  <a href="CodeSystem-AgeRangesCS.html#AgeRangesCS-P0Y--P1Y">P0Y--P1Y</a>
+                  <a name="https---path-global-health.github.io-MERindicators-CodeSystem-AgeRanges-P0Y--P1Y"> </a>  
+                  <a href="CodeSystem-AgeRanges.html#AgeRanges-P0Y--P1Y">P0Y--P1Y</a>
                 </td>
-                <td>https://path-global-health.github.io/MERindicators/CodeSystem/AgeRangesCS</td>
+                <td>https://path-global-health.github.io/MERindicators/CodeSystem/AgeRanges</td>
                 <td>&lt; 1 year</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---path-global-health.github.io-MERindicators-CodeSystem-AgeRangesCS-P1Y--P5Y"> </a>  
-                  <a href="CodeSystem-AgeRangesCS.html#AgeRangesCS-P1Y--P5Y">P1Y--P5Y</a>
+                  <a name="https---path-global-health.github.io-MERindicators-CodeSystem-AgeRanges-P1Y--P5Y"> </a>  
+                  <a href="CodeSystem-AgeRanges.html#AgeRanges-P1Y--P5Y">P1Y--P5Y</a>
                 </td>
-                <td>https://path-global-health.github.io/MERindicators/CodeSystem/AgeRangesCS</td>
+                <td>https://path-global-health.github.io/MERindicators/CodeSystem/AgeRanges</td>
                 <td>1-4 years</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---path-global-health.github.io-MERindicators-CodeSystem-AgeRangesCS-P5Y--P10Y"> </a>  
-                  <a href="CodeSystem-AgeRangesCS.html#AgeRangesCS-P5Y--P10Y">P5Y--P10Y</a>
+                  <a name="https---path-global-health.github.io-MERindicators-CodeSystem-AgeRanges-P5Y--P10Y"> </a>  
+                  <a href="CodeSystem-AgeRanges.html#AgeRanges-P5Y--P10Y">P5Y--P10Y</a>
                 </td>
-                <td>https://path-global-health.github.io/MERindicators/CodeSystem/AgeRangesCS</td>
+                <td>https://path-global-health.github.io/MERindicators/CodeSystem/AgeRanges</td>
                 <td>5-9 year</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---path-global-health.github.io-MERindicators-CodeSystem-AgeRangesCS-P15Y--P20Y"> </a>  
-                  <a href="CodeSystem-AgeRangesCS.html#AgeRangesCS-P15Y--P20Y">P15Y--P20Y</a>
+                  <a name="https---path-global-health.github.io-MERindicators-CodeSystem-AgeRanges-P15Y--P20Y"> </a>  
+                  <a href="CodeSystem-AgeRanges.html#AgeRanges-P15Y--P20Y">P15Y--P20Y</a>
                 </td>
-                <td>https://path-global-health.github.io/MERindicators/CodeSystem/AgeRangesCS</td>
+                <td>https://path-global-health.github.io/MERindicators/CodeSystem/AgeRanges</td>
                 <td>15-19 year</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---path-global-health.github.io-MERindicators-CodeSystem-AgeRangesCS-P20Y--P25Y"> </a>  
-                  <a href="CodeSystem-AgeRangesCS.html#AgeRangesCS-P20Y--P25Y">P20Y--P25Y</a>
+                  <a name="https---path-global-health.github.io-MERindicators-CodeSystem-AgeRanges-P20Y--P25Y"> </a>  
+                  <a href="CodeSystem-AgeRanges.html#AgeRanges-P20Y--P25Y">P20Y--P25Y</a>
                 </td>
-                <td>https://path-global-health.github.io/MERindicators/CodeSystem/AgeRangesCS</td>
+                <td>https://path-global-health.github.io/MERindicators/CodeSystem/AgeRanges</td>
                 <td>20-24 year</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---path-global-health.github.io-MERindicators-CodeSystem-AgeRangesCS-P25Y--P30Y"> </a>  
-                  <a href="CodeSystem-AgeRangesCS.html#AgeRangesCS-P25Y--P30Y">P25Y--P30Y</a>
+                  <a name="https---path-global-health.github.io-MERindicators-CodeSystem-AgeRanges-P25Y--P30Y"> </a>  
+                  <a href="CodeSystem-AgeRanges.html#AgeRanges-P25Y--P30Y">P25Y--P30Y</a>
                 </td>
-                <td>https://path-global-health.github.io/MERindicators/CodeSystem/AgeRangesCS</td>
+                <td>https://path-global-health.github.io/MERindicators/CodeSystem/AgeRanges</td>
                 <td>25-29 year</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---path-global-health.github.io-MERindicators-CodeSystem-AgeRangesCS-P30Y--P35Y"> </a>  
-                  <a href="CodeSystem-AgeRangesCS.html#AgeRangesCS-P30Y--P35Y">P30Y--P35Y</a>
+                  <a name="https---path-global-health.github.io-MERindicators-CodeSystem-AgeRanges-P30Y--P35Y"> </a>  
+                  <a href="CodeSystem-AgeRanges.html#AgeRanges-P30Y--P35Y">P30Y--P35Y</a>
                 </td>
-                <td>https://path-global-health.github.io/MERindicators/CodeSystem/AgeRangesCS</td>
+                <td>https://path-global-health.github.io/MERindicators/CodeSystem/AgeRanges</td>
                 <td>30-34 year</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---path-global-health.github.io-MERindicators-CodeSystem-AgeRangesCS-P35Y--P40Y"> </a>  
-                  <a href="CodeSystem-AgeRangesCS.html#AgeRangesCS-P35Y--P40Y">P35Y--P40Y</a>
+                  <a name="https---path-global-health.github.io-MERindicators-CodeSystem-AgeRanges-P35Y--P40Y"> </a>  
+                  <a href="CodeSystem-AgeRanges.html#AgeRanges-P35Y--P40Y">P35Y--P40Y</a>
                 </td>
-                <td>https://path-global-health.github.io/MERindicators/CodeSystem/AgeRangesCS</td>
+                <td>https://path-global-health.github.io/MERindicators/CodeSystem/AgeRanges</td>
                 <td>35-39 year</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---path-global-health.github.io-MERindicators-CodeSystem-AgeRangesCS-P40Y--P45Y"> </a>  
-                  <a href="CodeSystem-AgeRangesCS.html#AgeRangesCS-P40Y--P45Y">P40Y--P45Y</a>
+                  <a name="https---path-global-health.github.io-MERindicators-CodeSystem-AgeRanges-P40Y--P45Y"> </a>  
+                  <a href="CodeSystem-AgeRanges.html#AgeRanges-P40Y--P45Y">P40Y--P45Y</a>
                 </td>
-                <td>https://path-global-health.github.io/MERindicators/CodeSystem/AgeRangesCS</td>
+                <td>https://path-global-health.github.io/MERindicators/CodeSystem/AgeRanges</td>
                 <td>40-45 year</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---path-global-health.github.io-MERindicators-CodeSystem-AgeRangesCS-P45Y--P50Y"> </a>  
-                  <a href="CodeSystem-AgeRangesCS.html#AgeRangesCS-P45Y--P50Y">P45Y--P50Y</a>
+                  <a name="https---path-global-health.github.io-MERindicators-CodeSystem-AgeRanges-P45Y--P50Y"> </a>  
+                  <a href="CodeSystem-AgeRanges.html#AgeRanges-P45Y--P50Y">P45Y--P50Y</a>
                 </td>
-                <td>https://path-global-health.github.io/MERindicators/CodeSystem/AgeRangesCS</td>
+                <td>https://path-global-health.github.io/MERindicators/CodeSystem/AgeRanges</td>
                 <td>45-50 year</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---path-global-health.github.io-MERindicators-CodeSystem-AgeRangesCS-P50Y--P55Y"> </a>  
-                  <a href="CodeSystem-AgeRangesCS.html#AgeRangesCS-P50Y--P55Y">P50Y--P55Y</a>
+                  <a name="https---path-global-health.github.io-MERindicators-CodeSystem-AgeRanges-P50Y--P55Y"> </a>  
+                  <a href="CodeSystem-AgeRanges.html#AgeRanges-P50Y--P55Y">P50Y--P55Y</a>
                 </td>
-                <td>https://path-global-health.github.io/MERindicators/CodeSystem/AgeRangesCS</td>
+                <td>https://path-global-health.github.io/MERindicators/CodeSystem/AgeRanges</td>
                 <td>50-55 year</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---path-global-health.github.io-MERindicators-CodeSystem-AgeRangesCS-P55Y--P60Y"> </a>  
-                  <a href="CodeSystem-AgeRangesCS.html#AgeRangesCS-P55Y--P60Y">P55Y--P60Y</a>
+                  <a name="https---path-global-health.github.io-MERindicators-CodeSystem-AgeRanges-P55Y--P60Y"> </a>  
+                  <a href="CodeSystem-AgeRanges.html#AgeRanges-P55Y--P60Y">P55Y--P60Y</a>
                 </td>
-                <td>https://path-global-health.github.io/MERindicators/CodeSystem/AgeRangesCS</td>
+                <td>https://path-global-health.github.io/MERindicators/CodeSystem/AgeRanges</td>
                 <td>55-60 year</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---path-global-health.github.io-MERindicators-CodeSystem-AgeRangesCS-P60Y--P65Y"> </a>  
-                  <a href="CodeSystem-AgeRangesCS.html#AgeRangesCS-P60Y--P65Y">P60Y--P65Y</a>
+                  <a name="https---path-global-health.github.io-MERindicators-CodeSystem-AgeRanges-P60Y--P65Y"> </a>  
+                  <a href="CodeSystem-AgeRanges.html#AgeRanges-P60Y--P65Y">P60Y--P65Y</a>
                 </td>
-                <td>https://path-global-health.github.io/MERindicators/CodeSystem/AgeRangesCS</td>
+                <td>https://path-global-health.github.io/MERindicators/CodeSystem/AgeRanges</td>
                 <td>60-65 year</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="https---path-global-health.github.io-MERindicators-CodeSystem-AgeRangesCS-P65Y--P9999Y"> </a>  
-                  <a href="CodeSystem-AgeRangesCS.html#AgeRangesCS-P65Y--P9999Y">P65Y--P9999Y</a>
+                  <a name="https---path-global-health.github.io-MERindicators-CodeSystem-AgeRanges-P65Y--P9999Y"> </a>  
+                  <a href="CodeSystem-AgeRanges.html#AgeRanges-P65Y--P9999Y">P65Y--P9999Y</a>
                 </td>
-                <td>https://path-global-health.github.io/MERindicators/CodeSystem/AgeRangesCS</td>
+                <td>https://path-global-health.github.io/MERindicators/CodeSystem/AgeRanges</td>
                 <td>65+ years</td>
               </tr>
             </table>
           </div>
         </text>
-        <url value="https://path-global-health.github.io/MERindicators/ValueSet/AgeRangesTXCURRVS"/>
+        <url value="https://path-global-health.github.io/MERindicators/ValueSet/AgeRangesTXCURR"/>
         <version value="0.0.1"/>
-        <name value="AgeRangesTXCURRVS"/>
-        <title value="AgeRangesTXCURRVS"/>
+        <name value="AgeRangesTXCURR"/>
+        <title value="AgeRangesTXCURR"/>
         <status value="draft"/>
         <experimental value="true"/>
-        <date value="2023-06-07T12:39:14+00:00"/>
+        <date value="2023-06-09T18:04:50+00:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -523,8 +571,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:55e97ee0-cdd4-4d1f-b5da-59857633db10"/>
-          <timestamp value="2023-06-07T12:40:00+00:00"/>
+          <identifier value="urn:uuid:ad803838-ef3c-4196-b375-5fa20731f157"/>
+          <timestamp value="2023-06-09T18:05:40+00:00"/>
           <total value="14"/>
           <parameter>
             <name value="excludeNested"/>
@@ -532,75 +580,75 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="https://path-global-health.github.io/MERindicators/CodeSystem/AgeRangesCS|0.0.1"/>
+            <valueUri value="https://path-global-health.github.io/MERindicators/CodeSystem/AgeRanges|0.0.1"/>
           </parameter>
           <contains>
-            <system value="https://path-global-health.github.io/MERindicators/CodeSystem/AgeRangesCS"/>
+            <system value="https://path-global-health.github.io/MERindicators/CodeSystem/AgeRanges"/>
             <code value="P0Y--P1Y"/>
             <display value="&lt; 1 year"/>
           </contains>
           <contains>
-            <system value="https://path-global-health.github.io/MERindicators/CodeSystem/AgeRangesCS"/>
+            <system value="https://path-global-health.github.io/MERindicators/CodeSystem/AgeRanges"/>
             <code value="P1Y--P5Y"/>
             <display value="1-4 years"/>
           </contains>
           <contains>
-            <system value="https://path-global-health.github.io/MERindicators/CodeSystem/AgeRangesCS"/>
+            <system value="https://path-global-health.github.io/MERindicators/CodeSystem/AgeRanges"/>
             <code value="P5Y--P10Y"/>
             <display value="5-9 year"/>
           </contains>
           <contains>
-            <system value="https://path-global-health.github.io/MERindicators/CodeSystem/AgeRangesCS"/>
+            <system value="https://path-global-health.github.io/MERindicators/CodeSystem/AgeRanges"/>
             <code value="P15Y--P20Y"/>
             <display value="15-19 year"/>
           </contains>
           <contains>
-            <system value="https://path-global-health.github.io/MERindicators/CodeSystem/AgeRangesCS"/>
+            <system value="https://path-global-health.github.io/MERindicators/CodeSystem/AgeRanges"/>
             <code value="P20Y--P25Y"/>
             <display value="20-24 year"/>
           </contains>
           <contains>
-            <system value="https://path-global-health.github.io/MERindicators/CodeSystem/AgeRangesCS"/>
+            <system value="https://path-global-health.github.io/MERindicators/CodeSystem/AgeRanges"/>
             <code value="P25Y--P30Y"/>
             <display value="25-29 year"/>
           </contains>
           <contains>
-            <system value="https://path-global-health.github.io/MERindicators/CodeSystem/AgeRangesCS"/>
+            <system value="https://path-global-health.github.io/MERindicators/CodeSystem/AgeRanges"/>
             <code value="P30Y--P35Y"/>
             <display value="30-34 year"/>
           </contains>
           <contains>
-            <system value="https://path-global-health.github.io/MERindicators/CodeSystem/AgeRangesCS"/>
+            <system value="https://path-global-health.github.io/MERindicators/CodeSystem/AgeRanges"/>
             <code value="P35Y--P40Y"/>
             <display value="35-39 year"/>
           </contains>
           <contains>
-            <system value="https://path-global-health.github.io/MERindicators/CodeSystem/AgeRangesCS"/>
+            <system value="https://path-global-health.github.io/MERindicators/CodeSystem/AgeRanges"/>
             <code value="P40Y--P45Y"/>
             <display value="40-45 year"/>
           </contains>
           <contains>
-            <system value="https://path-global-health.github.io/MERindicators/CodeSystem/AgeRangesCS"/>
+            <system value="https://path-global-health.github.io/MERindicators/CodeSystem/AgeRanges"/>
             <code value="P45Y--P50Y"/>
             <display value="45-50 year"/>
           </contains>
           <contains>
-            <system value="https://path-global-health.github.io/MERindicators/CodeSystem/AgeRangesCS"/>
+            <system value="https://path-global-health.github.io/MERindicators/CodeSystem/AgeRanges"/>
             <code value="P50Y--P55Y"/>
             <display value="50-55 year"/>
           </contains>
           <contains>
-            <system value="https://path-global-health.github.io/MERindicators/CodeSystem/AgeRangesCS"/>
+            <system value="https://path-global-health.github.io/MERindicators/CodeSystem/AgeRanges"/>
             <code value="P55Y--P60Y"/>
             <display value="55-60 year"/>
           </contains>
           <contains>
-            <system value="https://path-global-health.github.io/MERindicators/CodeSystem/AgeRangesCS"/>
+            <system value="https://path-global-health.github.io/MERindicators/CodeSystem/AgeRanges"/>
             <code value="P60Y--P65Y"/>
             <display value="60-65 year"/>
           </contains>
           <contains>
-            <system value="https://path-global-health.github.io/MERindicators/CodeSystem/AgeRangesCS"/>
+            <system value="https://path-global-health.github.io/MERindicators/CodeSystem/AgeRanges"/>
             <code value="P65Y--P9999Y"/>
             <display value="65+ years"/>
           </contains>
@@ -609,7 +657,7 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="https://path-global-health.github.io/MERindicators/ValueSet/SyntheaHIVMedicationsVS"/>
+    <fullUrl value="https://path-global-health.github.io/MERindicators/ValueSet/SyntheaHIVMedications"/>
     <resource>
       <ValueSet>
         <text>
@@ -828,13 +876,13 @@
             </table>
           </div>
         </text>
-        <url value="https://path-global-health.github.io/MERindicators/ValueSet/SyntheaHIVMedicationsVS"/>
+        <url value="https://path-global-health.github.io/MERindicators/ValueSet/SyntheaHIVMedications"/>
         <version value="0.0.1"/>
-        <name value="SyntheaHIVMedicationsVS"/>
+        <name value="SyntheaHIVMedications"/>
         <title value="Synthea HIV MedicationsVS"/>
         <status value="draft"/>
         <experimental value="true"/>
-        <date value="2023-06-07T12:39:14+00:00"/>
+        <date value="2023-06-09T18:04:50+00:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -843,8 +891,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:c908ffac-0ff9-4d37-9ad1-7035847a35bc"/>
-          <timestamp value="2023-06-07T12:40:02+00:00"/>
+          <identifier value="urn:uuid:dd1b86c4-0279-46cb-985a-a018e361fb5d"/>
+          <timestamp value="2023-06-09T18:05:40+00:00"/>
           <total value="28"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1003,13 +1051,16 @@
     </resource>
   </entry>
   <entry>
-    <fullUrl value="https://path-global-health.github.io/MERindicators/ValueSet/FocusPopVS"/>
+    <fullUrl value="https://path-global-health.github.io/MERindicators/ValueSet/KeyPop"/>
     <resource>
       <ValueSet>
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 0 concepts</p>
+            <p>This value set contains 5 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-KeyPopCS.html">KeyPop v0.0.1 (CodeSystem)</a>
+            </p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -1022,16 +1073,56 @@
                   <b>Display</b>
                 </td>
               </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---path-global-health.github.io-MERindicators-CodeSystem-KeyPopCS-PWID"> </a>  
+                  <a href="CodeSystem-KeyPopCS.html#KeyPopCS-PWID">PWID</a>
+                </td>
+                <td>https://path-global-health.github.io/MERindicators/CodeSystem/KeyPopCS</td>
+                <td>People who inject drugs (PWID)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---path-global-health.github.io-MERindicators-CodeSystem-KeyPopCS-MSM"> </a>  
+                  <a href="CodeSystem-KeyPopCS.html#KeyPopCS-MSM">MSM</a>
+                </td>
+                <td>https://path-global-health.github.io/MERindicators/CodeSystem/KeyPopCS</td>
+                <td>Men who have sex with men (MSM)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---path-global-health.github.io-MERindicators-CodeSystem-KeyPopCS-TG"> </a>  
+                  <a href="CodeSystem-KeyPopCS.html#KeyPopCS-TG">TG</a>
+                </td>
+                <td>https://path-global-health.github.io/MERindicators/CodeSystem/KeyPopCS</td>
+                <td>Transgender people (TG)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---path-global-health.github.io-MERindicators-CodeSystem-KeyPopCS-FSW"> </a>  
+                  <a href="CodeSystem-KeyPopCS.html#KeyPopCS-FSW">FSW</a>
+                </td>
+                <td>https://path-global-health.github.io/MERindicators/CodeSystem/KeyPopCS</td>
+                <td>Female sex workers (FSW)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---path-global-health.github.io-MERindicators-CodeSystem-KeyPopCS-PRISON"> </a>  
+                  <a href="CodeSystem-KeyPopCS.html#KeyPopCS-PRISON">PRISON</a>
+                </td>
+                <td>https://path-global-health.github.io/MERindicators/CodeSystem/KeyPopCS</td>
+                <td>People in prison and other closed settings</td>
+              </tr>
             </table>
           </div>
         </text>
-        <url value="https://path-global-health.github.io/MERindicators/ValueSet/FocusPopVS"/>
+        <url value="https://path-global-health.github.io/MERindicators/ValueSet/KeyPop"/>
         <version value="0.0.1"/>
-        <name value="FocusPopVS"/>
-        <title value="FocusPopVS"/>
+        <name value="KeyPop"/>
+        <title value="KeyPop"/>
         <status value="draft"/>
         <experimental value="true"/>
-        <date value="2023-06-07T12:39:14+00:00"/>
+        <date value="2023-06-09T18:04:50+00:00"/>
         <jurisdiction>
           <coding>
             <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -1040,13 +1131,113 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:4bd42bb0-e025-4b7d-9d85-49658e7488e9"/>
-          <timestamp value="2023-06-07T12:40:02+00:00"/>
-          <total value="0"/>
+          <identifier value="urn:uuid:0acd542c-780d-444a-958a-11041158a406"/>
+          <timestamp value="2023-06-09T18:05:40+00:00"/>
+          <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
           </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="https://path-global-health.github.io/MERindicators/CodeSystem/KeyPopCS|0.0.1"/>
+          </parameter>
+          <contains>
+            <system value="https://path-global-health.github.io/MERindicators/CodeSystem/KeyPopCS"/>
+            <code value="PWID"/>
+            <display value="People who inject drugs (PWID)"/>
+          </contains>
+          <contains>
+            <system value="https://path-global-health.github.io/MERindicators/CodeSystem/KeyPopCS"/>
+            <code value="MSM"/>
+            <display value="Men who have sex with men (MSM)"/>
+          </contains>
+          <contains>
+            <system value="https://path-global-health.github.io/MERindicators/CodeSystem/KeyPopCS"/>
+            <code value="TG"/>
+            <display value="Transgender people (TG)"/>
+          </contains>
+          <contains>
+            <system value="https://path-global-health.github.io/MERindicators/CodeSystem/KeyPopCS"/>
+            <code value="FSW"/>
+            <display value="Female sex workers (FSW)"/>
+          </contains>
+          <contains>
+            <system value="https://path-global-health.github.io/MERindicators/CodeSystem/KeyPopCS"/>
+            <code value="PRISON"/>
+            <display value="People in prison and other closed settings"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://path-global-health.github.io/MERindicators/ValueSet/SNOMEDHIVMedications"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 1 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Jan 2023</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-376938001"> </a>  
+                  <a href="http://snomed.info/id/376938001">376938001</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Zidovudine 300 mg oral tablet</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://path-global-health.github.io/MERindicators/ValueSet/SNOMEDHIVMedications"/>
+        <version value="0.0.1"/>
+        <name value="SNOMEDHIVMedications"/>
+        <title value="SNOMEDHIVMedications"/>
+        <status value="draft"/>
+        <experimental value="true"/>
+        <date value="2023-06-09T18:04:50+00:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+            <code value="001"/>
+            <display value="World"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:27d8e411-2d94-4eb1-ae59-5ada03c5cda7"/>
+          <timestamp value="2023-06-09T18:05:41+00:00"/>
+          <total value="1"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230131"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="376938001"/>
+            <display value="Zidovudine 300 mg oral tablet"/>
+          </contains>
         </expansion>
       </ValueSet>
     </resource>
