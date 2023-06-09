@@ -472,10 +472,10 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/AgeRangesCS"/>
+        <reference value="CodeSystem/AgeRanges"/>
       </reference>
-      <name value="AgeRangesCS"/>
-      <description value="AgeRangesCS"/>
+      <name value="AgeRanges"/>
+      <description value="AgeRanges"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -483,10 +483,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/AgeRangesTXCURRVS"/>
+        <reference value="ValueSet/AgeRangesTXCURR"/>
       </reference>
-      <name value="AgeRangesTXCURRVS"/>
-      <description value="AgeRangesTXCURRVS"/>
+      <name value="AgeRangesTXCURR"/>
+      <description value="AgeRangesTXCURR"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -498,6 +498,17 @@
       </reference>
       <name value="CIEL"/>
       <description value="Columbia International eHealth Laboratory (CIEL)"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/CIELHIVMedications"/>
+      </reference>
+      <name value="CIELHIVMedications"/>
+      <description value="CIELHIVMedications"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -516,10 +527,21 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/FocusPopVS"/>
+        <reference value="ValueSet/FocusPop"/>
       </reference>
-      <name value="FocusPopVS"/>
-      <description value="FocusPopVS"/>
+      <name value="FocusPop"/>
+      <description value="FocusPop"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/FocusPopCS"/>
+      </reference>
+      <name value="FocusPopCS"/>
+      <description value="FocusPopCS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -527,10 +549,21 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/OnARVVS"/>
+        <reference value="ValueSet/OnARV"/>
       </reference>
       <name value="History of antiretroviral therapy (situation)"/>
       <description value="History of antiretroviral therapy (situation)"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/KeyPop"/>
+      </reference>
+      <name value="KeyPop"/>
+      <description value="KeyPop"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -540,19 +573,8 @@
       <reference>
         <reference value="CodeSystem/KeyPopCS"/>
       </reference>
-      <name value="KeyPopCS"/>
-      <description value="KeyPopCS"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/KeyPopVS"/>
-      </reference>
-      <name value="KeyPopVS"/>
-      <description value="KeyPopVS"/>
+      <name value="KeyPop"/>
+      <description value="KeyPop"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -568,6 +590,17 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/MMDInterval"/>
+      </reference>
+      <name value="MMDInterval"/>
+      <description value="Multi-month dispensing interval"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
@@ -579,21 +612,10 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/MMDIntervalVS"/>
-      </reference>
-      <name value="MMDIntervalVS"/>
-      <description value="Multi-month dispensing interval"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/OpenHIECS"/>
+        <reference value="CodeSystem/OpenHIE"/>
       </reference>
       <name value="OpenHIE CodeSystem"/>
       <description value="OpenHIE CodeSystem"/>
@@ -659,7 +681,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/PregnantVS"/>
+        <reference value="ValueSet/Pregnant"/>
       </reference>
       <name value="Pregnant"/>
       <description value="Currently pregnant"/>
@@ -670,7 +692,18 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/SyntheaHIVMedicationsVS"/>
+        <reference value="ValueSet/SNOMEDHIVMedications"/>
+      </reference>
+      <name value="SNOMEDHIVMedications"/>
+      <description value="SNOMEDHIVMedications"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/SyntheaHIVMedications"/>
       </reference>
       <name value="Synthea HIV MedicationsVS"/>
       <description value="Synthea HIV MedicationsVS"/>
