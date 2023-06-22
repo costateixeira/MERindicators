@@ -622,54 +622,6 @@
     "resource" : [{
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/AgeRanges"
-      },
-      "name" : "AgeRanges",
-      "description" : "AgeRanges",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/AgeRangesTXCURR"
-      },
-      "name" : "AgeRangesTXCURR",
-      "description" : "AgeRangesTXCURR",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/CIEL"
-      },
-      "name" : "CIEL",
-      "description" : "Columbia International eHealth Laboratory (CIEL)",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/CIELHIVMedications"
-      },
-      "name" : "CIELHIVMedications",
-      "description" : "CIELHIVMedications",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
       }],
       "reference" : {
@@ -682,66 +634,6 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/FocusPop"
-      },
-      "name" : "FocusPop",
-      "description" : "FocusPop",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/FocusPopCS"
-      },
-      "name" : "FocusPopCS",
-      "description" : "FocusPopCS",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/OnARV"
-      },
-      "name" : "History of antiretroviral therapy (situation)",
-      "description" : "History of antiretroviral therapy (situation)",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/KeyPop"
-      },
-      "name" : "KeyPop",
-      "description" : "KeyPop",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/KeyPopCS"
-      },
-      "name" : "KeyPop",
-      "description" : "KeyPop",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Location"
       }],
       "reference" : {
@@ -750,42 +642,6 @@
       "name" : "Location Example",
       "description" : "Example OpenMRS Location resource",
       "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/MMDInterval"
-      },
-      "name" : "MMDInterval",
-      "description" : "Multi-month dispensing interval",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/MMDIntervalCS"
-      },
-      "name" : "MMDIntervalCS",
-      "description" : "MMDIntervalCS",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/OpenHIE"
-      },
-      "name" : "OpenHIE CodeSystem",
-      "description" : "OpenHIE CodeSystem",
-      "exampleBoolean" : false
     },
     {
       "extension" : [{
@@ -846,54 +702,6 @@
       "name" : "OpenMRS Patient Example",
       "description" : "Example OpenMRS Patient resource",
       "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/Pregnant"
-      },
-      "name" : "Pregnant",
-      "description" : "Currently pregnant",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/SNOMEDHIVMedications"
-      },
-      "name" : "SNOMEDHIVMedications",
-      "description" : "SNOMEDHIVMedications",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/SyntheaHIVMedications"
-      },
-      "name" : "Synthea HIV MedicationsVS",
-      "description" : "Synthea HIV MedicationsVS",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:logical"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/TXCURRelements"
-      },
-      "name" : "TXCURRelements",
-      "description" : "Base elements required for TXCURR",
-      "exampleBoolean" : false
     }],
     "page" : {
       "extension" : [{
