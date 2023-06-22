@@ -1,5 +1,12 @@
 [
   {
+    "id" : "DASHTXCURR",
+    "type" : "Measure",
+    "url" : "https://intrahealth.github.io/simple-hiv-ig/Measure/MERTXCURR",
+    "version" : "0.0.1",
+    "name" : "MERTXCURR"
+  },
+  {
     "id" : "AgeRanges",
     "type" : "CodeSystem",
     "url" : "https://path-global-health.github.io/MERindicators/CodeSystem/AgeRanges",
@@ -47,6 +54,48 @@
     "url" : "https://path-global-health.github.io/MERindicators/ImplementationGuide/path.merindicators",
     "version" : "0.0.1",
     "name" : "PATHMERIndicators"
+  },
+  {
+    "id" : "FHIRCommon",
+    "type" : "Library",
+    "url" : "https://path-global-health.github.io/MERindicators/Library/FHIRCommon",
+    "version" : "0.0.1",
+    "name" : "FHIRCommon"
+  },
+  {
+    "id" : "FHIRHelpers",
+    "type" : "Library",
+    "url" : "https://path-global-health.github.io/MERindicators/Library/FHIRHelpers",
+    "version" : "0.0.1",
+    "name" : "FHIRHelpers"
+  },
+  {
+    "id" : "MERConcepts",
+    "type" : "Library",
+    "url" : "https://path-global-health.github.io/MERindicators/Library/MERConcepts",
+    "version" : "0.0.1",
+    "name" : "MERConcepts"
+  },
+  {
+    "id" : "MERDataElements",
+    "type" : "Library",
+    "url" : "https://path-global-health.github.io/MERindicators/Library/MERDataElements",
+    "version" : "0.0.1",
+    "name" : "MERDataElements"
+  },
+  {
+    "id" : "MERStratifiers",
+    "type" : "Library",
+    "url" : "https://path-global-health.github.io/MERindicators/Library/MERStratifiers",
+    "version" : "0.0.1",
+    "name" : "MERStratifiers"
+  },
+  {
+    "id" : "TXCURR",
+    "type" : "Library",
+    "url" : "https://path-global-health.github.io/MERindicators/Library/TXCURR",
+    "version" : "0.0.1",
+    "name" : "TXCURR"
   },
   {
     "id" : "TXCURRelements",
