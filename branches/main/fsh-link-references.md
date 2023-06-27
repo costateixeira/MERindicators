@@ -22,6 +22,7 @@
 [Example-HIVSimple]: Bundle-Example-HIVSimple.html
 [Example-HIVSimple2]: Bundle-Example-HIVSimple2.html
 [Example-Locations-Organizations]: Bundle-Example-Locations-Organizations.html
+[ExampleOMRS0]: Bundle-ExampleOMRS0.html
 [Example0]: Bundle-Example0.html
 [ExampleCIEL]: Bundle-ExampleCIEL.html
 [FHIRCommon]: Library-FHIRCommon.html
@@ -50,8 +51,11 @@
 [OpenHIE]: CodeSystem-OpenHIE.html
 [a6867095-e2b1-4a68-9aaa-0d161a37ce9c]: Condition-a6867095-e2b1-4a68-9aaa-0d161a37ce9c.html
 [8a849d5e-6011-4279-a124-40ada5a687de]: DiagnosticReport-8a849d5e-6011-4279-a124-40ada5a687de.html
+[EncounterOMRS0]: Encounter-EncounterOMRS0.html
 [5b829d01-34bb-47d1-b1bb-9303c3a9ebcb]: Encounter-5b829d01-34bb-47d1-b1bb-9303c3a9ebcb.html
+[ObservationOMRS0]: Observation-ObservationOMRS0.html
 [example-openmrs-Observation]: Observation-example-openmrs-Observation.html
+[PatientOMRS0]: Patient-PatientOMRS0.html
 [example-openmrs-Patient]: Patient-example-openmrs-Patient.html
 [Organization-HIVSimple1]: Organization-Organization-HIVSimple1.html
 [Organization-HIVSimple2]: Organization-Organization-HIVSimple2.html

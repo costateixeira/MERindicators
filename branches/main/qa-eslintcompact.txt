@@ -1,5 +1,5 @@
 ﻿/github/workspace/fsh-generated/resources/Bundle-Example0.json: line 0, col 0, Warning - Entry 1 matches the reference Location/a3b793f0-eb53-4cda-92ce-fe0a77106252 by type and id but it's fullUrl https://path-global-health.github.io/MERindicators/Location/LocationExample does not match the full target URL https://path-global-health.github.io/MERindicators/Location/a3b793f0-eb53-4cda-92ce-fe0a77106252 by Bundle resolution rules (REQUIRED)
-/github/workspace/fsh-generated/resources/Bundle-Example0.json: line 148, col 14, Info - Code System URI 'https://openconceptlab.org/orgs/CIEL/sources/CIEL' is unknown so the code cannot be validated (UNKNOWN)
+/github/workspace/fsh-generated/resources/Bundle-Example0.json: line 148, col 14, Error - Unknown Code '116128' in the system 'https://openconceptlab.org/orgs/CIEL/sources/CIEL' for 'https://openconceptlab.org/orgs/CIEL/sources/CIEL#116128' (CODEINVALID)
 /github/workspace/fsh-generated/resources/Bundle-Example0.json: line 192, col 16, Info - Code System URI 'http://fhir.openmrs.org/code-system/encounter-type' is unknown so the code cannot be validated (UNKNOWN)
 /github/workspace/fsh-generated/resources/Bundle-Example0.json: line 0, col 0, Warning - Entry 1 matches the reference Location/a3b793f0-eb53-4cda-92ce-fe0a77106252 by type and id but it's fullUrl https://path-global-health.github.io/MERindicators/Location/LocationExample does not match the full target URL https://path-global-health.github.io/MERindicators/Location/a3b793f0-eb53-4cda-92ce-fe0a77106252 by Bundle resolution rules (REQUIRED)
 /github/workspace/fsh-generated/resources/Bundle-Example0.json: line 0, col 0, Warning - Entry 3 matches the reference Encounter/5b829d01-34bb-47d1-b1bb-9303c3a9ebcb by type and id but it's fullUrl https://path-global-health.github.io/MERindicators/Encounter/EncounterExample does not match the full target URL https://path-global-health.github.io/MERindicators/Encounter/5b829d01-34bb-47d1-b1bb-9303c3a9ebcb by Bundle resolution rules (REQUIRED)
@@ -11,8 +11,14 @@
 /github/workspace/fsh-generated/resources/Bundle-ExampleCIEL.json: line 101, col 10, Info - Details for Patient/PatientCIEL matching against profile http://hl7.org/fhir/StructureDefinition/Patient|4.0.1 (STRUCTURE)
 /github/workspace/fsh-generated/resources/Bundle-ExampleCIEL.json: line 131, col 10, Info - Details for Patient/PatientCIEL matching against profile http://hl7.org/fhir/StructureDefinition/Patient|4.0.1 (STRUCTURE)
 /github/workspace/fsh-generated/resources/Bundle-ExampleCIEL.json: line 157, col 10, Info - Details for Patient/PatientCIEL matching against profile http://hl7.org/fhir/StructureDefinition/Patient|4.0.1 (STRUCTURE)
-/github/workspace/fsh-generated/resources/Condition-a6867095-e2b1-4a68-9aaa-0d161a37ce9c.json: line 11, col 8, Info - Code System URI 'https://openconceptlab.org/orgs/CIEL/sources/CIEL' is unknown so the code cannot be validated (UNKNOWN)
+/github/workspace/fsh-generated/resources/Bundle-ExampleOMRS0.json: line 0, col 0, Warning - Entry 1 matches the reference Location/a3b793f0-eb53-4cda-92ce-fe0a77106252 by type and id but it's fullUrl https://path-global-health.github.io/MERindicators/Location/LocationExample does not match the full target URL https://path-global-health.github.io/MERindicators/Location/a3b793f0-eb53-4cda-92ce-fe0a77106252 by Bundle resolution rules (REQUIRED)
+/github/workspace/fsh-generated/resources/Bundle-ExampleOMRS0.json: line 144, col 16, Info - Code System URI 'http://fhir.openmrs.org/code-system/encounter-type' is unknown so the code cannot be validated (UNKNOWN)
+/github/workspace/fsh-generated/resources/Bundle-ExampleOMRS0.json: line 0, col 0, Warning - Entry 1 matches the reference Location/a3b793f0-eb53-4cda-92ce-fe0a77106252 by type and id but it's fullUrl https://path-global-health.github.io/MERindicators/Location/LocationExample does not match the full target URL https://path-global-health.github.io/MERindicators/Location/a3b793f0-eb53-4cda-92ce-fe0a77106252 by Bundle resolution rules (REQUIRED)
+/github/workspace/fsh-generated/resources/CodeSystem-CIEL.json: line 0, col 0, Error - Conformance resource /github/workspace/fsh-generated/resources/CodeSystem-CIEL.json - the canonical URL (https://path-global-health.github.io/MERindicators/CodeSystem/CIEL) does not match the URL (https://openconceptlab.org/orgs/CIEL/sources/CIEL) (INVALID)
+/github/workspace/fsh-generated/resources/CodeSystem-CIEL.json: line 0, col 0, Error - URL Mismatch https://path-global-health.github.io/MERindicators/CodeSystem/CIEL vs https://openconceptlab.org/orgs/CIEL/sources/CIEL (BUSINESSRULE)
+/github/workspace/fsh-generated/resources/Condition-a6867095-e2b1-4a68-9aaa-0d161a37ce9c.json: line 11, col 8, Error - Unknown Code '116128' in the system 'https://openconceptlab.org/orgs/CIEL/sources/CIEL' for 'https://openconceptlab.org/orgs/CIEL/sources/CIEL#116128' (CODEINVALID)
 /github/workspace/fsh-generated/resources/Encounter-5b829d01-34bb-47d1-b1bb-9303c3a9ebcb.json: line 21, col 10, Info - Code System URI 'http://fhir.openmrs.org/code-system/encounter-type' is unknown so the code cannot be validated (UNKNOWN)
+/github/workspace/fsh-generated/resources/Encounter-EncounterOMRS0.json: line 21, col 10, Info - Code System URI 'http://fhir.openmrs.org/code-system/encounter-type' is unknown so the code cannot be validated (UNKNOWN)
 /github/workspace/fsh-generated/resources/Library-FHIRCommon.json: line 1, col 844, Error - Canonical URL 'http://hl7.org/fhir/Library/FHIR-ModelInfo|4.0.1' does not resolve (INVALID)
 /github/workspace/fsh-generated/resources/Library-FHIRCommon.json: line 1, col 925, Error - Canonical URL 'http://hl7.org/fhir/Library/FHIRHelpers|4.0.1' does not resolve (INVALID)
 /github/workspace/fsh-generated/resources/Library-FHIRHelpers.json: line 1, col 849, Error - Canonical URL 'http://hl7.org/fhir/Library/FHIR-ModelInfo|4.0.1' does not resolve (INVALID)
@@ -21,6 +27,8 @@
 /github/workspace/fsh-generated/resources/Library-MERDataElements.json: line 0, col 0, Error - CQL Processing failed with exception: Cannot invoke "org.hl7.elm.r1.CodeSystemDef.getId()" because "codeSystemDef" is null (EXCEPTION)
 /github/workspace/fsh-generated/resources/Library-MERDataElements.json: line 1, col 869, Error - Canonical URL 'http://hl7.org/fhir/Library/FHIR-ModelInfo|4.0.1' does not resolve (INVALID)
 /github/workspace/fsh-generated/resources/Library-MERDataElements.json: line 1, col 950, Error - Canonical URL 'http://hl7.org/fhir/Library/FHIRHelpers|4.0.1' does not resolve (INVALID)
+/github/workspace/fsh-generated/resources/Library-MERStratifiers.json: line 0, col 0, Warning - Result type List of choice<FHIR.uri,FHIR.string> of definition OpenMRS Location is not supported; implementations may not be able to use the result of this expression (NOTSUPPORTED)
+/github/workspace/fsh-generated/resources/Library-MERStratifiers.json: line 0, col 0, Warning - Result type choice<list<choice<FHIR.uri,FHIR.string>>,System.String> of definition Location Deux is not supported; implementations may not be able to use the result of this expression (NOTSUPPORTED)
 /github/workspace/fsh-generated/resources/Library-MERStratifiers.json: line 1, col 864, Error - Canonical URL 'http://hl7.org/fhir/Library/FHIR-ModelInfo|4.0.1' does not resolve (INVALID)
 /github/workspace/fsh-generated/resources/Library-MERStratifiers.json: line 1, col 945, Error - Canonical URL 'http://hl7.org/fhir/Library/FHIRHelpers|4.0.1' does not resolve (INVALID)
 /github/workspace/fsh-generated/resources/Library-TXCURR.json: line 1, col 824, Error - Canonical URL 'http://hl7.org/fhir/Library/FHIR-ModelInfo|4.0.1' does not resolve (INVALID)
@@ -44,6 +52,6 @@
 PATHMERIndicators : Validation Results
 =========================================
 
-err = 13, warn = 22, info = 12
+err = 17, warn = 26, info = 12
 IG Publisher Version: 1.3.18
-Generated Mon Jun 26 18:55:47 UTC 2023. FHIR version 4.0.1 for path.merindicators#0.0.1 (canonical = https://path-global-health.github.io/MERindicators)
+Generated Tue Jun 27 23:03:05 UTC 2023. FHIR version 4.0.1 for path.merindicators#0.0.1 (canonical = https://path-global-health.github.io/MERindicators)

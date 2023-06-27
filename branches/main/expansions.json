@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "a1320e98-9e19-43a5-8a35-373977107f9f",
+  "id" : "3bc1e636-c8a3-4a6b-83d8-93772af3c985",
   "meta" : {
-    "lastUpdated" : "2023-06-26T18:53:39.889+00:00"
+    "lastUpdated" : "2023-06-27T23:00:32.243+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -11,7 +11,7 @@
       "resourceType" : "ValueSet",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion based on: </p><ul><li><a href=\"CodeSystem-CIEL.html\">CIEL v0.0.1 (CodeSystem)</a></li><li><a href=\"CodeSystem-OpenHIE.html\">OpenHIE CodeSystem v0.0.1 (CodeSystem)</a></li></ul></div><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---path-global-health.github.io-MERindicators-CodeSystem-OpenHIE-432101000124108\"> </a>\u00a0\u00a0<a href=\"CodeSystem-OpenHIE.html#OpenHIE-432101000124108\">432101000124108</a></td><td>https://path-global-health.github.io/MERindicators/CodeSystem/OpenHIE</td><td>History of antiretroviral therapy (situation)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---path-global-health.github.io-MERindicators-CodeSystem-CIEL-160119\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CIEL.html#CIEL-160119\">160119</a></td><td>https://path-global-health.github.io/MERindicators/CodeSystem/CIEL</td><td>CURRENTLY TAKING ARV</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion based on: </p><ul><li><a href=\"CodeSystem-CIEL.html\">CIEL v0.0.1 (CodeSystem)</a></li><li><a href=\"CodeSystem-OpenHIE.html\">OpenHIE CodeSystem v0.0.1 (CodeSystem)</a></li></ul></div><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---path-global-health.github.io-MERindicators-CodeSystem-OpenHIE-432101000124108\"> </a>\u00a0\u00a0<a href=\"CodeSystem-OpenHIE.html#OpenHIE-432101000124108\">432101000124108</a></td><td>https://path-global-health.github.io/MERindicators/CodeSystem/OpenHIE</td><td>History of antiretroviral therapy (situation)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openconceptlab.org-orgs-CIEL-sources-CIEL-160119\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CIEL.html#CIEL-160119\">160119</a></td><td>https://openconceptlab.org/orgs/CIEL/sources/CIEL</td><td>CURRENTLY TAKING ARV</td></tr></table></div>"
       },
       "url" : "https://path-global-health.github.io/MERindicators/ValueSet/OnARV",
       "version" : "0.0.1",
@@ -19,7 +19,7 @@
       "title" : "History of antiretroviral therapy (situation)",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2023-06-26T18:53:39+00:00",
+      "date" : "2023-06-27T23:00:32+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -28,8 +28,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:bc40b9d3-469d-4907-a3ae-2ab41a4c1597",
-        "timestamp" : "2023-06-26T18:54:32+00:00",
+        "identifier" : "urn:uuid:609f57aa-e2ad-456b-8560-d955d9ba40ca",
+        "timestamp" : "2023-06-27T23:01:42+00:00",
         "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",
@@ -45,7 +45,7 @@
         },
         {
           "name" : "version",
-          "valueUri" : "https://path-global-health.github.io/MERindicators/CodeSystem/CIEL|0.0.1"
+          "valueUri" : "https://openconceptlab.org/orgs/CIEL/sources/CIEL|0.0.1"
         }],
         "contains" : [{
           "system" : "https://path-global-health.github.io/MERindicators/CodeSystem/OpenHIE",
@@ -53,7 +53,7 @@
           "display" : "History of antiretroviral therapy (situation)"
         },
         {
-          "system" : "https://path-global-health.github.io/MERindicators/CodeSystem/CIEL",
+          "system" : "https://openconceptlab.org/orgs/CIEL/sources/CIEL",
           "code" : "160119",
           "display" : "CURRENTLY TAKING ARV"
         }]
@@ -66,7 +66,7 @@
       "resourceType" : "ValueSet",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-CIEL.html\">CIEL v0.0.1 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---path-global-health.github.io-MERindicators-CodeSystem-CIEL-86663\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CIEL.html#CIEL-86663\">86663</a></td><td>https://path-global-health.github.io/MERindicators/CodeSystem/CIEL</td><td>Zidovudine</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---path-global-health.github.io-MERindicators-CodeSystem-CIEL-74807\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CIEL.html#CIEL-74807\">74807</a></td><td>https://path-global-health.github.io/MERindicators/CodeSystem/CIEL</td><td>Didanosine</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-CIEL.html\">CIEL v0.0.1 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openconceptlab.org-orgs-CIEL-sources-CIEL-86663\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CIEL.html#CIEL-86663\">86663</a></td><td>https://openconceptlab.org/orgs/CIEL/sources/CIEL</td><td>Zidovudine</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openconceptlab.org-orgs-CIEL-sources-CIEL-74807\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CIEL.html#CIEL-74807\">74807</a></td><td>https://openconceptlab.org/orgs/CIEL/sources/CIEL</td><td>Didanosine</td></tr></table></div>"
       },
       "url" : "https://path-global-health.github.io/MERindicators/ValueSet/CIELHIVMedications",
       "version" : "0.0.1",
@@ -74,7 +74,7 @@
       "title" : "CIELHIVMedications",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2023-06-26T18:53:39+00:00",
+      "date" : "2023-06-27T23:00:32+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -83,8 +83,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:f9fba670-4b79-444a-9287-3c2a779f47bc",
-        "timestamp" : "2023-06-26T18:54:34+00:00",
+        "identifier" : "urn:uuid:5cfcdeee-8c2f-4a9c-856a-497576310a89",
+        "timestamp" : "2023-06-27T23:01:43+00:00",
         "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",
@@ -92,15 +92,15 @@
         },
         {
           "name" : "version",
-          "valueUri" : "https://path-global-health.github.io/MERindicators/CodeSystem/CIEL|0.0.1"
+          "valueUri" : "https://openconceptlab.org/orgs/CIEL/sources/CIEL|0.0.1"
         }],
         "contains" : [{
-          "system" : "https://path-global-health.github.io/MERindicators/CodeSystem/CIEL",
+          "system" : "https://openconceptlab.org/orgs/CIEL/sources/CIEL",
           "code" : "86663",
           "display" : "Zidovudine"
         },
         {
-          "system" : "https://path-global-health.github.io/MERindicators/CodeSystem/CIEL",
+          "system" : "https://openconceptlab.org/orgs/CIEL/sources/CIEL",
           "code" : "74807",
           "display" : "Didanosine"
         }]
@@ -113,7 +113,7 @@
       "resourceType" : "ValueSet",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion based on: </p><ul><li><a href=\"CodeSystem-CIEL.html\">CIEL v0.0.1 (CodeSystem)</a></li><li>SNOMED CT International edition 31-Jan 2023</li></ul></div><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-77386006\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/77386006\">77386006</a></td><td>http://snomed.info/sct</td><td>Pregnancy (finding)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---path-global-health.github.io-MERindicators-CodeSystem-CIEL-1434\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CIEL.html#CIEL-1434\">1434</a></td><td>https://path-global-health.github.io/MERindicators/CodeSystem/CIEL</td><td>Currently pregnant</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion based on: </p><ul><li><a href=\"CodeSystem-CIEL.html\">CIEL v0.0.1 (CodeSystem)</a></li><li>SNOMED CT International edition 31-Jan 2023</li></ul></div><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-77386006\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/77386006\">77386006</a></td><td>http://snomed.info/sct</td><td>Pregnancy (finding)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openconceptlab.org-orgs-CIEL-sources-CIEL-1434\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CIEL.html#CIEL-1434\">1434</a></td><td>https://openconceptlab.org/orgs/CIEL/sources/CIEL</td><td>Currently pregnant</td></tr></table></div>"
       },
       "url" : "https://path-global-health.github.io/MERindicators/ValueSet/Pregnant",
       "version" : "0.0.1",
@@ -121,7 +121,7 @@
       "title" : "Pregnant",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2023-06-26T18:53:39+00:00",
+      "date" : "2023-06-27T23:00:32+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -130,8 +130,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:97c88b14-ddb8-4cb8-b796-e3df98365145",
-        "timestamp" : "2023-06-26T18:54:34+00:00",
+        "identifier" : "urn:uuid:5d3af34b-8179-4592-a7e2-4711593bda9a",
+        "timestamp" : "2023-06-27T23:01:44+00:00",
         "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",
@@ -147,7 +147,7 @@
         },
         {
           "name" : "version",
-          "valueUri" : "https://path-global-health.github.io/MERindicators/CodeSystem/CIEL|0.0.1"
+          "valueUri" : "https://openconceptlab.org/orgs/CIEL/sources/CIEL|0.0.1"
         }],
         "contains" : [{
           "system" : "http://snomed.info/sct",
@@ -155,7 +155,7 @@
           "display" : "Pregnancy (finding)"
         },
         {
-          "system" : "https://path-global-health.github.io/MERindicators/CodeSystem/CIEL",
+          "system" : "https://openconceptlab.org/orgs/CIEL/sources/CIEL",
           "code" : "1434",
           "display" : "Currently pregnant"
         }]
@@ -176,7 +176,7 @@
       "title" : "FocusPop",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2023-06-26T18:53:39+00:00",
+      "date" : "2023-06-27T23:00:32+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -185,8 +185,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:19d3f83f-d701-4c97-8002-da2816768bcc",
-        "timestamp" : "2023-06-26T18:54:34+00:00",
+        "identifier" : "urn:uuid:dc43b6e7-d552-4c7c-ae47-c0d832917a3d",
+        "timestamp" : "2023-06-27T23:01:44+00:00",
         "total" : 0,
         "parameter" : [{
           "name" : "excludeNested",
@@ -213,7 +213,7 @@
       "title" : "AgeRangesTXCURR",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2023-06-26T18:53:39+00:00",
+      "date" : "2023-06-27T23:00:32+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -222,8 +222,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:6cc1fcdb-20e1-492a-872f-7f3547e888c9",
-        "timestamp" : "2023-06-26T18:54:35+00:00",
+        "identifier" : "urn:uuid:908d8f41-6e12-411a-87be-8dfe74670201",
+        "timestamp" : "2023-06-27T23:01:44+00:00",
         "total" : 15,
         "parameter" : [{
           "name" : "excludeNested",
@@ -325,7 +325,7 @@
       "title" : "SNOMEDHIVMedications",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2023-06-26T18:53:39+00:00",
+      "date" : "2023-06-27T23:00:32+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -334,8 +334,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:33be0809-f70b-423e-afa4-24f46e3a8d1b",
-        "timestamp" : "2023-06-26T18:54:35+00:00",
+        "identifier" : "urn:uuid:406aa5ca-5e3e-4830-9473-9775ae04e5ed",
+        "timestamp" : "2023-06-27T23:01:45+00:00",
         "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",
@@ -371,7 +371,7 @@
       "title" : "KeyPop",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2023-06-26T18:53:39+00:00",
+      "date" : "2023-06-27T23:00:32+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -380,8 +380,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:501cc6d4-1a75-463a-b2fe-4fb8f93a2ef8",
-        "timestamp" : "2023-06-26T18:54:35+00:00",
+        "identifier" : "urn:uuid:ba210d8c-87e4-4478-aa99-192cd204b6f3",
+        "timestamp" : "2023-06-27T23:01:45+00:00",
         "total" : 5,
         "parameter" : [{
           "name" : "excludeNested",
@@ -433,7 +433,7 @@
       "title" : "MMDInterval",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2023-06-26T18:53:39+00:00",
+      "date" : "2023-06-27T23:00:32+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -442,8 +442,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:f78a4846-0827-44d4-a435-b44ce3aff0c1",
-        "timestamp" : "2023-06-26T18:54:36+00:00",
+        "identifier" : "urn:uuid:375f9010-a540-4173-8faf-f855a8c4b2c7",
+        "timestamp" : "2023-06-27T23:01:46+00:00",
         "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",
@@ -478,7 +478,7 @@
       "title" : "Synthea HIV MedicationsVS",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2023-06-26T18:53:39+00:00",
+      "date" : "2023-06-27T23:00:32+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -487,8 +487,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:85266bc9-c4e2-4c67-b7d1-91b7feb034e9",
-        "timestamp" : "2023-06-26T18:54:36+00:00",
+        "identifier" : "urn:uuid:70552649-bcd2-4007-bd56-c9e2fefc8991",
+        "timestamp" : "2023-06-27T23:01:46+00:00",
         "total" : 28,
         "parameter" : [{
           "name" : "excludeNested",

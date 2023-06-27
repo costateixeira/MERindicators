@@ -54,9 +54,9 @@
             "id" : "http://www.nlm.nih.gov/research/umls/rxnorm",
             "accessLevel" : "Public"
          }, {
-            "locator" : "14:1-14:87",
+            "locator" : "14:1-14:70",
             "name" : "CIEL",
-            "id" : "https://path-global-health.github.io/MERindicators/CodeSystem/CIEL",
+            "id" : "https://openconceptlab.org/orgs/CIEL/sources/CIEL",
             "accessLevel" : "Public"
          }, {
             "locator" : "15:1-15:43",

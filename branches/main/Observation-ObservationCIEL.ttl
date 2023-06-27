@@ -15,7 +15,7 @@
   fhir:status [ fhir:v "final"] ; # 
   fhir:code [
      fhir:coding ( [
-       fhir:system [ fhir:v "https://path-global-health.github.io/MERindicators/CodeSystem/CIEL"^^xsd:anyURI ] ;
+       fhir:system [ fhir:v "https://openconceptlab.org/orgs/CIEL/sources/CIEL"^^xsd:anyURI ] ;
        fhir:code [ fhir:v "160119" ] ;
        fhir:display [ fhir:v "CURRENTLY TAKING ARV" ]
      ] )
@@ -27,7 +27,7 @@
   fhir:value [
      a fhir:CodeableConcept ;
      fhir:coding ( [
-       fhir:system [ fhir:v "https://path-global-health.github.io/MERindicators/CodeSystem/CIEL"^^xsd:anyURI ] ;
+       fhir:system [ fhir:v "https://openconceptlab.org/orgs/CIEL/sources/CIEL"^^xsd:anyURI ] ;
        fhir:code [ fhir:v "1065" ] ;
        fhir:display [ fhir:v "YES" ]
      ] )
