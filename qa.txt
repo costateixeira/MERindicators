@@ -1,17 +1,18 @@
 ﻿PATHMERIndicators : Validation Results
 =========================================
 
-err = 13, warn = 22, info = 12
+err = 17, warn = 26, info = 12
 IG Publisher Version: 1.3.18
-Generated Mon Jun 26 18:55:47 UTC 2023. FHIR version 4.0.1 for path.merindicators#0.0.1 (canonical = https://path-global-health.github.io/MERindicators)
+Generated Tue Jun 27 23:03:05 UTC 2023. FHIR version 4.0.1 for path.merindicators#0.0.1 (canonical = https://path-global-health.github.io/MERindicators)
  Build Errors : 0 / 5 / 0
  /github/workspace/fsh-generated/resources/Bundle-Example-HIVSimple : 0 / 0 / 15
  /github/workspace/fsh-generated/resources/Bundle-Example-HIVSimple2 : 0 / 0 / 12
  /github/workspace/fsh-generated/resources/Bundle-Example-Locations-Organizations : 0 / 0 / 5
- /github/workspace/fsh-generated/resources/Bundle-Example0 : 0 / 4 / 17
+ /github/workspace/fsh-generated/resources/Bundle-Example0 : 1 / 4 / 16
  /github/workspace/fsh-generated/resources/Bundle-ExampleCIEL : 1 / 0 / 11
+ /github/workspace/fsh-generated/resources/Bundle-ExampleOMRS0 : 0 / 2 / 10
  /github/workspace/fsh-generated/resources/CodeSystem-AgeRanges : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/CodeSystem-CIEL : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/CodeSystem-CIEL : 2 / 0 / 1
  /github/workspace/fsh-generated/resources/CodeSystem-FocusPopCS : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/CodeSystem-KeyPopCS : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/CodeSystem-MMDIntervalCS : 0 / 0 / 1
@@ -21,7 +22,7 @@ Generated Mon Jun 26 18:55:47 UTC 2023. FHIR version 4.0.1 for path.merindicator
  /github/workspace/fsh-generated/resources/Condition-Condition-Pregnancy : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Condition-Condition-Pregnancy2 : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Condition-Condition-PregnancyCIEL : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/Condition-a6867095-e2b1-4a68-9aaa-0d161a37ce9c : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/Condition-a6867095-e2b1-4a68-9aaa-0d161a37ce9c : 1 / 0 / 1
  /github/workspace/fsh-generated/resources/DiagnosticReport-8a849d5e-6011-4279-a124-40ada5a687de : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/DiagnosticReport-DiagnosticReport-HIVSimple : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/DiagnosticReport-DiagnosticReport-HIVSimple2 : 0 / 0 / 1
@@ -35,12 +36,13 @@ Generated Mon Jun 26 18:55:47 UTC 2023. FHIR version 4.0.1 for path.merindicator
  /github/workspace/fsh-generated/resources/Encounter-Encounter-ViralLoad2 : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Encounter-Encounter2-ViralLoad : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Encounter-EncounterCIEL : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Encounter-EncounterOMRS0 : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/ImplementationGuide-path.merindicators : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Library-FHIRCommon : 2 / 0 / 1
  /github/workspace/fsh-generated/resources/Library-FHIRHelpers : 1 / 0 / 1
  /github/workspace/fsh-generated/resources/Library-MERConcepts : 2 / 0 / 1
  /github/workspace/fsh-generated/resources/Library-MERDataElements : 3 / 0 / 1
- /github/workspace/fsh-generated/resources/Library-MERStratifiers : 2 / 0 / 1
+ /github/workspace/fsh-generated/resources/Library-MERStratifiers : 2 / 2 / 1
  /github/workspace/fsh-generated/resources/Library-TXCURR : 2 / 0 / 1
  /github/workspace/fsh-generated/resources/Location-Location-HIVSimple1 : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Location-Location-HIVSimple2 : 0 / 0 / 1
@@ -53,6 +55,7 @@ Generated Mon Jun 26 18:55:47 UTC 2023. FHIR version 4.0.1 for path.merindicator
  /github/workspace/fsh-generated/resources/Observation-Observation-ViralLoad2 : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Observation-Observation2-ViralLoad : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Observation-ObservationCIEL : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Observation-ObservationOMRS0 : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Observation-example-openmrs-Observation : 0 / 0 / 2
  /github/workspace/fsh-generated/resources/Organization-Organization-HIVSimple1 : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Organization-Organization-HIVSimple2 : 0 / 0 / 1
@@ -60,6 +63,7 @@ Generated Mon Jun 26 18:55:47 UTC 2023. FHIR version 4.0.1 for path.merindicator
  /github/workspace/fsh-generated/resources/Patient-Patient-HIVSimple : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Patient-Patient-HIVSimple2 : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Patient-PatientCIEL : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Patient-PatientOMRS0 : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Patient-example-openmrs-Patient : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-TXCURRelements : 0 / 12 / 1
  /github/workspace/fsh-generated/resources/ValueSet-AgeRangesTXCURR : 0 / 0 / 1
@@ -84,7 +88,7 @@ WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in 
 == fsh-generated/resources/Bundle-Example-Locations-Organizations.json ==
 == fsh-generated/resources/Bundle-Example0.json ==
 WARNING: Bundle/Example0: Bundle.entry[0].resource/*Patient/example-openmrs-Patient*/.identifier[0].extension[0].value.ofType(Reference): Entry 1 matches the reference Location/a3b793f0-eb53-4cda-92ce-fe0a77106252 by type and id but it's fullUrl https://path-global-health.github.io/MERindicators/Location/LocationExample does not match the full target URL https://path-global-health.github.io/MERindicators/Location/a3b793f0-eb53-4cda-92ce-fe0a77106252 by Bundle resolution rules
-INFORMATION: Bundle/Example0: Bundle.entry[2].resource/*Condition/a6867095-e2b1-4a68-9aaa-0d161a37ce9c*/.code.coding[0]: Code System URI 'https://openconceptlab.org/orgs/CIEL/sources/CIEL' is unknown so the code cannot be validated
+ERROR: Bundle/Example0: Bundle.entry[2].resource/*Condition/a6867095-e2b1-4a68-9aaa-0d161a37ce9c*/.code.coding[0]: Unknown Code '116128' in the system 'https://openconceptlab.org/orgs/CIEL/sources/CIEL' for 'https://openconceptlab.org/orgs/CIEL/sources/CIEL#116128'
 INFORMATION: Bundle/Example0: Bundle.entry[3].resource/*Encounter/5b829d01-34bb-47d1-b1bb-9303c3a9ebcb*/.type[0].coding[0]: Code System URI 'http://fhir.openmrs.org/code-system/encounter-type' is unknown so the code cannot be validated
 WARNING: Bundle/Example0: Bundle.entry[3].resource/*Encounter/5b829d01-34bb-47d1-b1bb-9303c3a9ebcb*/.location[0].location: Entry 1 matches the reference Location/a3b793f0-eb53-4cda-92ce-fe0a77106252 by type and id but it's fullUrl https://path-global-health.github.io/MERindicators/Location/LocationExample does not match the full target URL https://path-global-health.github.io/MERindicators/Location/a3b793f0-eb53-4cda-92ce-fe0a77106252 by Bundle resolution rules
 WARNING: Bundle/Example0: Bundle.entry[4].resource/*DiagnosticReport/8a849d5e-6011-4279-a124-40ada5a687de*/.encounter: Entry 3 matches the reference Encounter/5b829d01-34bb-47d1-b1bb-9303c3a9ebcb by type and id but it's fullUrl https://path-global-health.github.io/MERindicators/Encounter/EncounterExample does not match the full target URL https://path-global-health.github.io/MERindicators/Encounter/5b829d01-34bb-47d1-b1bb-9303c3a9ebcb by Bundle resolution rules
@@ -97,8 +101,14 @@ INFORMATION: Bundle/ExampleCIEL: Bundle.entry[0].resource/*Patient/PatientCIEL*/
 INFORMATION: Bundle/ExampleCIEL: Bundle.entry[3].resource/*Condition/Condition-PregnancyCIEL*/.subject: Details for Patient/PatientCIEL matching against profile http://hl7.org/fhir/StructureDefinition/Patient|4.0.1
 INFORMATION: Bundle/ExampleCIEL: Bundle.entry[4].resource/*Encounter/EncounterCIEL*/.subject: Details for Patient/PatientCIEL matching against profile http://hl7.org/fhir/StructureDefinition/Patient|4.0.1
 INFORMATION: Bundle/ExampleCIEL: Bundle.entry[5].resource/*Observation/ObservationCIEL*/.subject: Details for Patient/PatientCIEL matching against profile http://hl7.org/fhir/StructureDefinition/Patient|4.0.1
+== fsh-generated/resources/Bundle-ExampleOMRS0.json ==
+WARNING: Bundle/ExampleOMRS0: Bundle.entry[0].resource/*Patient/PatientOMRS0*/.identifier[0].extension[0].value.ofType(Reference): Entry 1 matches the reference Location/a3b793f0-eb53-4cda-92ce-fe0a77106252 by type and id but it's fullUrl https://path-global-health.github.io/MERindicators/Location/LocationExample does not match the full target URL https://path-global-health.github.io/MERindicators/Location/a3b793f0-eb53-4cda-92ce-fe0a77106252 by Bundle resolution rules
+INFORMATION: Bundle/ExampleOMRS0: Bundle.entry[2].resource/*Encounter/EncounterOMRS0*/.type[0].coding[0]: Code System URI 'http://fhir.openmrs.org/code-system/encounter-type' is unknown so the code cannot be validated
+WARNING: Bundle/ExampleOMRS0: Bundle.entry[2].resource/*Encounter/EncounterOMRS0*/.location[0].location: Entry 1 matches the reference Location/a3b793f0-eb53-4cda-92ce-fe0a77106252 by type and id but it's fullUrl https://path-global-health.github.io/MERindicators/Location/LocationExample does not match the full target URL https://path-global-health.github.io/MERindicators/Location/a3b793f0-eb53-4cda-92ce-fe0a77106252 by Bundle resolution rules
 == fsh-generated/resources/CodeSystem-AgeRanges.json ==
 == fsh-generated/resources/CodeSystem-CIEL.json ==
+ERROR: CodeSystem.where(url = 'https://openconceptlab.org/orgs/CIEL/sources/CIEL'): Conformance resource /github/workspace/fsh-generated/resources/CodeSystem-CIEL.json - the canonical URL (https://path-global-health.github.io/MERindicators/CodeSystem/CIEL) does not match the URL (https://openconceptlab.org/orgs/CIEL/sources/CIEL)
+ERROR: /github/workspace/fsh-generated/resources/CodeSystem-CIEL: URL Mismatch https://path-global-health.github.io/MERindicators/CodeSystem/CIEL vs https://openconceptlab.org/orgs/CIEL/sources/CIEL
 == fsh-generated/resources/CodeSystem-FocusPopCS.json ==
 == fsh-generated/resources/CodeSystem-KeyPopCS.json ==
 == fsh-generated/resources/CodeSystem-MMDIntervalCS.json ==
@@ -109,7 +119,7 @@ INFORMATION: Bundle/ExampleCIEL: Bundle.entry[5].resource/*Observation/Observati
 == fsh-generated/resources/Condition-Condition-Pregnancy2.json ==
 == fsh-generated/resources/Condition-Condition-PregnancyCIEL.json ==
 == fsh-generated/resources/Condition-a6867095-e2b1-4a68-9aaa-0d161a37ce9c.json ==
-INFORMATION: Condition/a6867095-e2b1-4a68-9aaa-0d161a37ce9c: Condition.code.coding[0]: Code System URI 'https://openconceptlab.org/orgs/CIEL/sources/CIEL' is unknown so the code cannot be validated
+ERROR: Condition/a6867095-e2b1-4a68-9aaa-0d161a37ce9c: Condition.code.coding[0]: Unknown Code '116128' in the system 'https://openconceptlab.org/orgs/CIEL/sources/CIEL' for 'https://openconceptlab.org/orgs/CIEL/sources/CIEL#116128'
 == fsh-generated/resources/DiagnosticReport-8a849d5e-6011-4279-a124-40ada5a687de.json ==
 == fsh-generated/resources/DiagnosticReport-DiagnosticReport-HIVSimple.json ==
 == fsh-generated/resources/DiagnosticReport-DiagnosticReport-HIVSimple2.json ==
@@ -124,6 +134,8 @@ INFORMATION: Encounter/5b829d01-34bb-47d1-b1bb-9303c3a9ebcb: Encounter.type[0].c
 == fsh-generated/resources/Encounter-Encounter-ViralLoad2.json ==
 == fsh-generated/resources/Encounter-Encounter2-ViralLoad.json ==
 == fsh-generated/resources/Encounter-EncounterCIEL.json ==
+== fsh-generated/resources/Encounter-EncounterOMRS0.json ==
+INFORMATION: Encounter/EncounterOMRS0: Encounter.type[0].coding[0]: Code System URI 'http://fhir.openmrs.org/code-system/encounter-type' is unknown so the code cannot be validated
 == fsh-generated/resources/ImplementationGuide-path.merindicators.json ==
 == fsh-generated/resources/Library-FHIRCommon.json ==
 ERROR: Library/FHIRCommon: Library.relatedArtifact[0].resource: Canonical URL 'http://hl7.org/fhir/Library/FHIR-ModelInfo|4.0.1' does not resolve
@@ -138,6 +150,8 @@ ERROR: MERDataElements.cql: CQL Processing failed with exception: Cannot invoke 
 ERROR: Library/MERDataElements: Library.relatedArtifact[0].resource: Canonical URL 'http://hl7.org/fhir/Library/FHIR-ModelInfo|4.0.1' does not resolve
 ERROR: Library/MERDataElements: Library.relatedArtifact[1].resource: Canonical URL 'http://hl7.org/fhir/Library/FHIRHelpers|4.0.1' does not resolve
 == fsh-generated/resources/Library-MERStratifiers.json ==
+WARNING: MERStratifiers.cql: Result type List of choice<FHIR.uri,FHIR.string> of definition OpenMRS Location is not supported; implementations may not be able to use the result of this expression
+WARNING: MERStratifiers.cql: Result type choice<list<choice<FHIR.uri,FHIR.string>>,System.String> of definition Location Deux is not supported; implementations may not be able to use the result of this expression
 ERROR: Library/MERStratifiers: Library.relatedArtifact[0].resource: Canonical URL 'http://hl7.org/fhir/Library/FHIR-ModelInfo|4.0.1' does not resolve
 ERROR: Library/MERStratifiers: Library.relatedArtifact[1].resource: Canonical URL 'http://hl7.org/fhir/Library/FHIRHelpers|4.0.1' does not resolve
 == fsh-generated/resources/Library-TXCURR.json ==
@@ -154,6 +168,7 @@ ERROR: Library/TXCURR: Library.relatedArtifact[1].resource: Canonical URL 'http:
 == fsh-generated/resources/Observation-Observation-ViralLoad2.json ==
 == fsh-generated/resources/Observation-Observation2-ViralLoad.json ==
 == fsh-generated/resources/Observation-ObservationCIEL.json ==
+== fsh-generated/resources/Observation-ObservationOMRS0.json ==
 == fsh-generated/resources/Observation-example-openmrs-Observation.json ==
 INFORMATION: Observation/example-openmrs-Observation: Observation.referenceRange[0].type.coding[0]: Code System URI 'http://fhir.openmrs.org/ext/obs/reference-range' is unknown so the code cannot be validated
 == fsh-generated/resources/Organization-Organization-HIVSimple1.json ==
@@ -162,6 +177,7 @@ INFORMATION: Observation/example-openmrs-Observation: Observation.referenceRange
 == fsh-generated/resources/Patient-Patient-HIVSimple.json ==
 == fsh-generated/resources/Patient-Patient-HIVSimple2.json ==
 == fsh-generated/resources/Patient-PatientCIEL.json ==
+== fsh-generated/resources/Patient-PatientOMRS0.json ==
 == fsh-generated/resources/Patient-example-openmrs-Patient.json ==
 == fsh-generated/resources/StructureDefinition-TXCURRelements.json ==
 WARNING: StructureDefinition/TXCURRelements: StructureDefinition.snapshot.element[3]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed

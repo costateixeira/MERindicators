@@ -8,7 +8,7 @@
   <status value="final"/>
   <code>
     <coding>
-      <system value="https://path-global-health.github.io/MERindicators/CodeSystem/CIEL"/>
+      <system value="https://openconceptlab.org/orgs/CIEL/sources/CIEL"/>
       <code value="160119"/>
       <display value="CURRENTLY TAKING ARV"/>
     </coding>
@@ -18,7 +18,7 @@
   </subject>
   <valueCodeableConcept>
     <coding>
-      <system value="https://path-global-health.github.io/MERindicators/CodeSystem/CIEL"/>
+      <system value="https://openconceptlab.org/orgs/CIEL/sources/CIEL"/>
       <code value="1065"/>
       <display value="YES"/>
     </coding>
