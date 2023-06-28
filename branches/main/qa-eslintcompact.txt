@@ -29,7 +29,7 @@
 /github/workspace/fsh-generated/resources/Library-MERDataElements.json: line 1, col 869, Error - Canonical URL 'http://hl7.org/fhir/Library/FHIR-ModelInfo|4.0.1' does not resolve (INVALID)
 /github/workspace/fsh-generated/resources/Library-MERDataElements.json: line 1, col 950, Error - Canonical URL 'http://hl7.org/fhir/Library/FHIRHelpers|4.0.1' does not resolve (INVALID)
 /github/workspace/fsh-generated/resources/Library-MERStratifiers.json: line 0, col 0, Warning - Result type List of choice<FHIR.uri,FHIR.string> of definition OpenMRS Location is not supported; implementations may not be able to use the result of this expression (NOTSUPPORTED)
-/github/workspace/fsh-generated/resources/Library-MERStratifiers.json: line 0, col 0, Warning - Result type choice<list<choice<FHIR.uri,FHIR.string>>,System.String> of definition Location Deux is not supported; implementations may not be able to use the result of this expression (NOTSUPPORTED)
+/github/workspace/fsh-generated/resources/Library-MERStratifiers.json: line 0, col 0, Warning - Result type choice<System.String,list<choice<FHIR.uri,FHIR.string>>> of definition Location Deux is not supported; implementations may not be able to use the result of this expression (NOTSUPPORTED)
 /github/workspace/fsh-generated/resources/Library-MERStratifiers.json: line 1, col 864, Error - Canonical URL 'http://hl7.org/fhir/Library/FHIR-ModelInfo|4.0.1' does not resolve (INVALID)
 /github/workspace/fsh-generated/resources/Library-MERStratifiers.json: line 1, col 945, Error - Canonical URL 'http://hl7.org/fhir/Library/FHIRHelpers|4.0.1' does not resolve (INVALID)
 /github/workspace/fsh-generated/resources/Library-TXCURR.json: line 1, col 824, Error - Canonical URL 'http://hl7.org/fhir/Library/FHIR-ModelInfo|4.0.1' does not resolve (INVALID)
@@ -55,4 +55,4 @@ PATHMERIndicators : Validation Results
 
 err = 17, warn = 27, info = 12
 IG Publisher Version: 1.3.19
-Generated Wed Jun 28 16:43:33 UTC 2023. FHIR version 4.0.1 for path.merindicators#0.0.1 (canonical = https://path-global-health.github.io/MERindicators)
+Generated Wed Jun 28 22:59:10 UTC 2023. FHIR version 4.0.1 for path.merindicators#0.0.1 (canonical = https://path-global-health.github.io/MERindicators)

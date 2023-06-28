@@ -1921,12 +1921,12 @@
                }
             }
          }, {
-            "locator" : "108:1-113:67",
+            "locator" : "108:1-114:67",
             "name" : "OpenMRS Location",
             "context" : "Patient",
             "accessLevel" : "Public",
             "expression" : {
-               "locator" : "109:3-113:67",
+               "locator" : "109:3-114:67",
                "type" : "Query",
                "source" : [ {
                   "locator" : "109:3-109:13",
@@ -1940,190 +1940,34 @@
                } ],
                "relationship" : [ ],
                "where" : {
-                  "locator" : "111:5-112:139",
-                  "type" : "Or",
-                  "operand" : [ {
-                     "locator" : "111:11-111:107",
-                     "type" : "SingletonFrom",
-                     "operand" : {
-                        "locator" : "111:26-111:107",
-                        "type" : "List",
-                        "element" : [ {
-                           "locator" : "111:27-111:106",
-                           "type" : "Equivalent",
+                  "locator" : "111:5-111:107",
+                  "type" : "SingletonFrom",
+                  "operand" : {
+                     "locator" : "111:26-111:107",
+                     "type" : "List",
+                     "element" : [ {
+                        "locator" : "111:27-111:106",
+                        "type" : "Equivalent",
+                        "operand" : [ {
+                           "name" : "ToString",
+                           "libraryName" : "FHIRHelpers",
+                           "type" : "FunctionRef",
                            "operand" : [ {
-                              "name" : "ToString",
-                              "libraryName" : "FHIRHelpers",
-                              "type" : "FunctionRef",
-                              "operand" : [ {
-                                 "locator" : "111:27-111:55",
-                                 "path" : "url",
-                                 "type" : "Property",
-                                 "source" : {
-                                    "locator" : "111:27-111:51",
-                                    "type" : "Indexer",
-                                    "operand" : [ {
-                                       "locator" : "111:27-111:48",
-                                       "type" : "Flatten",
-                                       "operand" : {
-                                          "type" : "Query",
-                                          "source" : [ {
-                                             "alias" : "$this",
-                                             "expression" : {
-                                                "locator" : "111:27-111:38",
-                                                "path" : "identifier",
-                                                "scope" : "P",
-                                                "type" : "Property"
-                                             }
-                                          } ],
-                                          "where" : {
-                                             "type" : "Not",
-                                             "operand" : {
-                                                "type" : "IsNull",
-                                                "operand" : {
-                                                   "path" : "extension",
-                                                   "type" : "Property",
-                                                   "source" : {
-                                                      "name" : "$this",
-                                                      "type" : "AliasRef"
-                                                   }
-                                                }
-                                             }
-                                          },
-                                          "return" : {
-                                             "distinct" : false,
-                                             "expression" : {
-                                                "path" : "extension",
-                                                "type" : "Property",
-                                                "source" : {
-                                                   "name" : "$this",
-                                                   "type" : "AliasRef"
-                                                }
-                                             }
-                                          }
-                                       }
-                                    }, {
-                                       "locator" : "111:50",
-                                       "valueType" : "{urn:hl7-org:elm-types:r1}Integer",
-                                       "value" : "0",
-                                       "type" : "Literal"
-                                    } ]
-                                 }
-                              } ]
-                           }, {
-                              "locator" : "111:59-111:106",
-                              "valueType" : "{urn:hl7-org:elm-types:r1}String",
-                              "value" : "http://fhir.openmrs.org/ext/patient/identifier",
-                              "type" : "Literal"
-                           } ]
-                        } ]
-                     }
-                  }, {
-                     "locator" : "112:8-112:139",
-                     "type" : "SingletonFrom",
-                     "operand" : {
-                        "locator" : "112:23-112:139",
-                        "type" : "List",
-                        "element" : [ {
-                           "locator" : "112:24-112:138",
-                           "type" : "Equivalent",
-                           "operand" : [ {
-                              "name" : "ToString",
-                              "libraryName" : "FHIRHelpers",
-                              "type" : "FunctionRef",
-                              "operand" : [ {
-                                 "locator" : "112:24-112:52",
-                                 "path" : "url",
-                                 "type" : "Property",
-                                 "source" : {
-                                    "locator" : "112:24-112:48",
-                                    "type" : "Indexer",
-                                    "operand" : [ {
-                                       "locator" : "112:24-112:45",
-                                       "type" : "Flatten",
-                                       "operand" : {
-                                          "type" : "Query",
-                                          "source" : [ {
-                                             "alias" : "$this",
-                                             "expression" : {
-                                                "locator" : "112:24-112:35",
-                                                "path" : "identifier",
-                                                "scope" : "P",
-                                                "type" : "Property"
-                                             }
-                                          } ],
-                                          "where" : {
-                                             "type" : "Not",
-                                             "operand" : {
-                                                "type" : "IsNull",
-                                                "operand" : {
-                                                   "path" : "extension",
-                                                   "type" : "Property",
-                                                   "source" : {
-                                                      "name" : "$this",
-                                                      "type" : "AliasRef"
-                                                   }
-                                                }
-                                             }
-                                          },
-                                          "return" : {
-                                             "distinct" : false,
-                                             "expression" : {
-                                                "path" : "extension",
-                                                "type" : "Property",
-                                                "source" : {
-                                                   "name" : "$this",
-                                                   "type" : "AliasRef"
-                                                }
-                                             }
-                                          }
-                                       }
-                                    }, {
-                                       "locator" : "112:47",
-                                       "valueType" : "{urn:hl7-org:elm-types:r1}Integer",
-                                       "value" : "0",
-                                       "type" : "Literal"
-                                    } ]
-                                 }
-                              } ]
-                           }, {
-                              "locator" : "112:56-112:138",
-                              "valueType" : "{urn:hl7-org:elm-types:r1}String",
-                              "value" : "http://fhir.openmrs.org/core/StructureDefinition/omrs-patient-identifier-location",
-                              "type" : "Literal"
-                           } ]
-                        } ]
-                     }
-                  } ]
-               },
-               "return" : {
-                  "locator" : "113:3-113:67",
-                  "expression" : {
-                     "locator" : "113:10-113:67",
-                     "type" : "SingletonFrom",
-                     "operand" : {
-                        "locator" : "113:25-113:67",
-                        "type" : "List",
-                        "element" : [ {
-                           "locator" : "113:26-113:66",
-                           "path" : "reference",
-                           "type" : "Property",
-                           "source" : {
-                              "locator" : "113:26-113:56",
-                              "path" : "value",
+                              "locator" : "111:27-111:55",
+                              "path" : "url",
                               "type" : "Property",
                               "source" : {
-                                 "locator" : "113:26-113:50",
+                                 "locator" : "111:27-111:51",
                                  "type" : "Indexer",
                                  "operand" : [ {
-                                    "locator" : "113:26-113:47",
+                                    "locator" : "111:27-111:48",
                                     "type" : "Flatten",
                                     "operand" : {
                                        "type" : "Query",
                                        "source" : [ {
                                           "alias" : "$this",
                                           "expression" : {
-                                             "locator" : "113:26-113:37",
+                                             "locator" : "111:27-111:38",
                                              "path" : "identifier",
                                              "scope" : "P",
                                              "type" : "Property"
@@ -2156,7 +2000,83 @@
                                        }
                                     }
                                  }, {
-                                    "locator" : "113:49",
+                                    "locator" : "111:50",
+                                    "valueType" : "{urn:hl7-org:elm-types:r1}Integer",
+                                    "value" : "0",
+                                    "type" : "Literal"
+                                 } ]
+                              }
+                           } ]
+                        }, {
+                           "locator" : "111:59-111:106",
+                           "valueType" : "{urn:hl7-org:elm-types:r1}String",
+                           "value" : "http://fhir.openmrs.org/ext/patient/identifier",
+                           "type" : "Literal"
+                        } ]
+                     } ]
+                  }
+               },
+               "return" : {
+                  "locator" : "114:3-114:67",
+                  "expression" : {
+                     "locator" : "114:10-114:67",
+                     "type" : "SingletonFrom",
+                     "operand" : {
+                        "locator" : "114:25-114:67",
+                        "type" : "List",
+                        "element" : [ {
+                           "locator" : "114:26-114:66",
+                           "path" : "reference",
+                           "type" : "Property",
+                           "source" : {
+                              "locator" : "114:26-114:56",
+                              "path" : "value",
+                              "type" : "Property",
+                              "source" : {
+                                 "locator" : "114:26-114:50",
+                                 "type" : "Indexer",
+                                 "operand" : [ {
+                                    "locator" : "114:26-114:47",
+                                    "type" : "Flatten",
+                                    "operand" : {
+                                       "type" : "Query",
+                                       "source" : [ {
+                                          "alias" : "$this",
+                                          "expression" : {
+                                             "locator" : "114:26-114:37",
+                                             "path" : "identifier",
+                                             "scope" : "P",
+                                             "type" : "Property"
+                                          }
+                                       } ],
+                                       "where" : {
+                                          "type" : "Not",
+                                          "operand" : {
+                                             "type" : "IsNull",
+                                             "operand" : {
+                                                "path" : "extension",
+                                                "type" : "Property",
+                                                "source" : {
+                                                   "name" : "$this",
+                                                   "type" : "AliasRef"
+                                                }
+                                             }
+                                          }
+                                       },
+                                       "return" : {
+                                          "distinct" : false,
+                                          "expression" : {
+                                             "path" : "extension",
+                                             "type" : "Property",
+                                             "source" : {
+                                                "name" : "$this",
+                                                "type" : "AliasRef"
+                                             }
+                                          }
+                                       }
+                                    }
+                                 }, {
+                                    "locator" : "114:49",
                                     "valueType" : "{urn:hl7-org:elm-types:r1}Integer",
                                     "value" : "0",
                                     "type" : "Literal"
@@ -2169,18 +2089,18 @@
                }
             }
          }, {
-            "locator" : "116:1-121:58",
+            "locator" : "117:1-122:58",
             "name" : "Last serviceProvider",
             "context" : "Patient",
             "accessLevel" : "Public",
             "expression" : {
-               "locator" : "119:3-121:58",
+               "locator" : "120:3-122:58",
                "type" : "Query",
                "source" : [ {
-                  "locator" : "119:3-119:15",
+                  "locator" : "120:3-120:15",
                   "alias" : "E",
                   "expression" : {
-                     "locator" : "119:3-119:13",
+                     "locator" : "120:3-120:13",
                      "dataType" : "{http://hl7.org/fhir}Encounter",
                      "templateId" : "http://hl7.org/fhir/StructureDefinition/Encounter",
                      "type" : "Retrieve"
@@ -2188,13 +2108,13 @@
                } ],
                "relationship" : [ ],
                "where" : {
-                  "locator" : "120:5-120:39",
+                  "locator" : "121:5-121:39",
                   "type" : "Not",
                   "operand" : {
-                     "locator" : "120:11-120:39",
+                     "locator" : "121:11-121:39",
                      "type" : "IsNull",
                      "operand" : {
-                        "locator" : "120:11-120:27",
+                        "locator" : "121:11-121:27",
                         "path" : "serviceProvider",
                         "scope" : "E",
                         "type" : "Property"
@@ -2202,24 +2122,24 @@
                   }
                },
                "return" : {
-                  "locator" : "121:3-121:58",
+                  "locator" : "122:3-122:58",
                   "expression" : {
-                     "locator" : "121:10-121:58",
+                     "locator" : "122:10-122:58",
                      "path" : "value",
                      "type" : "Property",
                      "source" : {
-                        "locator" : "121:10-121:52",
+                        "locator" : "122:10-122:52",
                         "path" : "reference",
                         "type" : "Property",
                         "source" : {
-                           "locator" : "121:10-121:42",
+                           "locator" : "122:10-122:42",
                            "path" : "serviceProvider",
                            "type" : "Property",
                            "source" : {
-                              "locator" : "121:10-121:26",
+                              "locator" : "122:10-122:26",
                               "type" : "Last",
                               "source" : {
-                                 "locator" : "121:15-121:25",
+                                 "locator" : "122:15-122:25",
                                  "dataType" : "{http://hl7.org/fhir}Encounter",
                                  "templateId" : "http://hl7.org/fhir/StructureDefinition/Encounter",
                                  "type" : "Retrieve"
@@ -2231,59 +2151,97 @@
                }
             }
          }, {
-            "locator" : "125:1-128:46",
+            "locator" : "126:1-129:46",
             "name" : "Location",
             "context" : "Patient",
             "accessLevel" : "Public",
             "expression" : {
-               "locator" : "126:3-128:46",
+               "locator" : "127:3-129:46",
                "type" : "If",
                "condition" : {
-                  "locator" : "126:6-126:32",
+                  "locator" : "127:6-127:32",
                   "type" : "Not",
                   "operand" : {
-                     "locator" : "126:6-126:32",
+                     "locator" : "127:6-127:32",
                      "type" : "IsNull",
                      "operand" : {
-                        "locator" : "126:6-126:20",
+                        "locator" : "127:6-127:20",
                         "name" : "Last Location",
                         "type" : "ExpressionRef"
                      }
                   }
                },
                "then" : {
-                  "locator" : "126:39-126:55",
+                  "locator" : "127:39-127:55",
                   "name" : "Last Location",
                   "type" : "ExpressionRef"
                },
                "else" : {
-                  "locator" : "128:8-128:46",
+                  "locator" : "129:8-129:46",
                   "type" : "SingletonFrom",
                   "operand" : {
-                     "locator" : "128:23-128:46",
+                     "locator" : "129:23-129:46",
                      "name" : "Last serviceProvider",
                      "type" : "ExpressionRef"
                   }
                }
             }
          }, {
-            "locator" : "131:1-139:5",
+            "locator" : "132:1-140:5",
             "name" : "Location Deux",
             "context" : "Patient",
             "accessLevel" : "Public",
             "expression" : {
-               "locator" : "132:3-139:5",
+               "locator" : "133:3-140:5",
                "type" : "Case",
                "caseItem" : [ {
-                  "locator" : "134:5-134:65",
+                  "locator" : "135:5-135:55",
                   "when" : {
-                     "locator" : "134:10-134:39",
+                     "locator" : "135:10-135:32",
+                     "type" : "IsNull",
+                     "operand" : {
+                        "locator" : "135:10-135:24",
+                        "name" : "Last Location",
+                        "type" : "ExpressionRef"
+                     }
+                  },
+                  "then" : {
+                     "type" : "As",
+                     "operand" : {
+                        "locator" : "135:39-135:55",
+                        "name" : "Last Location",
+                        "type" : "ExpressionRef"
+                     },
+                     "asTypeSpecifier" : {
+                        "type" : "ChoiceTypeSpecifier",
+                        "choice" : [ {
+                           "name" : "{urn:hl7-org:elm-types:r1}String",
+                           "type" : "NamedTypeSpecifier"
+                        }, {
+                           "type" : "ListTypeSpecifier",
+                           "elementType" : {
+                              "type" : "ChoiceTypeSpecifier",
+                              "choice" : [ {
+                                 "name" : "{http://hl7.org/fhir}uri",
+                                 "type" : "NamedTypeSpecifier"
+                              }, {
+                                 "name" : "{http://hl7.org/fhir}string",
+                                 "type" : "NamedTypeSpecifier"
+                              } ]
+                           }
+                        } ]
+                     }
+                  }
+               }, {
+                  "locator" : "137:5-137:65",
+                  "when" : {
+                     "locator" : "137:10-137:39",
                      "type" : "Not",
                      "operand" : {
-                        "locator" : "134:10-134:39",
+                        "locator" : "137:10-137:39",
                         "type" : "IsNull",
                         "operand" : {
-                           "locator" : "134:10-134:27",
+                           "locator" : "137:10-137:27",
                            "name" : "OpenMRS Location",
                            "type" : "ExpressionRef"
                         }
@@ -2292,13 +2250,16 @@
                   "then" : {
                      "type" : "As",
                      "operand" : {
-                        "locator" : "134:46-134:65",
+                        "locator" : "137:46-137:65",
                         "name" : "OpenMRS Location",
                         "type" : "ExpressionRef"
                      },
                      "asTypeSpecifier" : {
                         "type" : "ChoiceTypeSpecifier",
                         "choice" : [ {
+                           "name" : "{urn:hl7-org:elm-types:r1}String",
+                           "type" : "NamedTypeSpecifier"
+                        }, {
                            "type" : "ListTypeSpecifier",
                            "elementType" : {
                               "type" : "ChoiceTypeSpecifier",
@@ -2310,47 +2271,6 @@
                                  "type" : "NamedTypeSpecifier"
                               } ]
                            }
-                        }, {
-                           "name" : "{urn:hl7-org:elm-types:r1}String",
-                           "type" : "NamedTypeSpecifier"
-                        } ]
-                     }
-                  }
-               }, {
-                  "locator" : "136:5-136:55",
-                  "when" : {
-                     "locator" : "136:10-136:32",
-                     "type" : "IsNull",
-                     "operand" : {
-                        "locator" : "136:10-136:24",
-                        "name" : "Last Location",
-                        "type" : "ExpressionRef"
-                     }
-                  },
-                  "then" : {
-                     "type" : "As",
-                     "operand" : {
-                        "locator" : "136:39-136:55",
-                        "name" : "Last Location",
-                        "type" : "ExpressionRef"
-                     },
-                     "asTypeSpecifier" : {
-                        "type" : "ChoiceTypeSpecifier",
-                        "choice" : [ {
-                           "type" : "ListTypeSpecifier",
-                           "elementType" : {
-                              "type" : "ChoiceTypeSpecifier",
-                              "choice" : [ {
-                                 "name" : "{http://hl7.org/fhir}uri",
-                                 "type" : "NamedTypeSpecifier"
-                              }, {
-                                 "name" : "{http://hl7.org/fhir}string",
-                                 "type" : "NamedTypeSpecifier"
-                              } ]
-                           }
-                        }, {
-                           "name" : "{urn:hl7-org:elm-types:r1}String",
-                           "type" : "NamedTypeSpecifier"
                         } ]
                      }
                   }
@@ -2358,10 +2278,10 @@
                "else" : {
                   "type" : "As",
                   "operand" : {
-                     "locator" : "138:10-138:48",
+                     "locator" : "139:10-139:48",
                      "type" : "SingletonFrom",
                      "operand" : {
-                        "locator" : "138:25-138:48",
+                        "locator" : "139:25-139:48",
                         "name" : "Last serviceProvider",
                         "type" : "ExpressionRef"
                      }
@@ -2369,6 +2289,9 @@
                   "asTypeSpecifier" : {
                      "type" : "ChoiceTypeSpecifier",
                      "choice" : [ {
+                        "name" : "{urn:hl7-org:elm-types:r1}String",
+                        "type" : "NamedTypeSpecifier"
+                     }, {
                         "type" : "ListTypeSpecifier",
                         "elementType" : {
                            "type" : "ChoiceTypeSpecifier",
@@ -2380,107 +2303,104 @@
                               "type" : "NamedTypeSpecifier"
                            } ]
                         }
-                     }, {
-                        "name" : "{urn:hl7-org:elm-types:r1}String",
-                        "type" : "NamedTypeSpecifier"
                      } ]
                   }
                }
             }
          }, {
-            "locator" : "146:1-147:51",
+            "locator" : "147:1-148:51",
             "name" : "Age Group/Sex/Location",
             "context" : "Patient",
             "accessLevel" : "Public",
             "expression" : {
-               "locator" : "147:3-147:51",
+               "locator" : "148:3-148:51",
                "type" : "Concatenate",
                "operand" : [ {
-                  "locator" : "147:3-147:38",
+                  "locator" : "148:3-148:38",
                   "type" : "Concatenate",
                   "operand" : [ {
-                     "locator" : "147:3-147:32",
+                     "locator" : "148:3-148:32",
                      "type" : "Concatenate",
                      "operand" : [ {
-                        "locator" : "147:3-147:24",
+                        "locator" : "148:3-148:24",
                         "type" : "Concatenate",
                         "operand" : [ {
-                           "locator" : "147:3-147:18",
+                           "locator" : "148:3-148:18",
                            "path" : "code",
                            "type" : "Property",
                            "source" : {
-                              "locator" : "147:3-147:13",
+                              "locator" : "148:3-148:13",
                               "name" : "Age Group",
                               "type" : "ExpressionRef"
                            }
                         }, {
-                           "locator" : "147:22-147:24",
+                           "locator" : "148:22-148:24",
                            "valueType" : "{urn:hl7-org:elm-types:r1}String",
                            "value" : ":",
                            "type" : "Literal"
                         } ]
                      }, {
-                        "locator" : "147:28-147:32",
+                        "locator" : "148:28-148:32",
                         "name" : "Sex",
                         "type" : "ExpressionRef"
                      } ]
                   }, {
-                     "locator" : "147:36-147:38",
+                     "locator" : "148:36-148:38",
                      "valueType" : "{urn:hl7-org:elm-types:r1}String",
                      "value" : ":",
                      "type" : "Literal"
                   } ]
                }, {
-                  "locator" : "147:42-147:51",
+                  "locator" : "148:42-148:51",
                   "name" : "Location",
                   "type" : "ExpressionRef"
                } ]
             }
          }, {
-            "locator" : "150:1-151:58",
+            "locator" : "151:1-152:58",
             "name" : "Age Group/Sex/Location TXCURR",
             "context" : "Patient",
             "accessLevel" : "Public",
             "expression" : {
-               "locator" : "151:3-151:58",
+               "locator" : "152:3-152:58",
                "type" : "Concatenate",
                "operand" : [ {
-                  "locator" : "151:3-151:45",
+                  "locator" : "152:3-152:45",
                   "type" : "Concatenate",
                   "operand" : [ {
-                     "locator" : "151:3-151:39",
+                     "locator" : "152:3-152:39",
                      "type" : "Concatenate",
                      "operand" : [ {
-                        "locator" : "151:3-151:31",
+                        "locator" : "152:3-152:31",
                         "type" : "Concatenate",
                         "operand" : [ {
-                           "locator" : "151:3-151:25",
+                           "locator" : "152:3-152:25",
                            "path" : "code",
                            "type" : "Property",
                            "source" : {
-                              "locator" : "151:3-151:20",
+                              "locator" : "152:3-152:20",
                               "name" : "Age Group TXCURR",
                               "type" : "ExpressionRef"
                            }
                         }, {
-                           "locator" : "151:29-151:31",
+                           "locator" : "152:29-152:31",
                            "valueType" : "{urn:hl7-org:elm-types:r1}String",
                            "value" : ":",
                            "type" : "Literal"
                         } ]
                      }, {
-                        "locator" : "151:35-151:39",
+                        "locator" : "152:35-152:39",
                         "name" : "Sex",
                         "type" : "ExpressionRef"
                      } ]
                   }, {
-                     "locator" : "151:43-151:45",
+                     "locator" : "152:43-152:45",
                      "valueType" : "{urn:hl7-org:elm-types:r1}String",
                      "value" : ":",
                      "type" : "Literal"
                   } ]
                }, {
-                  "locator" : "151:49-151:58",
+                  "locator" : "152:49-152:58",
                   "name" : "Location",
                   "type" : "ExpressionRef"
                } ]
