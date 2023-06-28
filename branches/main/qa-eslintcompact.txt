@@ -19,6 +19,7 @@
 /github/workspace/fsh-generated/resources/Condition-a6867095-e2b1-4a68-9aaa-0d161a37ce9c.json: line 11, col 8, Error - Unknown Code '116128' in the system 'https://openconceptlab.org/orgs/CIEL/sources/CIEL' for 'https://openconceptlab.org/orgs/CIEL/sources/CIEL#116128' (CODEINVALID)
 /github/workspace/fsh-generated/resources/Encounter-5b829d01-34bb-47d1-b1bb-9303c3a9ebcb.json: line 21, col 10, Info - Code System URI 'http://fhir.openmrs.org/code-system/encounter-type' is unknown so the code cannot be validated (UNKNOWN)
 /github/workspace/fsh-generated/resources/Encounter-EncounterOMRS0.json: line 21, col 10, Info - Code System URI 'http://fhir.openmrs.org/code-system/encounter-type' is unknown so the code cannot be validated (UNKNOWN)
+/github/workspace/fsh-generated/resources/ImplementationGuide-path.merindicators.json: line 1, col 1031, Warning - ValueSet http://hl7.org/fhir/ValueSet/spdx-license|4.0.1 not found by validator (CODEINVALID)
 /github/workspace/fsh-generated/resources/Library-FHIRCommon.json: line 1, col 844, Error - Canonical URL 'http://hl7.org/fhir/Library/FHIR-ModelInfo|4.0.1' does not resolve (INVALID)
 /github/workspace/fsh-generated/resources/Library-FHIRCommon.json: line 1, col 925, Error - Canonical URL 'http://hl7.org/fhir/Library/FHIRHelpers|4.0.1' does not resolve (INVALID)
 /github/workspace/fsh-generated/resources/Library-FHIRHelpers.json: line 1, col 849, Error - Canonical URL 'http://hl7.org/fhir/Library/FHIR-ModelInfo|4.0.1' does not resolve (INVALID)
@@ -52,6 +53,6 @@
 PATHMERIndicators : Validation Results
 =========================================
 
-err = 17, warn = 26, info = 12
-IG Publisher Version: 1.3.18
-Generated Tue Jun 27 23:03:05 UTC 2023. FHIR version 4.0.1 for path.merindicators#0.0.1 (canonical = https://path-global-health.github.io/MERindicators)
+err = 17, warn = 27, info = 12
+IG Publisher Version: 1.3.19
+Generated Wed Jun 28 16:43:33 UTC 2023. FHIR version 4.0.1 for path.merindicators#0.0.1 (canonical = https://path-global-health.github.io/MERindicators)
