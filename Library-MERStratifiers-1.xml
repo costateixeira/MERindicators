@@ -689,89 +689,21 @@
             </source>
          </expression>
       </def>
-      <def locator="108:1-113:67" name="OpenMRS Location" context="Patient" accessLevel="Public">
-         <expression locator="109:3-113:67" xsi:type="Query">
+      <def locator="108:1-114:67" name="OpenMRS Location" context="Patient" accessLevel="Public">
+         <expression locator="109:3-114:67" xsi:type="Query">
             <source locator="109:3-109:13" alias="P">
                <expression locator="109:3-109:11" dataType="fhir:Patient" templateId="http://hl7.org/fhir/StructureDefinition/Patient" xsi:type="Retrieve"/>
             </source>
-            <where locator="111:5-112:139" xsi:type="Or">
-               <operand locator="111:11-111:107" xsi:type="SingletonFrom">
-                  <operand locator="111:26-111:107" xsi:type="List">
-                     <element locator="111:27-111:106" xsi:type="Equivalent">
-                        <operand name="ToString" libraryName="FHIRHelpers" xsi:type="FunctionRef">
-                           <operand locator="111:27-111:55" path="url" xsi:type="Property">
-                              <source locator="111:27-111:51" xsi:type="Indexer">
-                                 <operand locator="111:27-111:48" xsi:type="Flatten">
-                                    <operand xsi:type="Query">
-                                       <source alias="$this">
-                                          <expression locator="111:27-111:38" path="identifier" scope="P" xsi:type="Property"/>
-                                       </source>
-                                       <where xsi:type="Not">
-                                          <operand xsi:type="IsNull">
-                                             <operand path="extension" xsi:type="Property">
-                                                <source name="$this" xsi:type="AliasRef"/>
-                                             </operand>
-                                          </operand>
-                                       </where>
-                                       <return distinct="false">
-                                          <expression path="extension" xsi:type="Property">
-                                             <source name="$this" xsi:type="AliasRef"/>
-                                          </expression>
-                                       </return>
-                                    </operand>
-                                 </operand>
-                                 <operand locator="111:50" valueType="t:Integer" value="0" xsi:type="Literal"/>
-                              </source>
-                           </operand>
-                        </operand>
-                        <operand locator="111:59-111:106" valueType="t:String" value="http://fhir.openmrs.org/ext/patient/identifier" xsi:type="Literal"/>
-                     </element>
-                  </operand>
-               </operand>
-               <operand locator="112:8-112:139" xsi:type="SingletonFrom">
-                  <operand locator="112:23-112:139" xsi:type="List">
-                     <element locator="112:24-112:138" xsi:type="Equivalent">
-                        <operand name="ToString" libraryName="FHIRHelpers" xsi:type="FunctionRef">
-                           <operand locator="112:24-112:52" path="url" xsi:type="Property">
-                              <source locator="112:24-112:48" xsi:type="Indexer">
-                                 <operand locator="112:24-112:45" xsi:type="Flatten">
-                                    <operand xsi:type="Query">
-                                       <source alias="$this">
-                                          <expression locator="112:24-112:35" path="identifier" scope="P" xsi:type="Property"/>
-                                       </source>
-                                       <where xsi:type="Not">
-                                          <operand xsi:type="IsNull">
-                                             <operand path="extension" xsi:type="Property">
-                                                <source name="$this" xsi:type="AliasRef"/>
-                                             </operand>
-                                          </operand>
-                                       </where>
-                                       <return distinct="false">
-                                          <expression path="extension" xsi:type="Property">
-                                             <source name="$this" xsi:type="AliasRef"/>
-                                          </expression>
-                                       </return>
-                                    </operand>
-                                 </operand>
-                                 <operand locator="112:47" valueType="t:Integer" value="0" xsi:type="Literal"/>
-                              </source>
-                           </operand>
-                        </operand>
-                        <operand locator="112:56-112:138" valueType="t:String" value="http://fhir.openmrs.org/core/StructureDefinition/omrs-patient-identifier-location" xsi:type="Literal"/>
-                     </element>
-                  </operand>
-               </operand>
-            </where>
-            <return locator="113:3-113:67">
-               <expression locator="113:10-113:67" xsi:type="SingletonFrom">
-                  <operand locator="113:25-113:67" xsi:type="List">
-                     <element locator="113:26-113:66" path="reference" xsi:type="Property">
-                        <source locator="113:26-113:56" path="value" xsi:type="Property">
-                           <source locator="113:26-113:50" xsi:type="Indexer">
-                              <operand locator="113:26-113:47" xsi:type="Flatten">
+            <where locator="111:5-111:107" xsi:type="SingletonFrom">
+               <operand locator="111:26-111:107" xsi:type="List">
+                  <element locator="111:27-111:106" xsi:type="Equivalent">
+                     <operand name="ToString" libraryName="FHIRHelpers" xsi:type="FunctionRef">
+                        <operand locator="111:27-111:55" path="url" xsi:type="Property">
+                           <source locator="111:27-111:51" xsi:type="Indexer">
+                              <operand locator="111:27-111:48" xsi:type="Flatten">
                                  <operand xsi:type="Query">
                                     <source alias="$this">
-                                       <expression locator="113:26-113:37" path="identifier" scope="P" xsi:type="Property"/>
+                                       <expression locator="111:27-111:38" path="identifier" scope="P" xsi:type="Property"/>
                                     </source>
                                     <where xsi:type="Not">
                                        <operand xsi:type="IsNull">
@@ -787,7 +719,40 @@
                                     </return>
                                  </operand>
                               </operand>
-                              <operand locator="113:49" valueType="t:Integer" value="0" xsi:type="Literal"/>
+                              <operand locator="111:50" valueType="t:Integer" value="0" xsi:type="Literal"/>
+                           </source>
+                        </operand>
+                     </operand>
+                     <operand locator="111:59-111:106" valueType="t:String" value="http://fhir.openmrs.org/ext/patient/identifier" xsi:type="Literal"/>
+                  </element>
+               </operand>
+            </where>
+            <return locator="114:3-114:67">
+               <expression locator="114:10-114:67" xsi:type="SingletonFrom">
+                  <operand locator="114:25-114:67" xsi:type="List">
+                     <element locator="114:26-114:66" path="reference" xsi:type="Property">
+                        <source locator="114:26-114:56" path="value" xsi:type="Property">
+                           <source locator="114:26-114:50" xsi:type="Indexer">
+                              <operand locator="114:26-114:47" xsi:type="Flatten">
+                                 <operand xsi:type="Query">
+                                    <source alias="$this">
+                                       <expression locator="114:26-114:37" path="identifier" scope="P" xsi:type="Property"/>
+                                    </source>
+                                    <where xsi:type="Not">
+                                       <operand xsi:type="IsNull">
+                                          <operand path="extension" xsi:type="Property">
+                                             <source name="$this" xsi:type="AliasRef"/>
+                                          </operand>
+                                       </operand>
+                                    </where>
+                                    <return distinct="false">
+                                       <expression path="extension" xsi:type="Property">
+                                          <source name="$this" xsi:type="AliasRef"/>
+                                       </expression>
+                                    </return>
+                                 </operand>
+                              </operand>
+                              <operand locator="114:49" valueType="t:Integer" value="0" xsi:type="Literal"/>
                            </source>
                         </source>
                      </element>
@@ -796,22 +761,22 @@
             </return>
          </expression>
       </def>
-      <def locator="116:1-121:58" name="Last serviceProvider" context="Patient" accessLevel="Public">
-         <expression locator="119:3-121:58" xsi:type="Query">
-            <source locator="119:3-119:15" alias="E">
-               <expression locator="119:3-119:13" dataType="fhir:Encounter" templateId="http://hl7.org/fhir/StructureDefinition/Encounter" xsi:type="Retrieve"/>
+      <def locator="117:1-122:58" name="Last serviceProvider" context="Patient" accessLevel="Public">
+         <expression locator="120:3-122:58" xsi:type="Query">
+            <source locator="120:3-120:15" alias="E">
+               <expression locator="120:3-120:13" dataType="fhir:Encounter" templateId="http://hl7.org/fhir/StructureDefinition/Encounter" xsi:type="Retrieve"/>
             </source>
-            <where locator="120:5-120:39" xsi:type="Not">
-               <operand locator="120:11-120:39" xsi:type="IsNull">
-                  <operand locator="120:11-120:27" path="serviceProvider" scope="E" xsi:type="Property"/>
+            <where locator="121:5-121:39" xsi:type="Not">
+               <operand locator="121:11-121:39" xsi:type="IsNull">
+                  <operand locator="121:11-121:27" path="serviceProvider" scope="E" xsi:type="Property"/>
                </operand>
             </where>
-            <return locator="121:3-121:58">
-               <expression locator="121:10-121:58" path="value" xsi:type="Property">
-                  <source locator="121:10-121:52" path="reference" xsi:type="Property">
-                     <source locator="121:10-121:42" path="serviceProvider" xsi:type="Property">
-                        <source locator="121:10-121:26" xsi:type="Last">
-                           <source locator="121:15-121:25" dataType="fhir:Encounter" templateId="http://hl7.org/fhir/StructureDefinition/Encounter" xsi:type="Retrieve"/>
+            <return locator="122:3-122:58">
+               <expression locator="122:10-122:58" path="value" xsi:type="Property">
+                  <source locator="122:10-122:52" path="reference" xsi:type="Property">
+                     <source locator="122:10-122:42" path="serviceProvider" xsi:type="Property">
+                        <source locator="122:10-122:26" xsi:type="Last">
+                           <source locator="122:15-122:25" dataType="fhir:Encounter" templateId="http://hl7.org/fhir/StructureDefinition/Encounter" xsi:type="Retrieve"/>
                         </source>
                      </source>
                   </source>
@@ -819,105 +784,105 @@
             </return>
          </expression>
       </def>
-      <def locator="125:1-128:46" name="Location" context="Patient" accessLevel="Public">
-         <expression locator="126:3-128:46" xsi:type="If">
-            <condition locator="126:6-126:32" xsi:type="Not">
-               <operand locator="126:6-126:32" xsi:type="IsNull">
-                  <operand locator="126:6-126:20" name="Last Location" xsi:type="ExpressionRef"/>
+      <def locator="126:1-129:46" name="Location" context="Patient" accessLevel="Public">
+         <expression locator="127:3-129:46" xsi:type="If">
+            <condition locator="127:6-127:32" xsi:type="Not">
+               <operand locator="127:6-127:32" xsi:type="IsNull">
+                  <operand locator="127:6-127:20" name="Last Location" xsi:type="ExpressionRef"/>
                </operand>
             </condition>
-            <then locator="126:39-126:55" name="Last Location" xsi:type="ExpressionRef"/>
-            <else locator="128:8-128:46" xsi:type="SingletonFrom">
-               <operand locator="128:23-128:46" name="Last serviceProvider" xsi:type="ExpressionRef"/>
+            <then locator="127:39-127:55" name="Last Location" xsi:type="ExpressionRef"/>
+            <else locator="129:8-129:46" xsi:type="SingletonFrom">
+               <operand locator="129:23-129:46" name="Last serviceProvider" xsi:type="ExpressionRef"/>
             </else>
          </expression>
       </def>
-      <def locator="131:1-139:5" name="Location Deux" context="Patient" accessLevel="Public">
-         <expression locator="132:3-139:5" xsi:type="Case">
-            <caseItem locator="134:5-134:65">
-               <when locator="134:10-134:39" xsi:type="Not">
-                  <operand locator="134:10-134:39" xsi:type="IsNull">
-                     <operand locator="134:10-134:27" name="OpenMRS Location" xsi:type="ExpressionRef"/>
-                  </operand>
+      <def locator="132:1-140:5" name="Location Deux" context="Patient" accessLevel="Public">
+         <expression locator="133:3-140:5" xsi:type="Case">
+            <caseItem locator="135:5-135:55">
+               <when locator="135:10-135:32" xsi:type="IsNull">
+                  <operand locator="135:10-135:24" name="Last Location" xsi:type="ExpressionRef"/>
                </when>
                <then xsi:type="As">
-                  <operand locator="134:46-134:65" name="OpenMRS Location" xsi:type="ExpressionRef"/>
+                  <operand locator="135:39-135:55" name="Last Location" xsi:type="ExpressionRef"/>
                   <asTypeSpecifier xsi:type="ChoiceTypeSpecifier">
+                     <choice name="t:String" xsi:type="NamedTypeSpecifier"/>
                      <choice xsi:type="ListTypeSpecifier">
                         <elementType xsi:type="ChoiceTypeSpecifier">
                            <choice name="fhir:uri" xsi:type="NamedTypeSpecifier"/>
                            <choice name="fhir:string" xsi:type="NamedTypeSpecifier"/>
                         </elementType>
                      </choice>
-                     <choice name="t:String" xsi:type="NamedTypeSpecifier"/>
                   </asTypeSpecifier>
                </then>
             </caseItem>
-            <caseItem locator="136:5-136:55">
-               <when locator="136:10-136:32" xsi:type="IsNull">
-                  <operand locator="136:10-136:24" name="Last Location" xsi:type="ExpressionRef"/>
+            <caseItem locator="137:5-137:65">
+               <when locator="137:10-137:39" xsi:type="Not">
+                  <operand locator="137:10-137:39" xsi:type="IsNull">
+                     <operand locator="137:10-137:27" name="OpenMRS Location" xsi:type="ExpressionRef"/>
+                  </operand>
                </when>
                <then xsi:type="As">
-                  <operand locator="136:39-136:55" name="Last Location" xsi:type="ExpressionRef"/>
+                  <operand locator="137:46-137:65" name="OpenMRS Location" xsi:type="ExpressionRef"/>
                   <asTypeSpecifier xsi:type="ChoiceTypeSpecifier">
+                     <choice name="t:String" xsi:type="NamedTypeSpecifier"/>
                      <choice xsi:type="ListTypeSpecifier">
                         <elementType xsi:type="ChoiceTypeSpecifier">
                            <choice name="fhir:uri" xsi:type="NamedTypeSpecifier"/>
                            <choice name="fhir:string" xsi:type="NamedTypeSpecifier"/>
                         </elementType>
                      </choice>
-                     <choice name="t:String" xsi:type="NamedTypeSpecifier"/>
                   </asTypeSpecifier>
                </then>
             </caseItem>
             <else xsi:type="As">
-               <operand locator="138:10-138:48" xsi:type="SingletonFrom">
-                  <operand locator="138:25-138:48" name="Last serviceProvider" xsi:type="ExpressionRef"/>
+               <operand locator="139:10-139:48" xsi:type="SingletonFrom">
+                  <operand locator="139:25-139:48" name="Last serviceProvider" xsi:type="ExpressionRef"/>
                </operand>
                <asTypeSpecifier xsi:type="ChoiceTypeSpecifier">
+                  <choice name="t:String" xsi:type="NamedTypeSpecifier"/>
                   <choice xsi:type="ListTypeSpecifier">
                      <elementType xsi:type="ChoiceTypeSpecifier">
                         <choice name="fhir:uri" xsi:type="NamedTypeSpecifier"/>
                         <choice name="fhir:string" xsi:type="NamedTypeSpecifier"/>
                      </elementType>
                   </choice>
-                  <choice name="t:String" xsi:type="NamedTypeSpecifier"/>
                </asTypeSpecifier>
             </else>
          </expression>
       </def>
-      <def locator="146:1-147:51" name="Age Group/Sex/Location" context="Patient" accessLevel="Public">
-         <expression locator="147:3-147:51" xsi:type="Concatenate">
-            <operand locator="147:3-147:38" xsi:type="Concatenate">
-               <operand locator="147:3-147:32" xsi:type="Concatenate">
-                  <operand locator="147:3-147:24" xsi:type="Concatenate">
-                     <operand locator="147:3-147:18" path="code" xsi:type="Property">
-                        <source locator="147:3-147:13" name="Age Group" xsi:type="ExpressionRef"/>
+      <def locator="147:1-148:51" name="Age Group/Sex/Location" context="Patient" accessLevel="Public">
+         <expression locator="148:3-148:51" xsi:type="Concatenate">
+            <operand locator="148:3-148:38" xsi:type="Concatenate">
+               <operand locator="148:3-148:32" xsi:type="Concatenate">
+                  <operand locator="148:3-148:24" xsi:type="Concatenate">
+                     <operand locator="148:3-148:18" path="code" xsi:type="Property">
+                        <source locator="148:3-148:13" name="Age Group" xsi:type="ExpressionRef"/>
                      </operand>
-                     <operand locator="147:22-147:24" valueType="t:String" value=":" xsi:type="Literal"/>
+                     <operand locator="148:22-148:24" valueType="t:String" value=":" xsi:type="Literal"/>
                   </operand>
-                  <operand locator="147:28-147:32" name="Sex" xsi:type="ExpressionRef"/>
+                  <operand locator="148:28-148:32" name="Sex" xsi:type="ExpressionRef"/>
                </operand>
-               <operand locator="147:36-147:38" valueType="t:String" value=":" xsi:type="Literal"/>
+               <operand locator="148:36-148:38" valueType="t:String" value=":" xsi:type="Literal"/>
             </operand>
-            <operand locator="147:42-147:51" name="Location" xsi:type="ExpressionRef"/>
+            <operand locator="148:42-148:51" name="Location" xsi:type="ExpressionRef"/>
          </expression>
       </def>
-      <def locator="150:1-151:58" name="Age Group/Sex/Location TXCURR" context="Patient" accessLevel="Public">
-         <expression locator="151:3-151:58" xsi:type="Concatenate">
-            <operand locator="151:3-151:45" xsi:type="Concatenate">
-               <operand locator="151:3-151:39" xsi:type="Concatenate">
-                  <operand locator="151:3-151:31" xsi:type="Concatenate">
-                     <operand locator="151:3-151:25" path="code" xsi:type="Property">
-                        <source locator="151:3-151:20" name="Age Group TXCURR" xsi:type="ExpressionRef"/>
+      <def locator="151:1-152:58" name="Age Group/Sex/Location TXCURR" context="Patient" accessLevel="Public">
+         <expression locator="152:3-152:58" xsi:type="Concatenate">
+            <operand locator="152:3-152:45" xsi:type="Concatenate">
+               <operand locator="152:3-152:39" xsi:type="Concatenate">
+                  <operand locator="152:3-152:31" xsi:type="Concatenate">
+                     <operand locator="152:3-152:25" path="code" xsi:type="Property">
+                        <source locator="152:3-152:20" name="Age Group TXCURR" xsi:type="ExpressionRef"/>
                      </operand>
-                     <operand locator="151:29-151:31" valueType="t:String" value=":" xsi:type="Literal"/>
+                     <operand locator="152:29-152:31" valueType="t:String" value=":" xsi:type="Literal"/>
                   </operand>
-                  <operand locator="151:35-151:39" name="Sex" xsi:type="ExpressionRef"/>
+                  <operand locator="152:35-152:39" name="Sex" xsi:type="ExpressionRef"/>
                </operand>
-               <operand locator="151:43-151:45" valueType="t:String" value=":" xsi:type="Literal"/>
+               <operand locator="152:43-152:45" valueType="t:String" value=":" xsi:type="Literal"/>
             </operand>
-            <operand locator="151:49-151:58" name="Location" xsi:type="ExpressionRef"/>
+            <operand locator="152:49-152:58" name="Location" xsi:type="ExpressionRef"/>
          </expression>
       </def>
    </statements>

@@ -379,9 +379,10 @@ define &quot;Last Location&quot;:
 
 define &quot;OpenMRS Location&quot;:
   [Patient] P
-    // remove #location at end of url
+    // remove #location at end of url for cql engine
     where singleton from {P.identifier.extension[0].url ~ 'http://fhir.openmrs.org/ext/patient/identifier'}
-    or singleton from {P.identifier.extension[0].url ~ 'http://fhir.openmrs.org/core/StructureDefinition/omrs-patient-identifier-location'}
+    // this url is in the ig, but is not correct
+    // or singleton from {P.identifier.extension[0].url ~ 'http://fhir.openmrs.org/core/StructureDefinition/omrs-patient-identifier-location'}
   return singleton from {P.identifier.extension[0].value.reference}
 
 
@@ -402,10 +403,10 @@ define &quot;Location&quot;:
 
 define &quot;Location Deux&quot;:
   case
-    // priortize location identifier on patient
-    when &quot;OpenMRS Location&quot; is not null then (&quot;OpenMRS Location&quot;)
     // then location of last encounter
     when &quot;Last Location&quot; is null then (&quot;Last Location&quot;)
+    // location identifier on patient
+    when &quot;OpenMRS Location&quot; is not null then (&quot;OpenMRS Location&quot;)
     // then organization of last encounter
     else singleton from (&quot;Last serviceProvider&quot;)
   end
@@ -422,7 +423,7 @@ define &quot;Age Group/Sex/Location&quot;:
 define &quot;Age Group/Sex/Location TXCURR&quot;:
   &quot;Age Group TXCURR&quot;.code + ':' + &quot;Sex&quot; + ':' + &quot;Location&quot;
 
-</code></pre><p><code>Content not shown - (</code><code>application/elm+xml</code>, size = 55Kb)</p><p><code>Content not shown - (</code><code>application/elm+json</code>, size = 101Kb)</p></div>
+</code></pre><p><code>Content not shown - (</code><code>application/elm+xml</code>, size = 53Kb)</p><p><code>Content not shown - (</code><code>application/elm+json</code>, size = 97Kb)</p></div>
 
   <!-- insert notes if present -->
   
@@ -476,7 +477,7 @@ define &quot;Age Group/Sex/Location TXCURR&quot;:
            
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2023+ <a style="color: #81BEF7" href="https://www.path.org">PATH</a>.  Package path.merindicators#0.0.1 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Jun 28, 2023 16:41+0000">2023-06-28</span>
+          IG &#169; 2023+ <a style="color: #81BEF7" href="https://www.path.org">PATH</a>.  Package path.merindicators#0.0.1 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Jun 28, 2023 22:56+0000">2023-06-28</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
