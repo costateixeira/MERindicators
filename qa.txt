@@ -1,9 +1,9 @@
 ﻿PATHMERIndicators : Validation Results
 =========================================
 
-err = 17, warn = 27, info = 12
-IG Publisher Version: 1.3.19
-Generated Wed Jun 28 22:59:10 UTC 2023. FHIR version 4.0.1 for path.merindicators#0.0.1 (canonical = https://path-global-health.github.io/MERindicators)
+err = 17, warn = 26, info = 12
+IG Publisher Version: 1.3.20
+Generated Thu Jun 29 21:25:52 UTC 2023. FHIR version 4.0.1 for path.merindicators#0.0.1 (canonical = https://path-global-health.github.io/MERindicators)
  Build Errors : 0 / 5 / 0
  /github/workspace/fsh-generated/resources/Bundle-Example-HIVSimple : 0 / 0 / 15
  /github/workspace/fsh-generated/resources/Bundle-Example-HIVSimple2 : 0 / 0 / 12
@@ -37,7 +37,7 @@ Generated Wed Jun 28 22:59:10 UTC 2023. FHIR version 4.0.1 for path.merindicator
  /github/workspace/fsh-generated/resources/Encounter-Encounter2-ViralLoad : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Encounter-EncounterCIEL : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Encounter-EncounterOMRS0 : 0 / 0 / 2
- /github/workspace/fsh-generated/resources/ImplementationGuide-path.merindicators : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ImplementationGuide-path.merindicators : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Library-FHIRCommon : 2 / 0 / 1
  /github/workspace/fsh-generated/resources/Library-FHIRHelpers : 1 / 0 / 1
  /github/workspace/fsh-generated/resources/Library-MERConcepts : 2 / 0 / 1
@@ -137,7 +137,6 @@ INFORMATION: Encounter/5b829d01-34bb-47d1-b1bb-9303c3a9ebcb: Encounter.type[0].c
 == fsh-generated/resources/Encounter-EncounterOMRS0.json ==
 INFORMATION: Encounter/EncounterOMRS0: Encounter.type[0].coding[0]: Code System URI 'http://fhir.openmrs.org/code-system/encounter-type' is unknown so the code cannot be validated
 == fsh-generated/resources/ImplementationGuide-path.merindicators.json ==
-WARNING: ImplementationGuide/path.merindicators: ImplementationGuide.license: ValueSet http://hl7.org/fhir/ValueSet/spdx-license|4.0.1 not found by validator
 == fsh-generated/resources/Library-FHIRCommon.json ==
 ERROR: Library/FHIRCommon: Library.relatedArtifact[0].resource: Canonical URL 'http://hl7.org/fhir/Library/FHIR-ModelInfo|4.0.1' does not resolve
 ERROR: Library/FHIRCommon: Library.relatedArtifact[1].resource: Canonical URL 'http://hl7.org/fhir/Library/FHIRHelpers|4.0.1' does not resolve
