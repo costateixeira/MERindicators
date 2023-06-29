@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "TXCURRelements"] ; # 
   fhir:title [ fhir:v "TXCURRelements"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-06-29T21:23:44+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-06-29T21:40:07+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "PATH"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "PATH" ] ;
