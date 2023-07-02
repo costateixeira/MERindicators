@@ -1,9 +1,0 @@
-[
-  {
-    "id" : "path.merindicators",
-    "type" : "ImplementationGuide",
-    "url" : "https://path-global-health.github.io/MERindicators/ImplementationGuide/path.merindicators",
-    "version" : "0.0.1",
-    "name" : "PATHMERIndicators"
-  }
-]

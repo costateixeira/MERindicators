@@ -467,6 +467,226 @@
         <valueString value="true"/>
       </extension>
     </extension>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/AgeRangesCS"/>
+      </reference>
+      <name value="AgeRangesCS"/>
+      <description value="AgeRangesCS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/AgeRangesTXCURRVS"/>
+      </reference>
+      <name value="AgeRangesTXCURRVS"/>
+      <description value="AgeRangesTXCURRVS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/CIEL"/>
+      </reference>
+      <name value="CIEL"/>
+      <description value="Columbia International eHealth Laboratory (CIEL)"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
+        <reference value="Bundle/Example0"/>
+      </reference>
+      <name value="Example0"/>
+      <description value="Example0"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/FocusPopVS"/>
+      </reference>
+      <name value="FocusPopVS"/>
+      <description value="FocusPopVS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/OnARVVS"/>
+      </reference>
+      <name value="History of antiretroviral therapy (situation)"/>
+      <description value="History of antiretroviral therapy (situation)"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/KeyPopCS"/>
+      </reference>
+      <name value="KeyPopCS"/>
+      <description value="KeyPopCS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/KeyPopVS"/>
+      </reference>
+      <name value="KeyPopVS"/>
+      <description value="KeyPopVS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Location"/>
+      </extension>
+      <reference>
+        <reference value="Location/a3b793f0-eb53-4cda-92ce-fe0a77106252"/>
+      </reference>
+      <name value="Location Example"/>
+      <description value="Example OpenMRS Location resource"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/MMDIntervalCS"/>
+      </reference>
+      <name value="MMDIntervalCS"/>
+      <description value="MMDIntervalCS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/MMDIntervalVS"/>
+      </reference>
+      <name value="MMDIntervalVS"/>
+      <description value="Multi-month dispensing interval"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/OpenHIECS"/>
+      </reference>
+      <name value="OpenHIE CodeSystem"/>
+      <description value="OpenHIE CodeSystem"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Condition"/>
+      </extension>
+      <reference>
+        <reference value="Condition/a6867095-e2b1-4a68-9aaa-0d161a37ce9c"/>
+      </reference>
+      <name value="OpenMRS Condition Resource Example"/>
+      <description value="Example OMRS Condition resource"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="DiagnosticReport"/>
+      </extension>
+      <reference>
+        <reference value="DiagnosticReport/8a849d5e-6011-4279-a124-40ada5a687de"/>
+      </reference>
+      <name value="Openmrs DiagnosticReport"/>
+      <description value="Example OMRS DiagnosticReport Resource"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Encounter"/>
+      </extension>
+      <reference>
+        <reference value="Encounter/5b829d01-34bb-47d1-b1bb-9303c3a9ebcb"/>
+      </reference>
+      <name value="OpenMRS Encounter Resource Example"/>
+      <description value="Example OpenMRS Encounter resource"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/example-openmrs-Observation"/>
+      </reference>
+      <name value="OpenMRS Observation Example"/>
+      <description value="Example OpenMRS Observation resource"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Patient"/>
+      </extension>
+      <reference>
+        <reference value="Patient/example-openmrs-Patient"/>
+      </reference>
+      <name value="OpenMRS Patient Example"/>
+      <description value="Example OpenMRS Patient resource"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/PregnantVS"/>
+      </reference>
+      <name value="Pregnant"/>
+      <description value="Currently pregnant"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/SyntheaHIVMedicationsVS"/>
+      </reference>
+      <name value="Synthea HIV MedicationsVS"/>
+      <description value="Synthea HIV MedicationsVS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:logical"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/TXCURRelements"/>
+      </reference>
+      <name value="TXCURRelements"/>
+      <description value="Base elements required for TXCURR"/>
+      <exampleBoolean value="false"/>
+    </resource>
     <page>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
         <valueUrl value="toc.html"/>

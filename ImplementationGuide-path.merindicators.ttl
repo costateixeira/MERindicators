@@ -541,6 +541,247 @@
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] ) ;
+     fhir:resource ( [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://path-global-health.github.io/MERindicators/CodeSystem/AgeRangesCS> ;
+         fhir:reference [ fhir:v "CodeSystem/AgeRangesCS" ]
+       ] ;
+       fhir:name [ fhir:v "AgeRangesCS" ] ;
+       fhir:description [ fhir:v "AgeRangesCS" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://path-global-health.github.io/MERindicators/ValueSet/AgeRangesTXCURRVS> ;
+         fhir:reference [ fhir:v "ValueSet/AgeRangesTXCURRVS" ]
+       ] ;
+       fhir:name [ fhir:v "AgeRangesTXCURRVS" ] ;
+       fhir:description [ fhir:v "AgeRangesTXCURRVS" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://path-global-health.github.io/MERindicators/CodeSystem/CIEL> ;
+         fhir:reference [ fhir:v "CodeSystem/CIEL" ]
+       ] ;
+       fhir:name [ fhir:v "CIEL" ] ;
+       fhir:description [ fhir:v "Columbia International eHealth Laboratory (CIEL)" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Bundle" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://path-global-health.github.io/MERindicators/Bundle/Example0> ;
+         fhir:reference [ fhir:v "Bundle/Example0" ]
+       ] ;
+       fhir:name [ fhir:v "Example0" ] ;
+       fhir:description [ fhir:v "Example0" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://path-global-health.github.io/MERindicators/ValueSet/FocusPopVS> ;
+         fhir:reference [ fhir:v "ValueSet/FocusPopVS" ]
+       ] ;
+       fhir:name [ fhir:v "FocusPopVS" ] ;
+       fhir:description [ fhir:v "FocusPopVS" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://path-global-health.github.io/MERindicators/ValueSet/OnARVVS> ;
+         fhir:reference [ fhir:v "ValueSet/OnARVVS" ]
+       ] ;
+       fhir:name [ fhir:v "History of antiretroviral therapy (situation)" ] ;
+       fhir:description [ fhir:v "History of antiretroviral therapy (situation)" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://path-global-health.github.io/MERindicators/CodeSystem/KeyPopCS> ;
+         fhir:reference [ fhir:v "CodeSystem/KeyPopCS" ]
+       ] ;
+       fhir:name [ fhir:v "KeyPopCS" ] ;
+       fhir:description [ fhir:v "KeyPopCS" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://path-global-health.github.io/MERindicators/ValueSet/KeyPopVS> ;
+         fhir:reference [ fhir:v "ValueSet/KeyPopVS" ]
+       ] ;
+       fhir:name [ fhir:v "KeyPopVS" ] ;
+       fhir:description [ fhir:v "KeyPopVS" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Location" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://path-global-health.github.io/MERindicators/Location/a3b793f0-eb53-4cda-92ce-fe0a77106252> ;
+         fhir:reference [ fhir:v "Location/a3b793f0-eb53-4cda-92ce-fe0a77106252" ]
+       ] ;
+       fhir:name [ fhir:v "Location Example" ] ;
+       fhir:description [ fhir:v "Example OpenMRS Location resource" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://path-global-health.github.io/MERindicators/CodeSystem/MMDIntervalCS> ;
+         fhir:reference [ fhir:v "CodeSystem/MMDIntervalCS" ]
+       ] ;
+       fhir:name [ fhir:v "MMDIntervalCS" ] ;
+       fhir:description [ fhir:v "MMDIntervalCS" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://path-global-health.github.io/MERindicators/ValueSet/MMDIntervalVS> ;
+         fhir:reference [ fhir:v "ValueSet/MMDIntervalVS" ]
+       ] ;
+       fhir:name [ fhir:v "MMDIntervalVS" ] ;
+       fhir:description [ fhir:v "Multi-month dispensing interval" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://path-global-health.github.io/MERindicators/CodeSystem/OpenHIECS> ;
+         fhir:reference [ fhir:v "CodeSystem/OpenHIECS" ]
+       ] ;
+       fhir:name [ fhir:v "OpenHIE CodeSystem" ] ;
+       fhir:description [ fhir:v "OpenHIE CodeSystem" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Condition" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://path-global-health.github.io/MERindicators/Condition/a6867095-e2b1-4a68-9aaa-0d161a37ce9c> ;
+         fhir:reference [ fhir:v "Condition/a6867095-e2b1-4a68-9aaa-0d161a37ce9c" ]
+       ] ;
+       fhir:name [ fhir:v "OpenMRS Condition Resource Example" ] ;
+       fhir:description [ fhir:v "Example OMRS Condition resource" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "DiagnosticReport" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://path-global-health.github.io/MERindicators/DiagnosticReport/8a849d5e-6011-4279-a124-40ada5a687de> ;
+         fhir:reference [ fhir:v "DiagnosticReport/8a849d5e-6011-4279-a124-40ada5a687de" ]
+       ] ;
+       fhir:name [ fhir:v "Openmrs DiagnosticReport" ] ;
+       fhir:description [ fhir:v "Example OMRS DiagnosticReport Resource" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Encounter" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://path-global-health.github.io/MERindicators/Encounter/5b829d01-34bb-47d1-b1bb-9303c3a9ebcb> ;
+         fhir:reference [ fhir:v "Encounter/5b829d01-34bb-47d1-b1bb-9303c3a9ebcb" ]
+       ] ;
+       fhir:name [ fhir:v "OpenMRS Encounter Resource Example" ] ;
+       fhir:description [ fhir:v "Example OpenMRS Encounter resource" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Observation" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://path-global-health.github.io/MERindicators/Observation/example-openmrs-Observation> ;
+         fhir:reference [ fhir:v "Observation/example-openmrs-Observation" ]
+       ] ;
+       fhir:name [ fhir:v "OpenMRS Observation Example" ] ;
+       fhir:description [ fhir:v "Example OpenMRS Observation resource" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Patient" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://path-global-health.github.io/MERindicators/Patient/example-openmrs-Patient> ;
+         fhir:reference [ fhir:v "Patient/example-openmrs-Patient" ]
+       ] ;
+       fhir:name [ fhir:v "OpenMRS Patient Example" ] ;
+       fhir:description [ fhir:v "Example OpenMRS Patient resource" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://path-global-health.github.io/MERindicators/ValueSet/PregnantVS> ;
+         fhir:reference [ fhir:v "ValueSet/PregnantVS" ]
+       ] ;
+       fhir:name [ fhir:v "Pregnant" ] ;
+       fhir:description [ fhir:v "Currently pregnant" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://path-global-health.github.io/MERindicators/ValueSet/SyntheaHIVMedicationsVS> ;
+         fhir:reference [ fhir:v "ValueSet/SyntheaHIVMedicationsVS" ]
+       ] ;
+       fhir:name [ fhir:v "Synthea HIV MedicationsVS" ] ;
+       fhir:description [ fhir:v "Synthea HIV MedicationsVS" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:logical" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://path-global-health.github.io/MERindicators/StructureDefinition/TXCURRelements> ;
+         fhir:reference [ fhir:v "StructureDefinition/TXCURRelements" ]
+       ] ;
+       fhir:name [ fhir:v "TXCURRelements" ] ;
+       fhir:description [ fhir:v "Base elements required for TXCURR" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] ) ;
      fhir:page [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;

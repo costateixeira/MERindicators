@@ -1,16 +1,80 @@
 ﻿PATHMERIndicators : Validation Results
 =========================================
 
-err = 1, warn = 4, info = 0
+err = 0, warn = 21, info = 8
 IG Publisher Version: 1.3.22
-Generated Sun Jul 02 19:04:14 UTC 2023. FHIR version 4.0.1 for path.merindicators#0.0.1 (canonical = https://path-global-health.github.io/MERindicators)
+Generated Sun Jul 02 19:47:49 UTC 2023. FHIR version 4.0.1 for path.merindicators#0.0.1 (canonical = https://path-global-health.github.io/MERindicators)
  Build Errors : 0 / 4 / 0
- /github/workspace/fsh-generated/resources/ImplementationGuide-path.merindicators : 1 / 0 / 1
+ /github/workspace/fsh-generated/resources/Bundle-Example0 : 0 / 4 / 17
+ /github/workspace/fsh-generated/resources/CodeSystem-AgeRangesCS : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/CodeSystem-CIEL : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/CodeSystem-KeyPopCS : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/CodeSystem-MMDIntervalCS : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/CodeSystem-OpenHIECS : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Condition-a6867095-e2b1-4a68-9aaa-0d161a37ce9c : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/DiagnosticReport-8a849d5e-6011-4279-a124-40ada5a687de : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Encounter-5b829d01-34bb-47d1-b1bb-9303c3a9ebcb : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/ImplementationGuide-path.merindicators : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Location-a3b793f0-eb53-4cda-92ce-fe0a77106252 : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Observation-example-openmrs-Observation : 0 / 0 / 2
+ /github/workspace/fsh-generated/resources/Patient-example-openmrs-Patient : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-TXCURRelements : 0 / 12 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-AgeRangesTXCURRVS : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-FocusPopVS : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-KeyPopVS : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-MMDIntervalVS : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-OnARVVS : 0 / 1 / 2
+ /github/workspace/fsh-generated/resources/ValueSet-PregnantVS : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-SyntheaHIVMedicationsVS : 0 / 0 / 1
 </table>
 == n/a ==
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/Bundle-Example0.json ==
+WARNING: Bundle/Example0: Bundle.entry[0].resource/*Patient/example-openmrs-Patient*/.identifier[0].extension[0].value.ofType(Reference): Entry 1 matches the reference Location/a3b793f0-eb53-4cda-92ce-fe0a77106252 by type and id but it's fullUrl https://path-global-health.github.io/MERindicators/Location/LocationExample does not match the full target URL https://path-global-health.github.io/MERindicators/Location/a3b793f0-eb53-4cda-92ce-fe0a77106252 by Bundle resolution rules
+INFORMATION: Bundle/Example0: Bundle.entry[2].resource/*Condition/a6867095-e2b1-4a68-9aaa-0d161a37ce9c*/.code.coding[0]: Code System URI 'https://openconceptlab.org/orgs/CIEL/sources/CIEL' is unknown so the code cannot be validated
+INFORMATION: Bundle/Example0: Bundle.entry[3].resource/*Encounter/5b829d01-34bb-47d1-b1bb-9303c3a9ebcb*/.type[0].coding[0]: Code System URI 'http://fhir.openmrs.org/code-system/encounter-type' is unknown so the code cannot be validated
+WARNING: Bundle/Example0: Bundle.entry[3].resource/*Encounter/5b829d01-34bb-47d1-b1bb-9303c3a9ebcb*/.location[0].location: Entry 1 matches the reference Location/a3b793f0-eb53-4cda-92ce-fe0a77106252 by type and id but it's fullUrl https://path-global-health.github.io/MERindicators/Location/LocationExample does not match the full target URL https://path-global-health.github.io/MERindicators/Location/a3b793f0-eb53-4cda-92ce-fe0a77106252 by Bundle resolution rules
+WARNING: Bundle/Example0: Bundle.entry[4].resource/*DiagnosticReport/8a849d5e-6011-4279-a124-40ada5a687de*/.encounter: Entry 3 matches the reference Encounter/5b829d01-34bb-47d1-b1bb-9303c3a9ebcb by type and id but it's fullUrl https://path-global-health.github.io/MERindicators/Encounter/EncounterExample does not match the full target URL https://path-global-health.github.io/MERindicators/Encounter/5b829d01-34bb-47d1-b1bb-9303c3a9ebcb by Bundle resolution rules
+WARNING: Bundle/Example0: Bundle.entry[5].resource/*Observation/example-openmrs-Observation*/.encounter: Entry 3 matches the reference Encounter/5b829d01-34bb-47d1-b1bb-9303c3a9ebcb by type and id but it's fullUrl https://path-global-health.github.io/MERindicators/Encounter/EncounterExample does not match the full target URL https://path-global-health.github.io/MERindicators/Encounter/5b829d01-34bb-47d1-b1bb-9303c3a9ebcb by Bundle resolution rules
+INFORMATION: Bundle/Example0: Bundle.entry[5].resource/*Observation/example-openmrs-Observation*/.referenceRange[0].type: None of the codings provided are in the value set 'Observation Reference Range Meaning Codes' (http://hl7.org/fhir/ValueSet/referencerange-meaning|4.0.1), and a coding is recommended to come from this value set) (codes = http://fhir.openmrs.org/ext/obs/reference-range#absolute)
+INFORMATION: Bundle/Example0: Bundle.entry[5].resource/*Observation/example-openmrs-Observation*/.referenceRange[0].type.coding[0]: Code System URI 'http://fhir.openmrs.org/ext/obs/reference-range' is unknown so the code cannot be validated
+== fsh-generated/resources/CodeSystem-AgeRangesCS.json ==
+== fsh-generated/resources/CodeSystem-CIEL.json ==
+== fsh-generated/resources/CodeSystem-KeyPopCS.json ==
+== fsh-generated/resources/CodeSystem-MMDIntervalCS.json ==
+== fsh-generated/resources/CodeSystem-OpenHIECS.json ==
+== fsh-generated/resources/Condition-a6867095-e2b1-4a68-9aaa-0d161a37ce9c.json ==
+INFORMATION: Condition/a6867095-e2b1-4a68-9aaa-0d161a37ce9c: Condition.code.coding[0]: Code System URI 'https://openconceptlab.org/orgs/CIEL/sources/CIEL' is unknown so the code cannot be validated
+== fsh-generated/resources/DiagnosticReport-8a849d5e-6011-4279-a124-40ada5a687de.json ==
+== fsh-generated/resources/Encounter-5b829d01-34bb-47d1-b1bb-9303c3a9ebcb.json ==
+INFORMATION: Encounter/5b829d01-34bb-47d1-b1bb-9303c3a9ebcb: Encounter.type[0].coding[0]: Code System URI 'http://fhir.openmrs.org/code-system/encounter-type' is unknown so the code cannot be validated
 == fsh-generated/resources/ImplementationGuide-path.merindicators.json ==
-ERROR: ImplementationGuide/path.merindicators: ImplementationGuide.definition: ImplementationGuide.definition.resource: minimum required = 1, but only found 0 (from http://hl7.org/fhir/StructureDefinition/ImplementationGuide|4.0.1)
+== fsh-generated/resources/Location-a3b793f0-eb53-4cda-92ce-fe0a77106252.json ==
+== fsh-generated/resources/Observation-example-openmrs-Observation.json ==
+INFORMATION: Observation/example-openmrs-Observation: Observation.referenceRange[0].type.coding[0]: Code System URI 'http://fhir.openmrs.org/ext/obs/reference-range' is unknown so the code cannot be validated
+== fsh-generated/resources/Patient-example-openmrs-Patient.json ==
+== fsh-generated/resources/StructureDefinition-TXCURRelements.json ==
+WARNING: StructureDefinition/TXCURRelements: StructureDefinition.snapshot.element[3]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/TXCURRelements: StructureDefinition.snapshot.element[4]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/TXCURRelements: StructureDefinition.snapshot.element[10]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/TXCURRelements: StructureDefinition.snapshot.element[11]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/TXCURRelements: StructureDefinition.snapshot.element[12]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/TXCURRelements: StructureDefinition.snapshot.element[13]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/TXCURRelements: StructureDefinition.differential.element[3]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/TXCURRelements: StructureDefinition.differential.element[4]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/TXCURRelements: StructureDefinition.differential.element[10]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/TXCURRelements: StructureDefinition.differential.element[11]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/TXCURRelements: StructureDefinition.differential.element[12]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+WARNING: StructureDefinition/TXCURRelements: StructureDefinition.differential.element[13]: Rule eld-20: 'Element names should be simple alphanumerics with a max of 64 characters, or code generation tools may be broken' Failed
+== fsh-generated/resources/ValueSet-AgeRangesTXCURRVS.json ==
+== fsh-generated/resources/ValueSet-FocusPopVS.json ==
+== fsh-generated/resources/ValueSet-KeyPopVS.json ==
+== fsh-generated/resources/ValueSet-MMDIntervalVS.json ==
+== fsh-generated/resources/ValueSet-OnARVVS.json ==
+WARNING: ValueSet/OnARVVS: ValueSet.compose[0].include[0].concept[0]: The code '432101000124108' is not valid in the system http://snomed.info/sct
+INFORMATION: ValueSet/OnARVVS: ValueSet.compose[0].include[0].concept[0]: Unable to find code 432101000124108 in http://snomed.info/sct (version http://snomed.info/sct/900000000000207008/version/20230131); Unknown Code '432101000124108' in the system 'http://snomed.info/sct'; The provided code http://snomed.info/sct#432101000124108 is not in the value set 'http://hl7.org/fhir/ValueSet/@all' (from Tx-Server)
+== fsh-generated/resources/ValueSet-PregnantVS.json ==
+== fsh-generated/resources/ValueSet-SyntheaHIVMedicationsVS.json ==

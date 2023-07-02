@@ -619,6 +619,246 @@
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     }],
+    "resource" : [{
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/AgeRangesCS"
+      },
+      "name" : "AgeRangesCS",
+      "description" : "AgeRangesCS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/AgeRangesTXCURRVS"
+      },
+      "name" : "AgeRangesTXCURRVS",
+      "description" : "AgeRangesTXCURRVS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/CIEL"
+      },
+      "name" : "CIEL",
+      "description" : "Columbia International eHealth Laboratory (CIEL)",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Bundle"
+      }],
+      "reference" : {
+        "reference" : "Bundle/Example0"
+      },
+      "name" : "Example0",
+      "description" : "Example0",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/FocusPopVS"
+      },
+      "name" : "FocusPopVS",
+      "description" : "FocusPopVS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/OnARVVS"
+      },
+      "name" : "History of antiretroviral therapy (situation)",
+      "description" : "History of antiretroviral therapy (situation)",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/KeyPopCS"
+      },
+      "name" : "KeyPopCS",
+      "description" : "KeyPopCS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/KeyPopVS"
+      },
+      "name" : "KeyPopVS",
+      "description" : "KeyPopVS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Location"
+      }],
+      "reference" : {
+        "reference" : "Location/a3b793f0-eb53-4cda-92ce-fe0a77106252"
+      },
+      "name" : "Location Example",
+      "description" : "Example OpenMRS Location resource",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/MMDIntervalCS"
+      },
+      "name" : "MMDIntervalCS",
+      "description" : "MMDIntervalCS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/MMDIntervalVS"
+      },
+      "name" : "MMDIntervalVS",
+      "description" : "Multi-month dispensing interval",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/OpenHIECS"
+      },
+      "name" : "OpenHIE CodeSystem",
+      "description" : "OpenHIE CodeSystem",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Condition"
+      }],
+      "reference" : {
+        "reference" : "Condition/a6867095-e2b1-4a68-9aaa-0d161a37ce9c"
+      },
+      "name" : "OpenMRS Condition Resource Example",
+      "description" : "Example OMRS Condition resource",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "DiagnosticReport"
+      }],
+      "reference" : {
+        "reference" : "DiagnosticReport/8a849d5e-6011-4279-a124-40ada5a687de"
+      },
+      "name" : "Openmrs DiagnosticReport",
+      "description" : "Example OMRS DiagnosticReport Resource",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Encounter"
+      }],
+      "reference" : {
+        "reference" : "Encounter/5b829d01-34bb-47d1-b1bb-9303c3a9ebcb"
+      },
+      "name" : "OpenMRS Encounter Resource Example",
+      "description" : "Example OpenMRS Encounter resource",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/example-openmrs-Observation"
+      },
+      "name" : "OpenMRS Observation Example",
+      "description" : "Example OpenMRS Observation resource",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Patient"
+      }],
+      "reference" : {
+        "reference" : "Patient/example-openmrs-Patient"
+      },
+      "name" : "OpenMRS Patient Example",
+      "description" : "Example OpenMRS Patient resource",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/PregnantVS"
+      },
+      "name" : "Pregnant",
+      "description" : "Currently pregnant",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/SyntheaHIVMedicationsVS"
+      },
+      "name" : "Synthea HIV MedicationsVS",
+      "description" : "Synthea HIV MedicationsVS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:logical"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/TXCURRelements"
+      },
+      "name" : "TXCURRelements",
+      "description" : "Base elements required for TXCURR",
+      "exampleBoolean" : false
+    }],
     "page" : {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
