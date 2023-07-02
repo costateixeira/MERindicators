@@ -1,0 +1,57 @@
+{
+  "date" : "Sun, 02 Jul, 2023 19:03:17 +0000",
+  "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
+  "files" : [
+    {
+      "name" : "/fsh-generated/resources/ImplementationGuide-path.merindicators.json",
+      "size" : 2502,
+      "processes" : [
+        {
+          "activity" : "load",
+          "start" : 93,
+          "length" : 174
+        },
+        {
+          "activity" : "checkR4R4B",
+          "start" : 93,
+          "length" : 11
+        },
+        {
+          "activity" : "generateNarratives",
+          "start" : 94,
+          "length" : 193
+        },
+        {
+          "activity" : "validate",
+          "start" : 94,
+          "length" : 2838
+        },
+        {
+          "activity" : "generate1",
+          "start" : 97,
+          "length" : 109
+        },
+        {
+          "activity" : "generate2",
+          "start" : 98,
+          "length" : 66
+        },
+        {
+          "activity" : "generateExampleZip",
+          "start" : 139,
+          "length" : 1
+        },
+        {
+          "activity" : "generateValidationPack",
+          "start" : 139,
+          "length" : 2
+        },
+        {
+          "activity" : "scanExamplesForR5",
+          "start" : 150,
+          "length" : 1
+        }
+      ]
+    }
+  ]
+}
