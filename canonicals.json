@@ -1,10 +1,17 @@
 [
   {
-    "id" : "AgeRangesCS",
-    "type" : "CodeSystem",
-    "url" : "https://path-global-health.github.io/MERindicators/CodeSystem/AgeRangesCS",
+    "id" : "DASHTXCURR",
+    "type" : "Measure",
+    "url" : "https://intrahealth.github.io/simple-hiv-ig/Measure/MERTXCURR",
     "version" : "0.0.1",
-    "name" : "AgeRangesCS"
+    "name" : "MERTXCURR"
+  },
+  {
+    "id" : "AgeRanges",
+    "type" : "CodeSystem",
+    "url" : "https://path-global-health.github.io/MERindicators/CodeSystem/AgeRanges",
+    "version" : "0.0.1",
+    "name" : "AgeRanges"
   },
   {
     "id" : "CIEL",
@@ -12,6 +19,13 @@
     "url" : "https://path-global-health.github.io/MERindicators/CodeSystem/CIEL",
     "version" : "0.0.1",
     "name" : "CIEL"
+  },
+  {
+    "id" : "FocusPopCS",
+    "type" : "CodeSystem",
+    "url" : "https://path-global-health.github.io/MERindicators/CodeSystem/FocusPopCS",
+    "version" : "0.0.1",
+    "name" : "FocusPopCS"
   },
   {
     "id" : "KeyPopCS",
@@ -28,11 +42,11 @@
     "name" : "MMDIntervalCS"
   },
   {
-    "id" : "OpenHIECS",
+    "id" : "OpenHIE",
     "type" : "CodeSystem",
-    "url" : "https://path-global-health.github.io/MERindicators/CodeSystem/OpenHIECS",
+    "url" : "https://path-global-health.github.io/MERindicators/CodeSystem/OpenHIE",
     "version" : "0.0.1",
-    "name" : "OpenHIECS"
+    "name" : "OpenHIE"
   },
   {
     "id" : "path.merindicators",
@@ -42,6 +56,48 @@
     "name" : "PATHMERIndicators"
   },
   {
+    "id" : "FHIRCommon",
+    "type" : "Library",
+    "url" : "https://path-global-health.github.io/MERindicators/Library/FHIRCommon",
+    "version" : "0.0.1",
+    "name" : "FHIRCommon"
+  },
+  {
+    "id" : "FHIRHelpers",
+    "type" : "Library",
+    "url" : "https://path-global-health.github.io/MERindicators/Library/FHIRHelpers",
+    "version" : "0.0.1",
+    "name" : "FHIRHelpers"
+  },
+  {
+    "id" : "MERConcepts",
+    "type" : "Library",
+    "url" : "https://path-global-health.github.io/MERindicators/Library/MERConcepts",
+    "version" : "0.0.1",
+    "name" : "MERConcepts"
+  },
+  {
+    "id" : "MERDataElements",
+    "type" : "Library",
+    "url" : "https://path-global-health.github.io/MERindicators/Library/MERDataElements",
+    "version" : "0.0.1",
+    "name" : "MERDataElements"
+  },
+  {
+    "id" : "MERStratifiers",
+    "type" : "Library",
+    "url" : "https://path-global-health.github.io/MERindicators/Library/MERStratifiers",
+    "version" : "0.0.1",
+    "name" : "MERStratifiers"
+  },
+  {
+    "id" : "TXCURR",
+    "type" : "Library",
+    "url" : "https://path-global-health.github.io/MERindicators/Library/TXCURR",
+    "version" : "0.0.1",
+    "name" : "TXCURR"
+  },
+  {
     "id" : "TXCURRelements",
     "type" : "StructureDefinition",
     "url" : "https://path-global-health.github.io/MERindicators/StructureDefinition/TXCURRelements",
@@ -49,52 +105,66 @@
     "name" : "TXCURRelements"
   },
   {
-    "id" : "AgeRangesTXCURRVS",
+    "id" : "AgeRangesTXCURR",
     "type" : "ValueSet",
-    "url" : "https://path-global-health.github.io/MERindicators/ValueSet/AgeRangesTXCURRVS",
+    "url" : "https://path-global-health.github.io/MERindicators/ValueSet/AgeRangesTXCURR",
     "version" : "0.0.1",
-    "name" : "AgeRangesTXCURRVS"
+    "name" : "AgeRangesTXCURR"
   },
   {
-    "id" : "FocusPopVS",
+    "id" : "CIELHIVMedications",
     "type" : "ValueSet",
-    "url" : "https://path-global-health.github.io/MERindicators/ValueSet/FocusPopVS",
+    "url" : "https://path-global-health.github.io/MERindicators/ValueSet/CIELHIVMedications",
     "version" : "0.0.1",
-    "name" : "FocusPopVS"
+    "name" : "CIELHIVMedications"
   },
   {
-    "id" : "KeyPopVS",
+    "id" : "FocusPop",
     "type" : "ValueSet",
-    "url" : "https://path-global-health.github.io/MERindicators/ValueSet/KeyPopVS",
+    "url" : "https://path-global-health.github.io/MERindicators/ValueSet/FocusPop",
     "version" : "0.0.1",
-    "name" : "KeyPopVS"
+    "name" : "FocusPop"
   },
   {
-    "id" : "MMDIntervalVS",
+    "id" : "KeyPop",
     "type" : "ValueSet",
-    "url" : "https://path-global-health.github.io/MERindicators/ValueSet/MMDIntervalVS",
+    "url" : "https://path-global-health.github.io/MERindicators/ValueSet/KeyPop",
     "version" : "0.0.1",
-    "name" : "MMDIntervalVS"
+    "name" : "KeyPop"
   },
   {
-    "id" : "OnARVVS",
+    "id" : "MMDInterval",
     "type" : "ValueSet",
-    "url" : "https://path-global-health.github.io/MERindicators/ValueSet/OnARVVS",
+    "url" : "https://path-global-health.github.io/MERindicators/ValueSet/MMDInterval",
     "version" : "0.0.1",
-    "name" : "OnARVVS"
+    "name" : "MMDInterval"
   },
   {
-    "id" : "PregnantVS",
+    "id" : "OnARV",
     "type" : "ValueSet",
-    "url" : "https://path-global-health.github.io/MERindicators/ValueSet/PregnantVS",
+    "url" : "https://path-global-health.github.io/MERindicators/ValueSet/OnARV",
     "version" : "0.0.1",
-    "name" : "PregnantVS"
+    "name" : "OnARV"
   },
   {
-    "id" : "SyntheaHIVMedicationsVS",
+    "id" : "Pregnant",
     "type" : "ValueSet",
-    "url" : "https://path-global-health.github.io/MERindicators/ValueSet/SyntheaHIVMedicationsVS",
+    "url" : "https://path-global-health.github.io/MERindicators/ValueSet/Pregnant",
     "version" : "0.0.1",
-    "name" : "SyntheaHIVMedicationsVS"
+    "name" : "Pregnant"
+  },
+  {
+    "id" : "SNOMEDHIVMedications",
+    "type" : "ValueSet",
+    "url" : "https://path-global-health.github.io/MERindicators/ValueSet/SNOMEDHIVMedications",
+    "version" : "0.0.1",
+    "name" : "SNOMEDHIVMedications"
+  },
+  {
+    "id" : "SyntheaHIVMedications",
+    "type" : "ValueSet",
+    "url" : "https://path-global-health.github.io/MERindicators/ValueSet/SyntheaHIVMedications",
+    "version" : "0.0.1",
+    "name" : "SyntheaHIVMedications"
   }
 ]

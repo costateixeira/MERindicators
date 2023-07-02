@@ -3,7 +3,7 @@
   "id" : "CIEL",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>https://path-global-health.github.io/MERindicators/CodeSystem/CIEL</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">1065<a name=\"CIEL-1065\"> </a></td><td>YES</td></tr><tr><td style=\"white-space:nowrap\">1066<a name=\"CIEL-1066\"> </a></td><td>NO</td></tr><tr><td style=\"white-space:nowrap\">1067<a name=\"CIEL-1067\"> </a></td><td>Unknown</td></tr><tr><td style=\"white-space:nowrap\">1434<a name=\"CIEL-1434\"> </a></td><td>Currently pregnant</td></tr><tr><td style=\"white-space:nowrap\">138405<a name=\"CIEL-138405\"> </a></td><td>Human immunodeficiency virus (HIV) disease</td></tr><tr><td style=\"white-space:nowrap\">160119<a name=\"CIEL-160119\"> </a></td><td>CURRENTLY TAKING ARV</td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>https://path-global-health.github.io/MERindicators/CodeSystem/CIEL</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">1065<a name=\"CIEL-1065\"> </a></td><td>YES</td></tr><tr><td style=\"white-space:nowrap\">1066<a name=\"CIEL-1066\"> </a></td><td>NO</td></tr><tr><td style=\"white-space:nowrap\">1067<a name=\"CIEL-1067\"> </a></td><td>Unknown</td></tr><tr><td style=\"white-space:nowrap\">1434<a name=\"CIEL-1434\"> </a></td><td>Currently pregnant</td></tr><tr><td style=\"white-space:nowrap\">138405<a name=\"CIEL-138405\"> </a></td><td>Human immunodeficiency virus (HIV) disease</td></tr><tr><td style=\"white-space:nowrap\">160119<a name=\"CIEL-160119\"> </a></td><td>CURRENTLY TAKING ARV</td></tr><tr><td style=\"white-space:nowrap\">86663<a name=\"CIEL-86663\"> </a></td><td>Zidovudine</td></tr><tr><td style=\"white-space:nowrap\">74807<a name=\"CIEL-74807\"> </a></td><td>Didanosine</td></tr></table></div>"
   },
   "url" : "https://path-global-health.github.io/MERindicators/CodeSystem/CIEL",
   "version" : "0.0.1",
@@ -11,7 +11,7 @@
   "title" : "CIEL",
   "status" : "draft",
   "experimental" : true,
-  "date" : "2023-07-02T19:46:14+00:00",
+  "date" : "2023-07-02T19:52:48+00:00",
   "publisher" : "PATH",
   "contact" : [{
     "name" : "PATH",
@@ -42,7 +42,7 @@
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 6,
+  "count" : 8,
   "concept" : [{
     "code" : "1065",
     "display" : "YES"
@@ -66,5 +66,13 @@
   {
     "code" : "160119",
     "display" : "CURRENTLY TAKING ARV"
+  },
+  {
+    "code" : "86663",
+    "display" : "Zidovudine"
+  },
+  {
+    "code" : "74807",
+    "display" : "Didanosine"
   }]
 }

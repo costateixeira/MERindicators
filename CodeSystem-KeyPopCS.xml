@@ -8,10 +8,10 @@
   <url value="https://path-global-health.github.io/MERindicators/CodeSystem/KeyPopCS"/>
   <version value="0.0.1"/>
   <name value="KeyPopCS"/>
-  <title value="KeyPopCS"/>
+  <title value="KeyPop"/>
   <status value="draft"/>
   <experimental value="true"/>
-  <date value="2023-07-02T19:46:14+00:00"/>
+  <date value="2023-07-02T19:52:48+00:00"/>
   <publisher value="PATH"/>
   <contact>
     <name value="PATH"/>
@@ -32,7 +32,7 @@
       <use value="work"/>
     </telecom>
   </contact>
-  <description value="KeyPopCS"/>
+  <description value="KeyPop"/>
   <jurisdiction>
     <coding>
       <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
