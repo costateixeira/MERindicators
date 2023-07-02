@@ -1016,18 +1016,6 @@
         "valueString" : "Bundle"
       }],
       "reference" : {
-        "reference" : "Bundle/ExampleOMRS0"
-      },
-      "name" : "Example0",
-      "description" : "Example0",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Bundle"
-      }],
-      "reference" : {
         "reference" : "Bundle/Example0"
       },
       "name" : "Example0",
@@ -1364,18 +1352,6 @@
         "valueString" : "Encounter"
       }],
       "reference" : {
-        "reference" : "Encounter/EncounterOMRS0"
-      },
-      "name" : "OpenMRS Encounter Resource Example",
-      "description" : "Example OpenMRS Encounter resource",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Encounter"
-      }],
-      "reference" : {
         "reference" : "Encounter/5b829d01-34bb-47d1-b1bb-9303c3a9ebcb"
       },
       "name" : "OpenMRS Encounter Resource Example",
@@ -1388,34 +1364,10 @@
         "valueString" : "Observation"
       }],
       "reference" : {
-        "reference" : "Observation/ObservationOMRS0"
-      },
-      "name" : "OpenMRS Observation Example",
-      "description" : "Example OpenMRS Observation resource",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Observation"
-      }],
-      "reference" : {
         "reference" : "Observation/example-openmrs-Observation"
       },
       "name" : "OpenMRS Observation Example",
       "description" : "Example OpenMRS Observation resource",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Patient"
-      }],
-      "reference" : {
-        "reference" : "Patient/PatientOMRS0"
-      },
-      "name" : "OpenMRS Patient Example",
-      "description" : "Example OpenMRS Patient resource",
       "exampleBoolean" : true
     },
     {
@@ -1587,15 +1539,6 @@
         "nameUrl" : "changes.html",
         "title" : "Changes",
         "generation" : "html"
-      },
-      {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "workflows.html"
-        }],
-        "nameUrl" : "workflows.html",
-        "title" : "Workflows",
-        "generation" : "markdown"
       }]
     },
     "parameter" : [{

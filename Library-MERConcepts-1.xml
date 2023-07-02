@@ -15,7 +15,7 @@
       <def locator="9:1-9:48" name="SNOMED-CT" id="http://snomed.info/sct" accessLevel="Public"/>
       <def locator="10:1-10:38" name="LOINC" id="http://loinc.org" accessLevel="Public"/>
       <def locator="11:1-11:66" name="RxNorm" id="http://www.nlm.nih.gov/research/umls/rxnorm" accessLevel="Public"/>
-      <def locator="14:1-14:70" name="CIEL" id="https://openconceptlab.org/orgs/CIEL/sources/CIEL" accessLevel="Public"/>
+      <def locator="14:1-14:87" name="CIEL" id="https://path-global-health.github.io/MERindicators/CodeSystem/CIEL" accessLevel="Public"/>
       <def locator="15:1-15:43" name="OpenHIE" id="https://openhie.org" accessLevel="Public"/>
    </codeSystems>
    <valueSets>
