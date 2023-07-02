@@ -1334,14 +1334,6 @@
         <title value="Changes"/>
         <generation value="html"/>
       </page>
-      <page>
-        <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="workflows.html"/>
-        </extension>
-        <nameUrl value="workflows.html"/>
-        <title value="Workflows"/>
-        <generation value="markdown"/>
-      </page>
     </page>
     <parameter>
       <code value="path-resource"/>

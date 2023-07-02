@@ -1587,15 +1587,6 @@
         "nameUrl" : "changes.html",
         "title" : "Changes",
         "generation" : "html"
-      },
-      {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "workflows.html"
-        }],
-        "nameUrl" : "workflows.html",
-        "title" : "Workflows",
-        "generation" : "markdown"
       }]
     },
     "parameter" : [{

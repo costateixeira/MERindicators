@@ -1487,14 +1487,6 @@
          fhir:name [ fhir:v "changes.html"^^xsd:anyURI ] ;
          fhir:title [ fhir:v "Changes" ] ;
          fhir:generation [ fhir:v "html" ]
-       ] [
-         fhir:extension ( [
-           fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
-           fhir:value [ fhir:v "workflows.html"^^xsd:anyURI ]
-         ] ) ;
-         fhir:name [ fhir:v "workflows.html"^^xsd:anyURI ] ;
-         fhir:title [ fhir:v "Workflows" ] ;
-         fhir:generation [ fhir:v "markdown" ]
        ] )
      ] ;
      fhir:parameter ( [
