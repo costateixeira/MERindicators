@@ -1,0 +1,11 @@
+@startuml
+'skinparam svgDimensionStyle false
+'hide footbox
+'participant "KenyaEMR" as EMR
+'participant "Data Mediator" as Data
+'participant "CQF Ruler" as CQL
+'participant "Report Generator" as Report 
+
+EMR -> CQL
+
+@enduml
