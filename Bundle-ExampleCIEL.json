@@ -157,7 +157,7 @@
       "status" : "final",
       "code" : {
         "coding" : [{
-          "system" : "https://path-global-health.github.io/MERindicators/CodeSystem/CIEL",
+          "system" : "https://openconceptlab.org/orgs/CIEL/sources/CIEL",
           "code" : "160119",
           "display" : "CURRENTLY TAKING ARV"
         }]
@@ -167,7 +167,7 @@
       },
       "valueCodeableConcept" : {
         "coding" : [{
-          "system" : "https://path-global-health.github.io/MERindicators/CodeSystem/CIEL",
+          "system" : "https://openconceptlab.org/orgs/CIEL/sources/CIEL",
           "code" : "1065",
           "display" : "YES"
         }]

@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "60400b84-c41c-46b4-a464-96a3959bf313",
+  "id" : "076c5827-f17e-475d-b754-da0c5dbd33ba",
   "meta" : {
-    "lastUpdated" : "2023-07-02T12:34:22.702+00:00"
+    "lastUpdated" : "2023-07-02T12:34:58.680+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -19,7 +19,7 @@
       "title" : "SNOMEDHIVMedications",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2023-07-02T12:34:22+00:00",
+      "date" : "2023-07-02T12:34:58+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -28,8 +28,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:72388765-fc01-4716-bc68-79575308d091",
-        "timestamp" : "2023-07-02T12:35:40+00:00",
+        "identifier" : "urn:uuid:d3fce29a-e43e-402e-8886-82e23dc89b71",
+        "timestamp" : "2023-07-02T12:36:14+00:00",
         "total" : 1,
         "parameter" : [{
           "name" : "excludeNested",
@@ -57,7 +57,7 @@
       "resourceType" : "ValueSet",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-CIEL.html\">CIEL v0.0.1 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---path-global-health.github.io-MERindicators-CodeSystem-CIEL-86663\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CIEL.html#CIEL-86663\">86663</a></td><td>https://path-global-health.github.io/MERindicators/CodeSystem/CIEL</td><td>Zidovudine</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---path-global-health.github.io-MERindicators-CodeSystem-CIEL-74807\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CIEL.html#CIEL-74807\">74807</a></td><td>https://path-global-health.github.io/MERindicators/CodeSystem/CIEL</td><td>Didanosine</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-CIEL.html\">CIEL v0.0.1 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openconceptlab.org-orgs-CIEL-sources-CIEL-86663\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CIEL.html#CIEL-86663\">86663</a></td><td>https://openconceptlab.org/orgs/CIEL/sources/CIEL</td><td>Zidovudine</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openconceptlab.org-orgs-CIEL-sources-CIEL-74807\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CIEL.html#CIEL-74807\">74807</a></td><td>https://openconceptlab.org/orgs/CIEL/sources/CIEL</td><td>Didanosine</td></tr></table></div>"
       },
       "url" : "https://path-global-health.github.io/MERindicators/ValueSet/CIELHIVMedications",
       "version" : "0.0.1",
@@ -65,7 +65,7 @@
       "title" : "CIELHIVMedications",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2023-07-02T12:34:22+00:00",
+      "date" : "2023-07-02T12:34:58+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -74,8 +74,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:835b888f-33b4-4a7c-a4d0-7eeac8fb3718",
-        "timestamp" : "2023-07-02T12:35:44+00:00",
+        "identifier" : "urn:uuid:2b2d4daa-f59f-40d5-829f-ae8d561ddadc",
+        "timestamp" : "2023-07-02T12:36:17+00:00",
         "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",
@@ -83,15 +83,15 @@
         },
         {
           "name" : "version",
-          "valueUri" : "https://path-global-health.github.io/MERindicators/CodeSystem/CIEL|0.0.1"
+          "valueUri" : "https://openconceptlab.org/orgs/CIEL/sources/CIEL|0.0.1"
         }],
         "contains" : [{
-          "system" : "https://path-global-health.github.io/MERindicators/CodeSystem/CIEL",
+          "system" : "https://openconceptlab.org/orgs/CIEL/sources/CIEL",
           "code" : "86663",
           "display" : "Zidovudine"
         },
         {
-          "system" : "https://path-global-health.github.io/MERindicators/CodeSystem/CIEL",
+          "system" : "https://openconceptlab.org/orgs/CIEL/sources/CIEL",
           "code" : "74807",
           "display" : "Didanosine"
         }]
@@ -112,7 +112,7 @@
       "title" : "Synthea HIV MedicationsVS",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2023-07-02T12:34:22+00:00",
+      "date" : "2023-07-02T12:34:58+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -121,8 +121,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:26e7589b-7403-4aaf-897c-e30d8a15137b",
-        "timestamp" : "2023-07-02T12:35:45+00:00",
+        "identifier" : "urn:uuid:20bcd777-f7a5-4275-a64f-629bf2e0ac05",
+        "timestamp" : "2023-07-02T12:36:18+00:00",
         "total" : 28,
         "parameter" : [{
           "name" : "excludeNested",
@@ -285,7 +285,7 @@
       "resourceType" : "ValueSet",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion based on: </p><ul><li><a href=\"CodeSystem-CIEL.html\">CIEL v0.0.1 (CodeSystem)</a></li><li>SNOMED CT International edition 31-Jan 2023</li></ul></div><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-77386006\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/77386006\">77386006</a></td><td>http://snomed.info/sct</td><td>Pregnancy (finding)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---path-global-health.github.io-MERindicators-CodeSystem-CIEL-1434\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CIEL.html#CIEL-1434\">1434</a></td><td>https://path-global-health.github.io/MERindicators/CodeSystem/CIEL</td><td>Currently pregnant</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion based on: </p><ul><li><a href=\"CodeSystem-CIEL.html\">CIEL v0.0.1 (CodeSystem)</a></li><li>SNOMED CT International edition 31-Jan 2023</li></ul></div><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-77386006\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/77386006\">77386006</a></td><td>http://snomed.info/sct</td><td>Pregnancy (finding)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openconceptlab.org-orgs-CIEL-sources-CIEL-1434\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CIEL.html#CIEL-1434\">1434</a></td><td>https://openconceptlab.org/orgs/CIEL/sources/CIEL</td><td>Currently pregnant</td></tr></table></div>"
       },
       "url" : "https://path-global-health.github.io/MERindicators/ValueSet/Pregnant",
       "version" : "0.0.1",
@@ -293,7 +293,7 @@
       "title" : "Pregnant",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2023-07-02T12:34:22+00:00",
+      "date" : "2023-07-02T12:34:58+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -302,8 +302,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:992fa581-da83-419c-a39d-37e30f689a6a",
-        "timestamp" : "2023-07-02T12:35:45+00:00",
+        "identifier" : "urn:uuid:2f48c514-869c-41a4-8fc9-e6fe42517d98",
+        "timestamp" : "2023-07-02T12:36:18+00:00",
         "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",
@@ -319,7 +319,7 @@
         },
         {
           "name" : "version",
-          "valueUri" : "https://path-global-health.github.io/MERindicators/CodeSystem/CIEL|0.0.1"
+          "valueUri" : "https://openconceptlab.org/orgs/CIEL/sources/CIEL|0.0.1"
         }],
         "contains" : [{
           "system" : "http://snomed.info/sct",
@@ -327,7 +327,7 @@
           "display" : "Pregnancy (finding)"
         },
         {
-          "system" : "https://path-global-health.github.io/MERindicators/CodeSystem/CIEL",
+          "system" : "https://openconceptlab.org/orgs/CIEL/sources/CIEL",
           "code" : "1434",
           "display" : "Currently pregnant"
         }]
@@ -348,7 +348,7 @@
       "title" : "KeyPop",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2023-07-02T12:34:22+00:00",
+      "date" : "2023-07-02T12:34:58+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -357,8 +357,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:04ac3921-aff2-4fd2-b918-a0ed608b60bd",
-        "timestamp" : "2023-07-02T12:35:46+00:00",
+        "identifier" : "urn:uuid:61ab6135-10d1-402d-870c-9e07b7a1996a",
+        "timestamp" : "2023-07-02T12:36:19+00:00",
         "total" : 5,
         "parameter" : [{
           "name" : "excludeNested",
@@ -410,7 +410,7 @@
       "title" : "MMDInterval",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2023-07-02T12:34:22+00:00",
+      "date" : "2023-07-02T12:34:58+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -419,8 +419,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:bdb4ef93-cc9e-4d3b-b208-1a3801ee3b08",
-        "timestamp" : "2023-07-02T12:35:46+00:00",
+        "identifier" : "urn:uuid:ee1d9324-1317-4791-9a1e-5af108398ad7",
+        "timestamp" : "2023-07-02T12:36:19+00:00",
         "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",
@@ -447,7 +447,7 @@
       "resourceType" : "ValueSet",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion based on: </p><ul><li><a href=\"CodeSystem-CIEL.html\">CIEL v0.0.1 (CodeSystem)</a></li><li><a href=\"CodeSystem-OpenHIE.html\">OpenHIE CodeSystem v0.0.1 (CodeSystem)</a></li></ul></div><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---path-global-health.github.io-MERindicators-CodeSystem-OpenHIE-432101000124108\"> </a>\u00a0\u00a0<a href=\"CodeSystem-OpenHIE.html#OpenHIE-432101000124108\">432101000124108</a></td><td>https://path-global-health.github.io/MERindicators/CodeSystem/OpenHIE</td><td>History of antiretroviral therapy (situation)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---path-global-health.github.io-MERindicators-CodeSystem-CIEL-160119\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CIEL.html#CIEL-160119\">160119</a></td><td>https://path-global-health.github.io/MERindicators/CodeSystem/CIEL</td><td>CURRENTLY TAKING ARV</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion based on: </p><ul><li><a href=\"CodeSystem-CIEL.html\">CIEL v0.0.1 (CodeSystem)</a></li><li><a href=\"CodeSystem-OpenHIE.html\">OpenHIE CodeSystem v0.0.1 (CodeSystem)</a></li></ul></div><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---path-global-health.github.io-MERindicators-CodeSystem-OpenHIE-432101000124108\"> </a>\u00a0\u00a0<a href=\"CodeSystem-OpenHIE.html#OpenHIE-432101000124108\">432101000124108</a></td><td>https://path-global-health.github.io/MERindicators/CodeSystem/OpenHIE</td><td>History of antiretroviral therapy (situation)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---openconceptlab.org-orgs-CIEL-sources-CIEL-160119\"> </a>\u00a0\u00a0<a href=\"CodeSystem-CIEL.html#CIEL-160119\">160119</a></td><td>https://openconceptlab.org/orgs/CIEL/sources/CIEL</td><td>CURRENTLY TAKING ARV</td></tr></table></div>"
       },
       "url" : "https://path-global-health.github.io/MERindicators/ValueSet/OnARV",
       "version" : "0.0.1",
@@ -455,7 +455,7 @@
       "title" : "History of antiretroviral therapy (situation)",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2023-07-02T12:34:22+00:00",
+      "date" : "2023-07-02T12:34:58+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -464,8 +464,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:b1eddd8b-79d7-42a5-a96d-5b7d2a486c76",
-        "timestamp" : "2023-07-02T12:35:46+00:00",
+        "identifier" : "urn:uuid:72009664-ea64-4c01-8067-771cbfab1f8c",
+        "timestamp" : "2023-07-02T12:36:20+00:00",
         "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",
@@ -481,7 +481,7 @@
         },
         {
           "name" : "version",
-          "valueUri" : "https://path-global-health.github.io/MERindicators/CodeSystem/CIEL|0.0.1"
+          "valueUri" : "https://openconceptlab.org/orgs/CIEL/sources/CIEL|0.0.1"
         }],
         "contains" : [{
           "system" : "https://path-global-health.github.io/MERindicators/CodeSystem/OpenHIE",
@@ -489,7 +489,7 @@
           "display" : "History of antiretroviral therapy (situation)"
         },
         {
-          "system" : "https://path-global-health.github.io/MERindicators/CodeSystem/CIEL",
+          "system" : "https://openconceptlab.org/orgs/CIEL/sources/CIEL",
           "code" : "160119",
           "display" : "CURRENTLY TAKING ARV"
         }]
@@ -510,7 +510,7 @@
       "title" : "FocusPop",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2023-07-02T12:34:22+00:00",
+      "date" : "2023-07-02T12:34:58+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -519,8 +519,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:7d9b9426-5b11-416b-8d32-8ce3e87a7ff4",
-        "timestamp" : "2023-07-02T12:35:47+00:00",
+        "identifier" : "urn:uuid:c9410da2-fc83-4065-a33b-9429925eaa9e",
+        "timestamp" : "2023-07-02T12:36:20+00:00",
         "total" : 0,
         "parameter" : [{
           "name" : "excludeNested",
@@ -539,7 +539,7 @@
       "resourceType" : "ValueSet",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 14 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-AgeRanges.html\">AgeRanges v0.0.1 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---path-global-health.github.io-MERindicators-CodeSystem-AgeRanges-P0Y--P1Y\"> </a>\u00a0\u00a0<a href=\"CodeSystem-AgeRanges.html#AgeRanges-P0Y--P1Y\">P0Y--P1Y</a></td><td>https://path-global-health.github.io/MERindicators/CodeSystem/AgeRanges</td><td>&lt; 1 year</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---path-global-health.github.io-MERindicators-CodeSystem-AgeRanges-P1Y--P5Y\"> </a>\u00a0\u00a0<a href=\"CodeSystem-AgeRanges.html#AgeRanges-P1Y--P5Y\">P1Y--P5Y</a></td><td>https://path-global-health.github.io/MERindicators/CodeSystem/AgeRanges</td><td>1-4 years</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---path-global-health.github.io-MERindicators-CodeSystem-AgeRanges-P5Y--P10Y\"> </a>\u00a0\u00a0<a href=\"CodeSystem-AgeRanges.html#AgeRanges-P5Y--P10Y\">P5Y--P10Y</a></td><td>https://path-global-health.github.io/MERindicators/CodeSystem/AgeRanges</td><td>5-9 year</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---path-global-health.github.io-MERindicators-CodeSystem-AgeRanges-P15Y--P20Y\"> </a>\u00a0\u00a0<a href=\"CodeSystem-AgeRanges.html#AgeRanges-P15Y--P20Y\">P15Y--P20Y</a></td><td>https://path-global-health.github.io/MERindicators/CodeSystem/AgeRanges</td><td>15-19 year</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---path-global-health.github.io-MERindicators-CodeSystem-AgeRanges-P20Y--P25Y\"> </a>\u00a0\u00a0<a href=\"CodeSystem-AgeRanges.html#AgeRanges-P20Y--P25Y\">P20Y--P25Y</a></td><td>https://path-global-health.github.io/MERindicators/CodeSystem/AgeRanges</td><td>20-24 year</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---path-global-health.github.io-MERindicators-CodeSystem-AgeRanges-P25Y--P30Y\"> </a>\u00a0\u00a0<a href=\"CodeSystem-AgeRanges.html#AgeRanges-P25Y--P30Y\">P25Y--P30Y</a></td><td>https://path-global-health.github.io/MERindicators/CodeSystem/AgeRanges</td><td>25-29 year</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---path-global-health.github.io-MERindicators-CodeSystem-AgeRanges-P30Y--P35Y\"> </a>\u00a0\u00a0<a href=\"CodeSystem-AgeRanges.html#AgeRanges-P30Y--P35Y\">P30Y--P35Y</a></td><td>https://path-global-health.github.io/MERindicators/CodeSystem/AgeRanges</td><td>30-34 year</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---path-global-health.github.io-MERindicators-CodeSystem-AgeRanges-P35Y--P40Y\"> </a>\u00a0\u00a0<a href=\"CodeSystem-AgeRanges.html#AgeRanges-P35Y--P40Y\">P35Y--P40Y</a></td><td>https://path-global-health.github.io/MERindicators/CodeSystem/AgeRanges</td><td>35-39 year</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---path-global-health.github.io-MERindicators-CodeSystem-AgeRanges-P40Y--P45Y\"> </a>\u00a0\u00a0<a href=\"CodeSystem-AgeRanges.html#AgeRanges-P40Y--P45Y\">P40Y--P45Y</a></td><td>https://path-global-health.github.io/MERindicators/CodeSystem/AgeRanges</td><td>40-45 year</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---path-global-health.github.io-MERindicators-CodeSystem-AgeRanges-P45Y--P50Y\"> </a>\u00a0\u00a0<a href=\"CodeSystem-AgeRanges.html#AgeRanges-P45Y--P50Y\">P45Y--P50Y</a></td><td>https://path-global-health.github.io/MERindicators/CodeSystem/AgeRanges</td><td>45-50 year</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---path-global-health.github.io-MERindicators-CodeSystem-AgeRanges-P50Y--P55Y\"> </a>\u00a0\u00a0<a href=\"CodeSystem-AgeRanges.html#AgeRanges-P50Y--P55Y\">P50Y--P55Y</a></td><td>https://path-global-health.github.io/MERindicators/CodeSystem/AgeRanges</td><td>50-55 year</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---path-global-health.github.io-MERindicators-CodeSystem-AgeRanges-P55Y--P60Y\"> </a>\u00a0\u00a0<a href=\"CodeSystem-AgeRanges.html#AgeRanges-P55Y--P60Y\">P55Y--P60Y</a></td><td>https://path-global-health.github.io/MERindicators/CodeSystem/AgeRanges</td><td>55-60 year</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---path-global-health.github.io-MERindicators-CodeSystem-AgeRanges-P60Y--P65Y\"> </a>\u00a0\u00a0<a href=\"CodeSystem-AgeRanges.html#AgeRanges-P60Y--P65Y\">P60Y--P65Y</a></td><td>https://path-global-health.github.io/MERindicators/CodeSystem/AgeRanges</td><td>60-65 year</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---path-global-health.github.io-MERindicators-CodeSystem-AgeRanges-P65Y--P9999Y\"> </a>\u00a0\u00a0<a href=\"CodeSystem-AgeRanges.html#AgeRanges-P65Y--P9999Y\">P65Y--P9999Y</a></td><td>https://path-global-health.github.io/MERindicators/CodeSystem/AgeRanges</td><td>65+ years</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 15 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-AgeRanges.html\">AgeRanges v0.0.1 (CodeSystem)</a></p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---path-global-health.github.io-MERindicators-CodeSystem-AgeRanges-P0Y--P1Y\"> </a>\u00a0\u00a0<a href=\"CodeSystem-AgeRanges.html#AgeRanges-P0Y--P1Y\">P0Y--P1Y</a></td><td>https://path-global-health.github.io/MERindicators/CodeSystem/AgeRanges</td><td>&lt; 1 year</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---path-global-health.github.io-MERindicators-CodeSystem-AgeRanges-P1Y--P5Y\"> </a>\u00a0\u00a0<a href=\"CodeSystem-AgeRanges.html#AgeRanges-P1Y--P5Y\">P1Y--P5Y</a></td><td>https://path-global-health.github.io/MERindicators/CodeSystem/AgeRanges</td><td>1-4 years</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---path-global-health.github.io-MERindicators-CodeSystem-AgeRanges-P5Y--P10Y\"> </a>\u00a0\u00a0<a href=\"CodeSystem-AgeRanges.html#AgeRanges-P5Y--P10Y\">P5Y--P10Y</a></td><td>https://path-global-health.github.io/MERindicators/CodeSystem/AgeRanges</td><td>5-9 year</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---path-global-health.github.io-MERindicators-CodeSystem-AgeRanges-P10Y--P15Y\"> </a>\u00a0\u00a0<a href=\"CodeSystem-AgeRanges.html#AgeRanges-P10Y--P15Y\">P10Y--P15Y</a></td><td>https://path-global-health.github.io/MERindicators/CodeSystem/AgeRanges</td><td>10-15 year</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---path-global-health.github.io-MERindicators-CodeSystem-AgeRanges-P15Y--P20Y\"> </a>\u00a0\u00a0<a href=\"CodeSystem-AgeRanges.html#AgeRanges-P15Y--P20Y\">P15Y--P20Y</a></td><td>https://path-global-health.github.io/MERindicators/CodeSystem/AgeRanges</td><td>15-19 year</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---path-global-health.github.io-MERindicators-CodeSystem-AgeRanges-P20Y--P25Y\"> </a>\u00a0\u00a0<a href=\"CodeSystem-AgeRanges.html#AgeRanges-P20Y--P25Y\">P20Y--P25Y</a></td><td>https://path-global-health.github.io/MERindicators/CodeSystem/AgeRanges</td><td>20-24 year</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---path-global-health.github.io-MERindicators-CodeSystem-AgeRanges-P25Y--P30Y\"> </a>\u00a0\u00a0<a href=\"CodeSystem-AgeRanges.html#AgeRanges-P25Y--P30Y\">P25Y--P30Y</a></td><td>https://path-global-health.github.io/MERindicators/CodeSystem/AgeRanges</td><td>25-29 year</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---path-global-health.github.io-MERindicators-CodeSystem-AgeRanges-P30Y--P35Y\"> </a>\u00a0\u00a0<a href=\"CodeSystem-AgeRanges.html#AgeRanges-P30Y--P35Y\">P30Y--P35Y</a></td><td>https://path-global-health.github.io/MERindicators/CodeSystem/AgeRanges</td><td>30-34 year</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---path-global-health.github.io-MERindicators-CodeSystem-AgeRanges-P35Y--P40Y\"> </a>\u00a0\u00a0<a href=\"CodeSystem-AgeRanges.html#AgeRanges-P35Y--P40Y\">P35Y--P40Y</a></td><td>https://path-global-health.github.io/MERindicators/CodeSystem/AgeRanges</td><td>35-39 year</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---path-global-health.github.io-MERindicators-CodeSystem-AgeRanges-P40Y--P45Y\"> </a>\u00a0\u00a0<a href=\"CodeSystem-AgeRanges.html#AgeRanges-P40Y--P45Y\">P40Y--P45Y</a></td><td>https://path-global-health.github.io/MERindicators/CodeSystem/AgeRanges</td><td>40-45 year</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---path-global-health.github.io-MERindicators-CodeSystem-AgeRanges-P45Y--P50Y\"> </a>\u00a0\u00a0<a href=\"CodeSystem-AgeRanges.html#AgeRanges-P45Y--P50Y\">P45Y--P50Y</a></td><td>https://path-global-health.github.io/MERindicators/CodeSystem/AgeRanges</td><td>45-50 year</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---path-global-health.github.io-MERindicators-CodeSystem-AgeRanges-P50Y--P55Y\"> </a>\u00a0\u00a0<a href=\"CodeSystem-AgeRanges.html#AgeRanges-P50Y--P55Y\">P50Y--P55Y</a></td><td>https://path-global-health.github.io/MERindicators/CodeSystem/AgeRanges</td><td>50-55 year</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---path-global-health.github.io-MERindicators-CodeSystem-AgeRanges-P55Y--P60Y\"> </a>\u00a0\u00a0<a href=\"CodeSystem-AgeRanges.html#AgeRanges-P55Y--P60Y\">P55Y--P60Y</a></td><td>https://path-global-health.github.io/MERindicators/CodeSystem/AgeRanges</td><td>55-60 year</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---path-global-health.github.io-MERindicators-CodeSystem-AgeRanges-P60Y--P65Y\"> </a>\u00a0\u00a0<a href=\"CodeSystem-AgeRanges.html#AgeRanges-P60Y--P65Y\">P60Y--P65Y</a></td><td>https://path-global-health.github.io/MERindicators/CodeSystem/AgeRanges</td><td>60-65 year</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"https---path-global-health.github.io-MERindicators-CodeSystem-AgeRanges-P65Y--P9999Y\"> </a>\u00a0\u00a0<a href=\"CodeSystem-AgeRanges.html#AgeRanges-P65Y--P9999Y\">P65Y--P9999Y</a></td><td>https://path-global-health.github.io/MERindicators/CodeSystem/AgeRanges</td><td>65+ years</td></tr></table></div>"
       },
       "url" : "https://path-global-health.github.io/MERindicators/ValueSet/AgeRangesTXCURR",
       "version" : "0.0.1",
@@ -547,7 +547,7 @@
       "title" : "AgeRangesTXCURR",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2023-07-02T12:34:22+00:00",
+      "date" : "2023-07-02T12:34:58+00:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
@@ -556,9 +556,9 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:6f535d96-24c7-498f-a843-7f7aa3c199a3",
-        "timestamp" : "2023-07-02T12:35:47+00:00",
-        "total" : 14,
+        "identifier" : "urn:uuid:f37412e6-0e5a-4390-af01-1324414a0527",
+        "timestamp" : "2023-07-02T12:36:20+00:00",
+        "total" : 15,
         "parameter" : [{
           "name" : "excludeNested",
           "valueBoolean" : false
@@ -581,6 +581,11 @@
           "system" : "https://path-global-health.github.io/MERindicators/CodeSystem/AgeRanges",
           "code" : "P5Y--P10Y",
           "display" : "5-9 year"
+        },
+        {
+          "system" : "https://path-global-health.github.io/MERindicators/CodeSystem/AgeRanges",
+          "code" : "P10Y--P15Y",
+          "display" : "10-15 year"
         },
         {
           "system" : "https://path-global-health.github.io/MERindicators/CodeSystem/AgeRanges",

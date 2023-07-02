@@ -44,8 +44,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"3.46"}
-    h3,h4,h5,h6{--heading-prefix:"3.46"}</style>
+    <style type="text/css">h2{--heading-prefix:"4.47"}
+    h3,h4,h5,h6{--heading-prefix:"4.47"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -270,7 +270,7 @@
   
 
 
-  <div xmlns="http://www.w3.org/1999/xhtml"><h2>Related Artifacts</h2><table class="grid"><tr><td>depends-on</td><td><code>http://hl7.org/fhir/Library/FHIR-ModelInfo|4.0.1</code></td></tr><tr><td>depends-on</td><td><code>http://hl7.org/fhir/Library/FHIRHelpers|4.0.1</code></td></tr><tr><td>depends-on</td><td><code>https://path-global-health.github.io/MERindicators/Library/FHIRCommon|4.0.1</code></td></tr><tr><td>depends-on</td><td><a href="Library-MERConcepts.html">MERConcepts</a></td></tr><tr><td>depends-on</td><td><code>http://ohie.org/CodeSystem/iso-8601-derived-periods</code></td></tr></table><h2>Parameters</h2><table class="grid"><tr><td>Measurement Period</td><td>in</td><td>0</td><td>1</td><td>Period</td></tr><tr><td>Patient</td><td>out</td><td>0</td><td>1</td><td>Patient</td></tr><tr><td>Sex</td><td>out</td><td>0</td><td>1</td><td>string</td></tr><tr><td>Age Group</td><td>out</td><td>0</td><td>1</td><td>Coding</td></tr><tr><td>Age Group TXCURR</td><td>out</td><td>0</td><td>1</td><td>Coding</td></tr><tr><td>Age Group/Sex</td><td>out</td><td>0</td><td>1</td><td>string</td></tr><tr><td>Last Location</td><td>out</td><td>0</td><td>1</td><td>string</td></tr><tr><td>OpenMRS Location</td><td>out</td><td>0</td><td>*</td><td>Patient</td></tr><tr><td>Last serviceProvider</td><td>out</td><td>0</td><td>*</td><td>string</td></tr><tr><td>Location</td><td>out</td><td>0</td><td>1</td><td>string</td></tr><tr><td>Age Group/Sex/Location</td><td>out</td><td>0</td><td>1</td><td>string</td></tr><tr><td>Age Group/Sex/Location TXCURR</td><td>out</td><td>0</td><td>1</td><td>string</td></tr></table><h2>Data Requirements</h2><table class="grid"><tr><td colspan="2"><b>Type</b>: <a href="http://hl7.org/fhir/R4/encounter.html">Encounter</a> (<a href="http://hl7.org/fhir/R4/encounter.html">Encounter</a>)</td></tr></table><table class="grid"><tr><td colspan="2"><b>Type</b>: <a href="http://hl7.org/fhir/R4/patient.html">Patient</a> (<a href="http://hl7.org/fhir/R4/patient.html">Patient</a>)</td></tr></table><table class="grid"><tr><td colspan="2"><b>Type</b>: <a href="http://hl7.org/fhir/R4/encounter.html">Encounter</a> (<a href="http://hl7.org/fhir/R4/encounter.html">Encounter</a>)</td></tr></table><table class="grid"><tr><td colspan="2"><b>Type</b>: <a href="http://hl7.org/fhir/R4/encounter.html">Encounter</a> (<a href="http://hl7.org/fhir/R4/encounter.html">Encounter</a>)</td></tr></table><h2>Contents</h2><p><code>text/cql</code></p><pre><code class="language-sql">library MERStratifiers version '0.1.0'
+  <div xmlns="http://www.w3.org/1999/xhtml"><h2>Related Artifacts</h2><table class="grid"><tr><td>depends-on</td><td><code>http://hl7.org/fhir/Library/FHIR-ModelInfo|4.0.1</code></td></tr><tr><td>depends-on</td><td><code>http://hl7.org/fhir/Library/FHIRHelpers|4.0.1</code></td></tr><tr><td>depends-on</td><td><code>https://path-global-health.github.io/MERindicators/Library/FHIRCommon|4.0.1</code></td></tr><tr><td>depends-on</td><td><a href="Library-MERConcepts.html">MERConcepts</a></td></tr><tr><td>depends-on</td><td><code>http://ohie.org/CodeSystem/iso-8601-derived-periods</code></td></tr></table><h2>Parameters</h2><table class="grid"><tr><td>Measurement Period</td><td>in</td><td>0</td><td>1</td><td>Period</td></tr><tr><td>Patient</td><td>out</td><td>0</td><td>1</td><td>Patient</td></tr><tr><td>Sex</td><td>out</td><td>0</td><td>1</td><td>string</td></tr><tr><td>Age Group</td><td>out</td><td>0</td><td>1</td><td>Coding</td></tr><tr><td>Age Group TXCURR</td><td>out</td><td>0</td><td>1</td><td>Coding</td></tr><tr><td>Age Group/Sex</td><td>out</td><td>0</td><td>1</td><td>string</td></tr><tr><td>Last Location</td><td>out</td><td>0</td><td>1</td><td>string</td></tr><tr><td>OpenMRS Location</td><td>out</td><td>0</td><td>*</td><td>Resource</td></tr><tr><td>Last serviceProvider</td><td>out</td><td>0</td><td>*</td><td>string</td></tr><tr><td>Location</td><td>out</td><td>0</td><td>1</td><td>string</td></tr><tr><td>Location Deux</td><td>out</td><td>0</td><td>1</td><td>Resource</td></tr><tr><td>Age Group/Sex/Location</td><td>out</td><td>0</td><td>1</td><td>string</td></tr><tr><td>Age Group/Sex/Location TXCURR</td><td>out</td><td>0</td><td>1</td><td>string</td></tr></table><h2>Data Requirements</h2><table class="grid"><tr><td colspan="2"><b>Type</b>: <a href="http://hl7.org/fhir/R4/encounter.html">Encounter</a> (<a href="http://hl7.org/fhir/R4/encounter.html">Encounter</a>)</td></tr></table><table class="grid"><tr><td colspan="2"><b>Type</b>: <a href="http://hl7.org/fhir/R4/patient.html">Patient</a> (<a href="http://hl7.org/fhir/R4/patient.html">Patient</a>)</td></tr></table><table class="grid"><tr><td colspan="2"><b>Type</b>: <a href="http://hl7.org/fhir/R4/encounter.html">Encounter</a> (<a href="http://hl7.org/fhir/R4/encounter.html">Encounter</a>)</td></tr></table><table class="grid"><tr><td colspan="2"><b>Type</b>: <a href="http://hl7.org/fhir/R4/encounter.html">Encounter</a> (<a href="http://hl7.org/fhir/R4/encounter.html">Encounter</a>)</td></tr></table><h2>Contents</h2><p><code>text/cql</code></p><pre><code class="language-sql">library MERStratifiers version '0.1.0'
 
 using FHIR version '4.0.1'
 
@@ -315,21 +315,12 @@ parameter &quot;Measurement Period&quot; Interval&lt;DateTime&gt; default Interv
 // Female sex workers (FSW)
 // People in prison and other closed settings
 
-// this is done in vn case reporting as a separate codesystem:
-// https://github.com/openhie/case-reporting-hiv-vn/blob/6019ae4d2a4bb824c6b00a7c5492332f24718149/input/fsh/vn-hiv-vocabulary.fsh#L207
-
-// How to review for data quality: Requires larger, realistic dataset
-// How to calculate annual total:
-// Disaggregations:
-// Confirm that TX_CURR ≥ TX_NEW.
-// Confirm that TX_CURR ≥ TX_RTT.
-
 
 context Patient
 
 
 // unknown and other is included in fhir core patient
-// mer guidance requires m, f, unknown
+// mer guidance requires m, f, unknown, kenya emr uses only mf
 define &quot;Sex&quot;:
   Patient.gender.value
 
@@ -381,65 +372,22 @@ define &quot;Age Group/Sex&quot;:
 define &quot;Last Location&quot;:
   Last([Encounter] E
     return singleton from (E.location L
-    // return First(E.location L
       return L.location.reference
     ).value
   )
 
 
-// define function OpenMRS(identifiers List&lt;Identifier&gt;):
-//   // singleton from (identifiers I where I.extension[0].url = 'http://fhir.openmrs.org/ext/patient/identifier#location')
-//   singleton from (identifiers I where I.extension[0].url = 'http://fhir.openmrs.org/ext/patient/identifier#location')
-
-
-// define &quot;OpenMRS Location Func&quot;:
-//   OpenMRS(Patient.identifier)
-
-
-// identifier[].extension[].valueReference.reference
-// // another example...
-// &quot;identifier&quot;: [
-//   {
-//     &quot;id&quot;: &quot;7124038b-bc12-42d9-a0f8-0778f6861628&quot;,
-//     &quot;extension&quot;: [
-//       {
-//         &quot;url&quot;: &quot;http://fhir.openmrs.org/ext/patient/identifier#location&quot;,
-//         &quot;valueReference&quot;: {
-//           &quot;reference&quot;: &quot;Location/8d6c993e-c2cc-11de-8d13-0010c6dffd0f&quot;,
-//           &quot;type&quot;: &quot;Location&quot;,
-//           &quot;display&quot;: &quot;Unknown Location&quot;
-//         }
-//       }
-//     ],
-//     &quot;use&quot;: &quot;official&quot;,
-//     &quot;type&quot;: {
-//       &quot;coding&quot;: [
-//         {
-//           &quot;code&quot;: &quot;05a29f94-c0ed-11e2-94be-8c13b969e334&quot;
-//         }
-//       ],
-//       &quot;text&quot;: &quot;OpenMRS ID&quot;
-//     },
-//     &quot;value&quot;: &quot;10009A&quot;
-//   }
-// ],
-
 define &quot;OpenMRS Location&quot;:
   [Patient] P
-    where P.identifier[0].extension[0].url ~ 'http://fhir.openmrs.org/ext/patient/identifier#location'
-  // return P.identifier.extension[0].valueReference.reference.value
-  // return P.identifier
-
-
-// WIP
-// define &quot;Moar OpenMRS&quot;: 
-//   FC.Extension(Patient.identifier.extension Ex return Ex.url)
-
+    // remove #location at end of url for cql engine
+    where singleton from {P.identifier.extension[0].url ~ 'http://fhir.openmrs.org/ext/patient/identifier'}
+    // this url is in the ig, but is not correct
+    // or singleton from {P.identifier.extension[0].url ~ 'http://fhir.openmrs.org/core/StructureDefinition/omrs-patient-identifier-location'}
+  return singleton from {P.identifier.extension[0].value.reference}
 
 
 define &quot;Last serviceProvider&quot;:
   // Some of the Synthea encounters do not have a serviceProvider, so this can return nothing
-  // Last([Encounter]).serviceProvider.reference.value
   // Filter out those that are null, then take the last
   [Encounter] E
     where E.serviceProvider is not null
@@ -453,6 +401,21 @@ define &quot;Location&quot;:
   else singleton from (&quot;Last serviceProvider&quot;)
 
 
+define &quot;Location Deux&quot;:
+  case
+    // then location of last encounter
+    when &quot;Last Location&quot; is null then (&quot;Last Location&quot;)
+    // location identifier on patient
+    when &quot;OpenMRS Location&quot; is not null then (&quot;OpenMRS Location&quot;)
+    // then organization of last encounter
+    else singleton from (&quot;Last serviceProvider&quot;)
+  end
+
+
+// define &quot;Location Troi&quot;:
+//   Coalesce(&quot;OpenMRS Location&quot;, &quot;Last Location&quot;, &quot;Last serviceProvider&quot;)
+
+
 define &quot;Age Group/Sex/Location&quot;:
   &quot;Age Group&quot;.code + ':' + &quot;Sex&quot; + ':' + &quot;Location&quot;
 
@@ -460,7 +423,7 @@ define &quot;Age Group/Sex/Location&quot;:
 define &quot;Age Group/Sex/Location TXCURR&quot;:
   &quot;Age Group TXCURR&quot;.code + ':' + &quot;Sex&quot; + ':' + &quot;Location&quot;
 
-</code></pre><p><code>Content not shown - (</code><code>application/elm+xml</code>, size = 47Kb)</p><p><code>Content not shown - (</code><code>application/elm+json</code>, size = 87Kb)</p></div>
+</code></pre><p><code>Content not shown - (</code><code>application/elm+xml</code>, size = 53Kb)</p><p><code>Content not shown - (</code><code>application/elm+json</code>, size = 97Kb)</p></div>
 
   <!-- insert notes if present -->
   

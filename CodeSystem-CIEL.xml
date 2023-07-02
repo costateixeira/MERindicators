@@ -3,15 +3,15 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="CIEL"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>https://path-global-health.github.io/MERindicators/CodeSystem/CIEL</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">1065<a name="CIEL-1065"> </a></td><td>YES</td></tr><tr><td style="white-space:nowrap">1066<a name="CIEL-1066"> </a></td><td>NO</td></tr><tr><td style="white-space:nowrap">1067<a name="CIEL-1067"> </a></td><td>Unknown</td></tr><tr><td style="white-space:nowrap">1434<a name="CIEL-1434"> </a></td><td>Currently pregnant</td></tr><tr><td style="white-space:nowrap">138405<a name="CIEL-138405"> </a></td><td>Human immunodeficiency virus (HIV) disease</td></tr><tr><td style="white-space:nowrap">160119<a name="CIEL-160119"> </a></td><td>CURRENTLY TAKING ARV</td></tr><tr><td style="white-space:nowrap">86663<a name="CIEL-86663"> </a></td><td>Zidovudine</td></tr><tr><td style="white-space:nowrap">74807<a name="CIEL-74807"> </a></td><td>Didanosine</td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>https://openconceptlab.org/orgs/CIEL/sources/CIEL</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">1065<a name="CIEL-1065"> </a></td><td>YES</td></tr><tr><td style="white-space:nowrap">1066<a name="CIEL-1066"> </a></td><td>NO</td></tr><tr><td style="white-space:nowrap">1067<a name="CIEL-1067"> </a></td><td>Unknown</td></tr><tr><td style="white-space:nowrap">1434<a name="CIEL-1434"> </a></td><td>Currently pregnant</td></tr><tr><td style="white-space:nowrap">138405<a name="CIEL-138405"> </a></td><td>Human immunodeficiency virus (HIV) disease</td></tr><tr><td style="white-space:nowrap">160119<a name="CIEL-160119"> </a></td><td>CURRENTLY TAKING ARV</td></tr><tr><td style="white-space:nowrap">86663<a name="CIEL-86663"> </a></td><td>Zidovudine</td></tr><tr><td style="white-space:nowrap">74807<a name="CIEL-74807"> </a></td><td>Didanosine</td></tr></table></div>
   </text>
-  <url value="https://path-global-health.github.io/MERindicators/CodeSystem/CIEL"/>
+  <url value="https://openconceptlab.org/orgs/CIEL/sources/CIEL"/>
   <version value="0.0.1"/>
   <name value="CIEL"/>
   <title value="CIEL"/>
   <status value="draft"/>
   <experimental value="true"/>
-  <date value="2023-07-02T12:34:22+00:00"/>
+  <date value="2023-07-02T12:34:58+00:00"/>
   <publisher value="PATH"/>
   <contact>
     <name value="PATH"/>
