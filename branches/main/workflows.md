@@ -6,7 +6,6 @@ This iteration will also be specific to the KenyaEMR data model without needing 
 
 <figure>
   {% include simple-workflow.svg %}
-  <figcaption>Example with styles and other features</figcaption>
 </figure>
 
 ## Simple Standard Iteration
