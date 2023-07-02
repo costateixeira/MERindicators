@@ -10,7 +10,7 @@
   fhir:id [ fhir:v "CIELHIVMedications"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"CodeSystem-CIEL.html\"><code>https://path-global-health.github.io/MERindicators/CodeSystem/CIEL</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-CIEL.html#CIEL-86663\">86663</a></td><td>Zidovudine</td></tr><tr><td><a href=\"CodeSystem-CIEL.html#CIEL-74807\">74807</a></td><td>Didanosine</td></tr></table></li></ul></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"CodeSystem-CIEL.html\"><code>https://openconceptlab.org/orgs/CIEL/sources/CIEL</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-CIEL.html#CIEL-86663\">86663</a></td><td>Zidovudine</td></tr><tr><td><a href=\"CodeSystem-CIEL.html#CIEL-74807\">74807</a></td><td>Didanosine</td></tr></table></li></ul></div>"
   ] ; # 
   fhir:url [ fhir:v "https://path-global-health.github.io/MERindicators/ValueSet/CIELHIVMedications"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.0.1"] ; # 
@@ -18,7 +18,7 @@
   fhir:title [ fhir:v "CIELHIVMedications"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "true"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2023-07-02T19:52:48+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-07-02T19:59:25+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "PATH"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "PATH" ] ;
@@ -47,7 +47,7 @@
   ] ) ; # 
   fhir:compose [
      fhir:include ( [
-       fhir:system [ fhir:v "https://path-global-health.github.io/MERindicators/CodeSystem/CIEL"^^xsd:anyURI ] ;
+       fhir:system [ fhir:v "https://openconceptlab.org/orgs/CIEL/sources/CIEL"^^xsd:anyURI ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "86663" ] ;
          fhir:display [ fhir:v "Zidovudine" ]

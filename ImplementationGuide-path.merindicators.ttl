@@ -916,6 +916,18 @@
          fhir:value [ fhir:v "Bundle" ]
        ] ) ;
        fhir:reference [
+         fhir:link <https://path-global-health.github.io/MERindicators/Bundle/ExampleOMRS0> ;
+         fhir:reference [ fhir:v "Bundle/ExampleOMRS0" ]
+       ] ;
+       fhir:name [ fhir:v "Example0" ] ;
+       fhir:description [ fhir:v "Example0" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Bundle" ]
+       ] ) ;
+       fhir:reference [
          fhir:link <https://path-global-health.github.io/MERindicators/Bundle/Example0> ;
          fhir:reference [ fhir:v "Bundle/Example0" ]
        ] ;
@@ -1252,6 +1264,18 @@
          fhir:value [ fhir:v "Encounter" ]
        ] ) ;
        fhir:reference [
+         fhir:link <https://path-global-health.github.io/MERindicators/Encounter/EncounterOMRS0> ;
+         fhir:reference [ fhir:v "Encounter/EncounterOMRS0" ]
+       ] ;
+       fhir:name [ fhir:v "OpenMRS Encounter Resource Example" ] ;
+       fhir:description [ fhir:v "Example OpenMRS Encounter resource" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Encounter" ]
+       ] ) ;
+       fhir:reference [
          fhir:link <https://path-global-health.github.io/MERindicators/Encounter/5b829d01-34bb-47d1-b1bb-9303c3a9ebcb> ;
          fhir:reference [ fhir:v "Encounter/5b829d01-34bb-47d1-b1bb-9303c3a9ebcb" ]
        ] ;
@@ -1264,11 +1288,35 @@
          fhir:value [ fhir:v "Observation" ]
        ] ) ;
        fhir:reference [
+         fhir:link <https://path-global-health.github.io/MERindicators/Observation/ObservationOMRS0> ;
+         fhir:reference [ fhir:v "Observation/ObservationOMRS0" ]
+       ] ;
+       fhir:name [ fhir:v "OpenMRS Observation Example" ] ;
+       fhir:description [ fhir:v "Example OpenMRS Observation resource" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Observation" ]
+       ] ) ;
+       fhir:reference [
          fhir:link <https://path-global-health.github.io/MERindicators/Observation/example-openmrs-Observation> ;
          fhir:reference [ fhir:v "Observation/example-openmrs-Observation" ]
        ] ;
        fhir:name [ fhir:v "OpenMRS Observation Example" ] ;
        fhir:description [ fhir:v "Example OpenMRS Observation resource" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Patient" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://path-global-health.github.io/MERindicators/Patient/PatientOMRS0> ;
+         fhir:reference [ fhir:v "Patient/PatientOMRS0" ]
+       ] ;
+       fhir:name [ fhir:v "OpenMRS Patient Example" ] ;
+       fhir:description [ fhir:v "Example OpenMRS Patient resource" ] ;
        fhir:example [ fhir:v "true"^^xsd:boolean ]
      ] [
        fhir:extension ( [

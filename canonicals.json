@@ -7,18 +7,18 @@
     "name" : "MERTXCURR"
   },
   {
+    "id" : "CIEL",
+    "type" : "CodeSystem",
+    "url" : "https://openconceptlab.org/orgs/CIEL/sources/CIEL",
+    "version" : "0.0.1",
+    "name" : "CIEL"
+  },
+  {
     "id" : "AgeRanges",
     "type" : "CodeSystem",
     "url" : "https://path-global-health.github.io/MERindicators/CodeSystem/AgeRanges",
     "version" : "0.0.1",
     "name" : "AgeRanges"
-  },
-  {
-    "id" : "CIEL",
-    "type" : "CodeSystem",
-    "url" : "https://path-global-health.github.io/MERindicators/CodeSystem/CIEL",
-    "version" : "0.0.1",
-    "name" : "CIEL"
   },
   {
     "id" : "FocusPopCS",

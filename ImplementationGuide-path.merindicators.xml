@@ -810,6 +810,17 @@
         <valueString value="Bundle"/>
       </extension>
       <reference>
+        <reference value="Bundle/ExampleOMRS0"/>
+      </reference>
+      <name value="Example0"/>
+      <description value="Example0"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Bundle"/>
+      </extension>
+      <reference>
         <reference value="Bundle/Example0"/>
       </reference>
       <name value="Example0"/>
@@ -1118,6 +1129,17 @@
         <valueString value="Encounter"/>
       </extension>
       <reference>
+        <reference value="Encounter/EncounterOMRS0"/>
+      </reference>
+      <name value="OpenMRS Encounter Resource Example"/>
+      <description value="Example OpenMRS Encounter resource"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Encounter"/>
+      </extension>
+      <reference>
         <reference value="Encounter/5b829d01-34bb-47d1-b1bb-9303c3a9ebcb"/>
       </reference>
       <name value="OpenMRS Encounter Resource Example"/>
@@ -1129,10 +1151,32 @@
         <valueString value="Observation"/>
       </extension>
       <reference>
+        <reference value="Observation/ObservationOMRS0"/>
+      </reference>
+      <name value="OpenMRS Observation Example"/>
+      <description value="Example OpenMRS Observation resource"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
         <reference value="Observation/example-openmrs-Observation"/>
       </reference>
       <name value="OpenMRS Observation Example"/>
       <description value="Example OpenMRS Observation resource"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Patient"/>
+      </extension>
+      <reference>
+        <reference value="Patient/PatientOMRS0"/>
+      </reference>
+      <name value="OpenMRS Patient Example"/>
+      <description value="Example OpenMRS Patient resource"/>
       <exampleBoolean value="true"/>
     </resource>
     <resource>
