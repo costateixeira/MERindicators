@@ -74,6 +74,11 @@
     <packageId value="hl7.fhir.us.cqfmeasures"/>
     <version value="current"/>
   </dependsOn>
+  <dependsOn id="fhir_cqf_common">
+    <uri value="http://fhir.org/guides/cqf/common/ImplementationGuide/fhir.cqf.common"/>
+    <packageId value="fhir.cqf.common"/>
+    <version value="4.0.1"/>
+  </dependsOn>
   <definition>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
@@ -93,90 +98,10 @@
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
-        <valueString value="path-binary"/>
-      </extension>
-      <extension url="value">
-        <valueString value="input/cql"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="active-tables"/>
-      </extension>
-      <extension url="value">
-        <valueString value="false"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="apply-contact"/>
-      </extension>
-      <extension url="value">
-        <valueString value="true"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="apply-jurisdiction"/>
-      </extension>
-      <extension url="value">
-        <valueString value="true"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="apply-publisher"/>
-      </extension>
-      <extension url="value">
-        <valueString value="true"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="apply-version"/>
-      </extension>
-      <extension url="value">
-        <valueString value="true"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="show-inherited-invariants"/>
-      </extension>
-      <extension url="value">
-        <valueString value="false"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="usage-stats-opt-out"/>
-      </extension>
-      <extension url="value">
-        <valueString value="true"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
         <valueString value="autoload-resources"/>
       </extension>
       <extension url="value">
         <valueString value="true"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="shownav"/>
-      </extension>
-      <extension url="value">
-        <valueString value="true"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="validation"/>
-      </extension>
-      <extension url="value">
-        <valueString value="allow-any-extensions"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -253,6 +178,14 @@
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
+        <valueString value="apply-contact"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
         <valueString value="apply-context"/>
       </extension>
       <extension url="value">
@@ -269,7 +202,39 @@
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
+        <valueString value="apply-jurisdiction"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
         <valueString value="apply-license"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-publisher"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="apply-version"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="active-tables"/>
       </extension>
       <extension url="value">
         <valueString value="true"/>
@@ -328,90 +293,10 @@
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
-        <valueCode value="path-binary"/>
-      </extension>
-      <extension url="value">
-        <valueString value="input/cql"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueCode value="active-tables"/>
-      </extension>
-      <extension url="value">
-        <valueString value="false"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueCode value="apply-contact"/>
-      </extension>
-      <extension url="value">
-        <valueString value="true"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueCode value="apply-jurisdiction"/>
-      </extension>
-      <extension url="value">
-        <valueString value="true"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueCode value="apply-publisher"/>
-      </extension>
-      <extension url="value">
-        <valueString value="true"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueCode value="apply-version"/>
-      </extension>
-      <extension url="value">
-        <valueString value="true"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueCode value="show-inherited-invariants"/>
-      </extension>
-      <extension url="value">
-        <valueString value="false"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueCode value="usage-stats-opt-out"/>
-      </extension>
-      <extension url="value">
-        <valueString value="true"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
         <valueCode value="autoload-resources"/>
       </extension>
       <extension url="value">
         <valueString value="true"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueCode value="shownav"/>
-      </extension>
-      <extension url="value">
-        <valueString value="true"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueCode value="validation"/>
-      </extension>
-      <extension url="value">
-        <valueString value="allow-any-extensions"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -488,6 +373,14 @@
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
+        <valueCode value="apply-contact"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
         <valueCode value="apply-context"/>
       </extension>
       <extension url="value">
@@ -504,7 +397,39 @@
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
+        <valueCode value="apply-jurisdiction"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
         <valueCode value="apply-license"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="apply-publisher"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="apply-version"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="active-tables"/>
       </extension>
       <extension url="value">
         <valueString value="true"/>
@@ -547,10 +472,10 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/AgeRanges"/>
+        <reference value="CodeSystem/AgeRangesCS"/>
       </reference>
-      <name value="AgeRanges"/>
-      <description value="AgeRanges"/>
+      <name value="AgeRangesCS"/>
+      <description value="AgeRangesCS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -558,10 +483,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/AgeRangesTXCURR"/>
+        <reference value="ValueSet/AgeRangesTXCURRVS"/>
       </reference>
-      <name value="AgeRangesTXCURR"/>
-      <description value="AgeRangesTXCURR"/>
+      <name value="AgeRangesTXCURRVS"/>
+      <description value="AgeRangesTXCURRVS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -577,236 +502,6 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/CIELHIVMedications"/>
-      </reference>
-      <name value="CIELHIVMedications"/>
-      <description value="CIELHIVMedications"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Condition"/>
-      </extension>
-      <reference>
-        <reference value="Condition/Condition-HIVSimple"/>
-      </reference>
-      <name value="Condition-HIVSimple"/>
-      <description value="Condition-HIVSimple"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Condition"/>
-      </extension>
-      <reference>
-        <reference value="Condition/Condition-HIVSimple2"/>
-      </reference>
-      <name value="Condition-HIVSimple2"/>
-      <description value="Condition-HIVSimple2"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Condition"/>
-      </extension>
-      <reference>
-        <reference value="Condition/Condition-Pregnancy"/>
-      </reference>
-      <name value="Condition-Pregnancy"/>
-      <description value="Condition-Pregnancy"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Condition"/>
-      </extension>
-      <reference>
-        <reference value="Condition/Condition-Pregnancy2"/>
-      </reference>
-      <name value="Condition-Pregnancy"/>
-      <description value="Condition-Pregnancy"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Condition"/>
-      </extension>
-      <reference>
-        <reference value="Condition/Condition-PregnancyCIEL"/>
-      </reference>
-      <name value="Condition-PregnancyCIEL"/>
-      <description value="Condition-PregnancyCIEL"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Device"/>
-      </extension>
-      <reference>
-        <reference value="Device/cqf-tooling"/>
-      </reference>
-      <name value="cqf-tooling"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="DiagnosticReport"/>
-      </extension>
-      <reference>
-        <reference value="DiagnosticReport/DiagnosticReport-HIVSimple"/>
-      </reference>
-      <name value="DiagnosticReport-HIVSimple"/>
-      <description value="DiagnosticReport-HIVSimple"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="DiagnosticReport"/>
-      </extension>
-      <reference>
-        <reference value="DiagnosticReport/DiagnosticReport-HIVSimple2"/>
-      </reference>
-      <name value="DiagnosticReport-HIVSimple2"/>
-      <description value="DiagnosticReport-HIVSimple2"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="DiagnosticReport"/>
-      </extension>
-      <reference>
-        <reference value="DiagnosticReport/DiagnosticReport-ViralLoad"/>
-      </reference>
-      <name value="DiagnosticReport-ViralLoad"/>
-      <description value="DiagnosticReport-ViralLoad"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="DiagnosticReport"/>
-      </extension>
-      <reference>
-        <reference value="DiagnosticReport/DiagnosticReport-ViralLoad2"/>
-      </reference>
-      <name value="DiagnosticReport-ViralLoad"/>
-      <description value="DiagnosticReport-ViralLoad"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="DiagnosticReport"/>
-      </extension>
-      <reference>
-        <reference value="DiagnosticReport/DiagnosticReport2-ViralLoad"/>
-      </reference>
-      <name value="DiagnosticReport2-ViralLoad"/>
-      <description value="DiagnosticReport2-ViralLoad"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Encounter"/>
-      </extension>
-      <reference>
-        <reference value="Encounter/Encounter-HIVSimple"/>
-      </reference>
-      <name value="Encounter-HIVSimple"/>
-      <description value="Encounter-HIVSimple"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Encounter"/>
-      </extension>
-      <reference>
-        <reference value="Encounter/Encounter-HIVSimple2"/>
-      </reference>
-      <name value="Encounter-HIVSimple2"/>
-      <description value="Encounter-HIVSimple2"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Encounter"/>
-      </extension>
-      <reference>
-        <reference value="Encounter/Encounter-ViralLoad"/>
-      </reference>
-      <name value="Encounter-ViralLoad"/>
-      <description value="Encounter-ViralLoad"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Encounter"/>
-      </extension>
-      <reference>
-        <reference value="Encounter/Encounter-ViralLoad2"/>
-      </reference>
-      <name value="Encounter-ViralLoad"/>
-      <description value="Encounter-ViralLoad"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Encounter"/>
-      </extension>
-      <reference>
-        <reference value="Encounter/Encounter2-ViralLoad"/>
-      </reference>
-      <name value="Encounter2-ViralLoad"/>
-      <description value="Encounter2-ViralLoad"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Encounter"/>
-      </extension>
-      <reference>
-        <reference value="Encounter/EncounterCIEL"/>
-      </reference>
-      <name value="EncounterCIEL"/>
-      <description value="EncounterCIEL"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Bundle"/>
-      </extension>
-      <reference>
-        <reference value="Bundle/Example-HIVSimple"/>
-      </reference>
-      <name value="Example-HIVSimple"/>
-      <description value="Example-HIVSimple"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Bundle"/>
-      </extension>
-      <reference>
-        <reference value="Bundle/Example-HIVSimple2"/>
-      </reference>
-      <name value="Example-HIVSimple2"/>
-      <description value="Example-HIVSimple2"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Bundle"/>
-      </extension>
-      <reference>
-        <reference value="Bundle/Example-Locations-Organizations"/>
-      </reference>
-      <name value="Example-Locations-Organizations"/>
-      <description value="Example-Locations-Organizations"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Bundle"/>
       </extension>
       <reference>
@@ -818,57 +513,13 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Bundle"/>
-      </extension>
-      <reference>
-        <reference value="Bundle/ExampleCIEL"/>
-      </reference>
-      <name value="ExampleCIEL"/>
-      <description value="ExampleCIEL"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Library"/>
-      </extension>
-      <reference>
-        <reference value="Library/FHIRCommon"/>
-      </reference>
-      <name value="FHIRCommon"/>
-      <description value="FHIRCommon"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Library"/>
-      </extension>
-      <reference>
-        <reference value="Library/FHIRHelpers"/>
-      </reference>
-      <name value="FHIRHelpers"/>
-      <description value="FHIRHelpers"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/FocusPop"/>
+        <reference value="ValueSet/FocusPopVS"/>
       </reference>
-      <name value="FocusPop"/>
-      <description value="FocusPop"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/FocusPopCS"/>
-      </reference>
-      <name value="FocusPopCS"/>
-      <description value="FocusPopCS"/>
+      <name value="FocusPopVS"/>
+      <description value="FocusPopVS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -876,21 +527,10 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/OnARV"/>
+        <reference value="ValueSet/OnARVVS"/>
       </reference>
       <name value="History of antiretroviral therapy (situation)"/>
       <description value="History of antiretroviral therapy (situation)"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/KeyPop"/>
-      </reference>
-      <name value="KeyPop"/>
-      <description value="KeyPop"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -900,8 +540,19 @@
       <reference>
         <reference value="CodeSystem/KeyPopCS"/>
       </reference>
-      <name value="KeyPop"/>
-      <description value="KeyPop"/>
+      <name value="KeyPopCS"/>
+      <description value="KeyPopCS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/KeyPopVS"/>
+      </reference>
+      <name value="KeyPopVS"/>
+      <description value="KeyPopVS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -917,94 +568,6 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Location"/>
-      </extension>
-      <reference>
-        <reference value="Location/Location-HIVSimple1"/>
-      </reference>
-      <name value="Location-HIVSimple1"/>
-      <description value="Location-HIVSimple1"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Location"/>
-      </extension>
-      <reference>
-        <reference value="Location/Location-HIVSimple2"/>
-      </reference>
-      <name value="Location-HIVSimple2"/>
-      <description value="Location-HIVSimple2"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Location"/>
-      </extension>
-      <reference>
-        <reference value="Location/LocationCIEL"/>
-      </reference>
-      <name value="LocationCIEL"/>
-      <description value="LocationCIEL"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Library"/>
-      </extension>
-      <reference>
-        <reference value="Library/MERConcepts"/>
-      </reference>
-      <name value="MERConcepts"/>
-      <description value="MERConcepts"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Library"/>
-      </extension>
-      <reference>
-        <reference value="Library/MERDataElements"/>
-      </reference>
-      <name value="MERDataElements"/>
-      <description value="MERDataElements"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Library"/>
-      </extension>
-      <reference>
-        <reference value="Library/MERStratifiers"/>
-      </reference>
-      <name value="MERStratifiers"/>
-      <description value="MERStratifiers"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Measure"/>
-      </extension>
-      <reference>
-        <reference value="Measure/DASHTXCURR"/>
-      </reference>
-      <name value="MERTXCURR"/>
-      <description value="MERTXCURR"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/MMDInterval"/>
-      </reference>
-      <name value="MMDInterval"/>
-      <description value="Multi-month dispensing interval"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
@@ -1016,76 +579,21 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Observation"/>
+        <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="Observation/Observation-HIVSimple"/>
+        <reference value="ValueSet/MMDIntervalVS"/>
       </reference>
-      <name value="Observation-HIVSimple"/>
-      <description value="Observation-HIVSimple"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Observation"/>
-      </extension>
-      <reference>
-        <reference value="Observation/Observation-HIVSimple2"/>
-      </reference>
-      <name value="Observation-HIVSimple2"/>
-      <description value="Observation-HIVSimple2"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Observation"/>
-      </extension>
-      <reference>
-        <reference value="Observation/Observation-ViralLoad"/>
-      </reference>
-      <name value="Observation-ViralLoad"/>
-      <description value="Observation-ViralLoad"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Observation"/>
-      </extension>
-      <reference>
-        <reference value="Observation/Observation-ViralLoad2"/>
-      </reference>
-      <name value="Observation-ViralLoad"/>
-      <description value="Observation-ViralLoad"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Observation"/>
-      </extension>
-      <reference>
-        <reference value="Observation/Observation2-ViralLoad"/>
-      </reference>
-      <name value="Observation2-ViralLoad"/>
-      <description value="Observation2-ViralLoad"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Observation"/>
-      </extension>
-      <reference>
-        <reference value="Observation/ObservationCIEL"/>
-      </reference>
-      <name value="ObservationCIEL"/>
-      <description value="ObservationCIEL"/>
-      <exampleBoolean value="true"/>
+      <name value="MMDIntervalVS"/>
+      <description value="Multi-month dispensing interval"/>
+      <exampleBoolean value="false"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/OpenHIE"/>
+        <reference value="CodeSystem/OpenHIECS"/>
       </reference>
       <name value="OpenHIE CodeSystem"/>
       <description value="OpenHIE CodeSystem"/>
@@ -1148,76 +656,10 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Organization"/>
-      </extension>
-      <reference>
-        <reference value="Organization/Organization-HIVSimple1"/>
-      </reference>
-      <name value="Organization-HIVSimple1"/>
-      <description value="Organization-HIVSimple1"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Organization"/>
-      </extension>
-      <reference>
-        <reference value="Organization/Organization-HIVSimple2"/>
-      </reference>
-      <name value="Organization-HIVSimple2"/>
-      <description value="Organization-HIVSimple2"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Organization"/>
-      </extension>
-      <reference>
-        <reference value="Organization/OrganizationCIEL"/>
-      </reference>
-      <name value="OrganizationCIEL"/>
-      <description value="OrganizationCIEL"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Patient"/>
-      </extension>
-      <reference>
-        <reference value="Patient/Patient-HIVSimple"/>
-      </reference>
-      <name value="Patient-HIVSimple"/>
-      <description value="Patient-HIVSimple"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Patient"/>
-      </extension>
-      <reference>
-        <reference value="Patient/Patient-HIVSimple2"/>
-      </reference>
-      <name value="Patient-HIVSimple2"/>
-      <description value="Patient-HIVSimple2"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Patient"/>
-      </extension>
-      <reference>
-        <reference value="Patient/PatientCIEL"/>
-      </reference>
-      <name value="PatientCIEL"/>
-      <description value="PatientCIEL"/>
-      <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/Pregnant"/>
+        <reference value="ValueSet/PregnantVS"/>
       </reference>
       <name value="Pregnant"/>
       <description value="Currently pregnant"/>
@@ -1228,33 +670,11 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/SNOMEDHIVMedications"/>
-      </reference>
-      <name value="SNOMEDHIVMedications"/>
-      <description value="SNOMEDHIVMedications"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/SyntheaHIVMedications"/>
+        <reference value="ValueSet/SyntheaHIVMedicationsVS"/>
       </reference>
       <name value="Synthea HIV MedicationsVS"/>
       <description value="Synthea HIV MedicationsVS"/>
       <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Library"/>
-      </extension>
-      <reference>
-        <reference value="Library/TXCURR"/>
-      </reference>
-      <name value="TXCURR"/>
-      <description value="TXCURR"/>
-      <exampleBoolean value="true"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1293,18 +713,6 @@
     </page>
     <parameter>
       <code value="path-resource"/>
-      <value value="input/resources/device"/>
-    </parameter>
-    <parameter>
-      <code value="path-pages"/>
-      <value value="input/pagecontent"/>
-    </parameter>
-    <parameter>
-      <code value="path-pages"/>
-      <value value="fsh-generated/includes"/>
-    </parameter>
-    <parameter>
-      <code value="path-resource"/>
       <value value="input/capabilities"/>
     </parameter>
     <parameter>
@@ -1334,6 +742,10 @@
     <parameter>
       <code value="path-resource"/>
       <value value="input/vocabulary"/>
+    </parameter>
+    <parameter>
+      <code value="path-resource"/>
+      <value value="input/maps"/>
     </parameter>
     <parameter>
       <code value="path-resource"/>

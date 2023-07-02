@@ -79,6 +79,12 @@
     "uri" : "http://hl7.org/fhir/us/cqfmeasures/ImplementationGuide/hl7.fhir.us.cqfmeasures",
     "packageId" : "hl7.fhir.us.cqfmeasures",
     "version" : "current"
+  },
+  {
+    "id" : "fhir_cqf_common",
+    "uri" : "http://fhir.org/guides/cqf/common/ImplementationGuide/fhir.cqf.common",
+    "packageId" : "fhir.cqf.common",
+    "version" : "4.0.1"
   }],
   "definition" : {
     "extension" : [{
@@ -106,121 +112,11 @@
     {
       "extension" : [{
         "url" : "code",
-        "valueString" : "path-binary"
-      },
-      {
-        "url" : "value",
-        "valueString" : "input/cql"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "active-tables"
-      },
-      {
-        "url" : "value",
-        "valueString" : "false"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "apply-contact"
-      },
-      {
-        "url" : "value",
-        "valueString" : "true"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "apply-jurisdiction"
-      },
-      {
-        "url" : "value",
-        "valueString" : "true"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "apply-publisher"
-      },
-      {
-        "url" : "value",
-        "valueString" : "true"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "apply-version"
-      },
-      {
-        "url" : "value",
-        "valueString" : "true"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "show-inherited-invariants"
-      },
-      {
-        "url" : "value",
-        "valueString" : "false"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "usage-stats-opt-out"
-      },
-      {
-        "url" : "value",
-        "valueString" : "true"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
         "valueString" : "autoload-resources"
       },
       {
         "url" : "value",
         "valueString" : "true"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "shownav"
-      },
-      {
-        "url" : "value",
-        "valueString" : "true"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "validation"
-      },
-      {
-        "url" : "value",
-        "valueString" : "allow-any-extensions"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -326,6 +222,17 @@
     {
       "extension" : [{
         "url" : "code",
+        "valueString" : "apply-contact"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
         "valueString" : "apply-context"
       },
       {
@@ -348,7 +255,51 @@
     {
       "extension" : [{
         "url" : "code",
+        "valueString" : "apply-jurisdiction"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
         "valueString" : "apply-license"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "apply-publisher"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "apply-version"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "active-tables"
       },
       {
         "url" : "value",
@@ -429,121 +380,11 @@
     {
       "extension" : [{
         "url" : "code",
-        "valueCode" : "path-binary"
-      },
-      {
-        "url" : "value",
-        "valueString" : "input/cql"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "active-tables"
-      },
-      {
-        "url" : "value",
-        "valueString" : "false"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "apply-contact"
-      },
-      {
-        "url" : "value",
-        "valueString" : "true"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "apply-jurisdiction"
-      },
-      {
-        "url" : "value",
-        "valueString" : "true"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "apply-publisher"
-      },
-      {
-        "url" : "value",
-        "valueString" : "true"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "apply-version"
-      },
-      {
-        "url" : "value",
-        "valueString" : "true"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "show-inherited-invariants"
-      },
-      {
-        "url" : "value",
-        "valueString" : "false"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "usage-stats-opt-out"
-      },
-      {
-        "url" : "value",
-        "valueString" : "true"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
         "valueCode" : "autoload-resources"
       },
       {
         "url" : "value",
         "valueString" : "true"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "shownav"
-      },
-      {
-        "url" : "value",
-        "valueString" : "true"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "validation"
-      },
-      {
-        "url" : "value",
-        "valueString" : "allow-any-extensions"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -649,6 +490,17 @@
     {
       "extension" : [{
         "url" : "code",
+        "valueCode" : "apply-contact"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
         "valueCode" : "apply-context"
       },
       {
@@ -671,7 +523,51 @@
     {
       "extension" : [{
         "url" : "code",
+        "valueCode" : "apply-jurisdiction"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
         "valueCode" : "apply-license"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "apply-publisher"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "apply-version"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "active-tables"
       },
       {
         "url" : "value",
@@ -729,10 +625,10 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
-        "reference" : "CodeSystem/AgeRanges"
+        "reference" : "CodeSystem/AgeRangesCS"
       },
-      "name" : "AgeRanges",
-      "description" : "AgeRanges",
+      "name" : "AgeRangesCS",
+      "description" : "AgeRangesCS",
       "exampleBoolean" : false
     },
     {
@@ -741,10 +637,10 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/AgeRangesTXCURR"
+        "reference" : "ValueSet/AgeRangesTXCURRVS"
       },
-      "name" : "AgeRangesTXCURR",
-      "description" : "AgeRangesTXCURR",
+      "name" : "AgeRangesTXCURRVS",
+      "description" : "AgeRangesTXCURRVS",
       "exampleBoolean" : false
     },
     {
@@ -762,257 +658,6 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/CIELHIVMedications"
-      },
-      "name" : "CIELHIVMedications",
-      "description" : "CIELHIVMedications",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Condition"
-      }],
-      "reference" : {
-        "reference" : "Condition/Condition-HIVSimple"
-      },
-      "name" : "Condition-HIVSimple",
-      "description" : "Condition-HIVSimple",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Condition"
-      }],
-      "reference" : {
-        "reference" : "Condition/Condition-HIVSimple2"
-      },
-      "name" : "Condition-HIVSimple2",
-      "description" : "Condition-HIVSimple2",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Condition"
-      }],
-      "reference" : {
-        "reference" : "Condition/Condition-Pregnancy"
-      },
-      "name" : "Condition-Pregnancy",
-      "description" : "Condition-Pregnancy",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Condition"
-      }],
-      "reference" : {
-        "reference" : "Condition/Condition-Pregnancy2"
-      },
-      "name" : "Condition-Pregnancy",
-      "description" : "Condition-Pregnancy",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Condition"
-      }],
-      "reference" : {
-        "reference" : "Condition/Condition-PregnancyCIEL"
-      },
-      "name" : "Condition-PregnancyCIEL",
-      "description" : "Condition-PregnancyCIEL",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Device"
-      }],
-      "reference" : {
-        "reference" : "Device/cqf-tooling"
-      },
-      "name" : "cqf-tooling",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "DiagnosticReport"
-      }],
-      "reference" : {
-        "reference" : "DiagnosticReport/DiagnosticReport-HIVSimple"
-      },
-      "name" : "DiagnosticReport-HIVSimple",
-      "description" : "DiagnosticReport-HIVSimple",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "DiagnosticReport"
-      }],
-      "reference" : {
-        "reference" : "DiagnosticReport/DiagnosticReport-HIVSimple2"
-      },
-      "name" : "DiagnosticReport-HIVSimple2",
-      "description" : "DiagnosticReport-HIVSimple2",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "DiagnosticReport"
-      }],
-      "reference" : {
-        "reference" : "DiagnosticReport/DiagnosticReport-ViralLoad"
-      },
-      "name" : "DiagnosticReport-ViralLoad",
-      "description" : "DiagnosticReport-ViralLoad",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "DiagnosticReport"
-      }],
-      "reference" : {
-        "reference" : "DiagnosticReport/DiagnosticReport-ViralLoad2"
-      },
-      "name" : "DiagnosticReport-ViralLoad",
-      "description" : "DiagnosticReport-ViralLoad",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "DiagnosticReport"
-      }],
-      "reference" : {
-        "reference" : "DiagnosticReport/DiagnosticReport2-ViralLoad"
-      },
-      "name" : "DiagnosticReport2-ViralLoad",
-      "description" : "DiagnosticReport2-ViralLoad",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Encounter"
-      }],
-      "reference" : {
-        "reference" : "Encounter/Encounter-HIVSimple"
-      },
-      "name" : "Encounter-HIVSimple",
-      "description" : "Encounter-HIVSimple",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Encounter"
-      }],
-      "reference" : {
-        "reference" : "Encounter/Encounter-HIVSimple2"
-      },
-      "name" : "Encounter-HIVSimple2",
-      "description" : "Encounter-HIVSimple2",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Encounter"
-      }],
-      "reference" : {
-        "reference" : "Encounter/Encounter-ViralLoad"
-      },
-      "name" : "Encounter-ViralLoad",
-      "description" : "Encounter-ViralLoad",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Encounter"
-      }],
-      "reference" : {
-        "reference" : "Encounter/Encounter-ViralLoad2"
-      },
-      "name" : "Encounter-ViralLoad",
-      "description" : "Encounter-ViralLoad",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Encounter"
-      }],
-      "reference" : {
-        "reference" : "Encounter/Encounter2-ViralLoad"
-      },
-      "name" : "Encounter2-ViralLoad",
-      "description" : "Encounter2-ViralLoad",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Encounter"
-      }],
-      "reference" : {
-        "reference" : "Encounter/EncounterCIEL"
-      },
-      "name" : "EncounterCIEL",
-      "description" : "EncounterCIEL",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Bundle"
-      }],
-      "reference" : {
-        "reference" : "Bundle/Example-HIVSimple"
-      },
-      "name" : "Example-HIVSimple",
-      "description" : "Example-HIVSimple",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Bundle"
-      }],
-      "reference" : {
-        "reference" : "Bundle/Example-HIVSimple2"
-      },
-      "name" : "Example-HIVSimple2",
-      "description" : "Example-HIVSimple2",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Bundle"
-      }],
-      "reference" : {
-        "reference" : "Bundle/Example-Locations-Organizations"
-      },
-      "name" : "Example-Locations-Organizations",
-      "description" : "Example-Locations-Organizations",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Bundle"
       }],
       "reference" : {
@@ -1025,61 +670,13 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Bundle"
-      }],
-      "reference" : {
-        "reference" : "Bundle/ExampleCIEL"
-      },
-      "name" : "ExampleCIEL",
-      "description" : "ExampleCIEL",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Library"
-      }],
-      "reference" : {
-        "reference" : "Library/FHIRCommon"
-      },
-      "name" : "FHIRCommon",
-      "description" : "FHIRCommon",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Library"
-      }],
-      "reference" : {
-        "reference" : "Library/FHIRHelpers"
-      },
-      "name" : "FHIRHelpers",
-      "description" : "FHIRHelpers",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/FocusPop"
+        "reference" : "ValueSet/FocusPopVS"
       },
-      "name" : "FocusPop",
-      "description" : "FocusPop",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/FocusPopCS"
-      },
-      "name" : "FocusPopCS",
-      "description" : "FocusPopCS",
+      "name" : "FocusPopVS",
+      "description" : "FocusPopVS",
       "exampleBoolean" : false
     },
     {
@@ -1088,22 +685,10 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/OnARV"
+        "reference" : "ValueSet/OnARVVS"
       },
       "name" : "History of antiretroviral therapy (situation)",
       "description" : "History of antiretroviral therapy (situation)",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/KeyPop"
-      },
-      "name" : "KeyPop",
-      "description" : "KeyPop",
       "exampleBoolean" : false
     },
     {
@@ -1114,8 +699,20 @@
       "reference" : {
         "reference" : "CodeSystem/KeyPopCS"
       },
-      "name" : "KeyPop",
-      "description" : "KeyPop",
+      "name" : "KeyPopCS",
+      "description" : "KeyPopCS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/KeyPopVS"
+      },
+      "name" : "KeyPopVS",
+      "description" : "KeyPopVS",
       "exampleBoolean" : false
     },
     {
@@ -1133,102 +730,6 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Location"
-      }],
-      "reference" : {
-        "reference" : "Location/Location-HIVSimple1"
-      },
-      "name" : "Location-HIVSimple1",
-      "description" : "Location-HIVSimple1",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Location"
-      }],
-      "reference" : {
-        "reference" : "Location/Location-HIVSimple2"
-      },
-      "name" : "Location-HIVSimple2",
-      "description" : "Location-HIVSimple2",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Location"
-      }],
-      "reference" : {
-        "reference" : "Location/LocationCIEL"
-      },
-      "name" : "LocationCIEL",
-      "description" : "LocationCIEL",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Library"
-      }],
-      "reference" : {
-        "reference" : "Library/MERConcepts"
-      },
-      "name" : "MERConcepts",
-      "description" : "MERConcepts",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Library"
-      }],
-      "reference" : {
-        "reference" : "Library/MERDataElements"
-      },
-      "name" : "MERDataElements",
-      "description" : "MERDataElements",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Library"
-      }],
-      "reference" : {
-        "reference" : "Library/MERStratifiers"
-      },
-      "name" : "MERStratifiers",
-      "description" : "MERStratifiers",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Measure"
-      }],
-      "reference" : {
-        "reference" : "Measure/DASHTXCURR"
-      },
-      "name" : "MERTXCURR",
-      "description" : "MERTXCURR",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/MMDInterval"
-      },
-      "name" : "MMDInterval",
-      "description" : "Multi-month dispensing interval",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
       }],
       "reference" : {
@@ -1241,74 +742,14 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Observation"
+        "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "Observation/Observation-HIVSimple"
+        "reference" : "ValueSet/MMDIntervalVS"
       },
-      "name" : "Observation-HIVSimple",
-      "description" : "Observation-HIVSimple",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Observation"
-      }],
-      "reference" : {
-        "reference" : "Observation/Observation-HIVSimple2"
-      },
-      "name" : "Observation-HIVSimple2",
-      "description" : "Observation-HIVSimple2",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Observation"
-      }],
-      "reference" : {
-        "reference" : "Observation/Observation-ViralLoad"
-      },
-      "name" : "Observation-ViralLoad",
-      "description" : "Observation-ViralLoad",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Observation"
-      }],
-      "reference" : {
-        "reference" : "Observation/Observation-ViralLoad2"
-      },
-      "name" : "Observation-ViralLoad",
-      "description" : "Observation-ViralLoad",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Observation"
-      }],
-      "reference" : {
-        "reference" : "Observation/Observation2-ViralLoad"
-      },
-      "name" : "Observation2-ViralLoad",
-      "description" : "Observation2-ViralLoad",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Observation"
-      }],
-      "reference" : {
-        "reference" : "Observation/ObservationCIEL"
-      },
-      "name" : "ObservationCIEL",
-      "description" : "ObservationCIEL",
-      "exampleBoolean" : true
+      "name" : "MMDIntervalVS",
+      "description" : "Multi-month dispensing interval",
+      "exampleBoolean" : false
     },
     {
       "extension" : [{
@@ -1316,7 +757,7 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
-        "reference" : "CodeSystem/OpenHIE"
+        "reference" : "CodeSystem/OpenHIECS"
       },
       "name" : "OpenHIE CodeSystem",
       "description" : "OpenHIE CodeSystem",
@@ -1385,82 +826,10 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Organization"
-      }],
-      "reference" : {
-        "reference" : "Organization/Organization-HIVSimple1"
-      },
-      "name" : "Organization-HIVSimple1",
-      "description" : "Organization-HIVSimple1",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Organization"
-      }],
-      "reference" : {
-        "reference" : "Organization/Organization-HIVSimple2"
-      },
-      "name" : "Organization-HIVSimple2",
-      "description" : "Organization-HIVSimple2",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Organization"
-      }],
-      "reference" : {
-        "reference" : "Organization/OrganizationCIEL"
-      },
-      "name" : "OrganizationCIEL",
-      "description" : "OrganizationCIEL",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Patient"
-      }],
-      "reference" : {
-        "reference" : "Patient/Patient-HIVSimple"
-      },
-      "name" : "Patient-HIVSimple",
-      "description" : "Patient-HIVSimple",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Patient"
-      }],
-      "reference" : {
-        "reference" : "Patient/Patient-HIVSimple2"
-      },
-      "name" : "Patient-HIVSimple2",
-      "description" : "Patient-HIVSimple2",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Patient"
-      }],
-      "reference" : {
-        "reference" : "Patient/PatientCIEL"
-      },
-      "name" : "PatientCIEL",
-      "description" : "PatientCIEL",
-      "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/Pregnant"
+        "reference" : "ValueSet/PregnantVS"
       },
       "name" : "Pregnant",
       "description" : "Currently pregnant",
@@ -1472,35 +841,11 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/SNOMEDHIVMedications"
-      },
-      "name" : "SNOMEDHIVMedications",
-      "description" : "SNOMEDHIVMedications",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/SyntheaHIVMedications"
+        "reference" : "ValueSet/SyntheaHIVMedicationsVS"
       },
       "name" : "Synthea HIV MedicationsVS",
       "description" : "Synthea HIV MedicationsVS",
       "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Library"
-      }],
-      "reference" : {
-        "reference" : "Library/TXCURR"
-      },
-      "name" : "TXCURR",
-      "description" : "TXCURR",
-      "exampleBoolean" : true
     },
     {
       "extension" : [{
@@ -1543,18 +888,6 @@
     },
     "parameter" : [{
       "code" : "path-resource",
-      "value" : "input/resources/device"
-    },
-    {
-      "code" : "path-pages",
-      "value" : "input/pagecontent"
-    },
-    {
-      "code" : "path-pages",
-      "value" : "fsh-generated/includes"
-    },
-    {
-      "code" : "path-resource",
       "value" : "input/capabilities"
     },
     {
@@ -1584,6 +917,10 @@
     {
       "code" : "path-resource",
       "value" : "input/vocabulary"
+    },
+    {
+      "code" : "path-resource",
+      "value" : "input/maps"
     },
     {
       "code" : "path-resource",
