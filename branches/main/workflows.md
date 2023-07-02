@@ -4,10 +4,10 @@ This iteration is the simplest version where the KenyaEMR data is loaded into a 
 
 This iteration will also be specific to the KenyaEMR data model without needing mapping to unused data elements.  Future iterations will be created to use a more standard model that is mapped to the KenyaEMR model.
 
-<div>
-{% include simple-workflow.svg %}
-</div>
-<div style="clear: left;"></div>
+<figure>
+  {% include simple-workflow.svg %}
+  <figcaption>Example with styles and other features</figcaption>
+</figure>
 
 ## Simple Standard Iteration
 
